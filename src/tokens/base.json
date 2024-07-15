@@ -9,6 +9,14 @@
   },
   {
     "chainId": 8453,
+    "symbol": "DEGEN",
+    "name": "Degen (Base)",
+    "logoURI": "https://assets.coingecko.com/coins/images/34515/large/android-chrome-512x512.png?1706198225",
+    "address": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
+    "decimals": 18
+  },
+  {
+    "chainId": 8453,
     "address": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
     "name": "Coinbase Wrapped Staked ETH",
     "symbol": "cbETH",

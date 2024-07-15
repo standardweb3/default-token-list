@@ -53,8 +53,8 @@ jobs:
         id: upload
         uses: anantaramdas/ipfs-pinata-deploy-action@a551f37c17ec3961df7c3ad52e1cd266dfd3d7e7
         with:
-          pin-name: Uniswap Default Token List
-          path: "build/uniswap-default.tokenlist.json"
+          pin-name: Standard Default Token List
+          path: "build/standard-default.tokenlist.json"
           pinata-api-key: ${{ secrets.PINATA_API_KEY }}
           pinata-secret-api-key: ${{ secrets.PINATA_API_SECRET_KEY }}
 
@@ -63,6 +63,6 @@ jobs:
           CLOUDFLARE_TOKEN: ${{ env.CLOUDFLARE_TOKEN }}
           CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
           CLOUDFLARE_GATEWAY_ID: ${{ secrets.CLOUDFLARE_GATEWAY_ID }}
-        uses: Uniswap/cloudflare-update-web3-gateway@b3205288b1c6d0acb63fa3bd8fb686c72a9e3f3e
+        uses: stadardweb3/cloudflare-update-web3-gateway@b3205288b1c6d0acb63fa3bd8fb686c72a9e3f3e
         with:
           cid: ${{ steps.upload.outputs.hash }}

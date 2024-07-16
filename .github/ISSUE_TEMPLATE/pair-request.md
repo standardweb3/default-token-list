@@ -1,6 +1,6 @@
 ---
 name: Pair Request
-about: Request a Pair
+about: Request a Pair Addtion
 title: 'Add {BASE_TOKEN_SYMBOL}/{QUOTE_TOKEN_SYMBOL} on {Chain/Chains}'
 labels: pair request
 assignees: ''

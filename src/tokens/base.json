@@ -35,7 +35,7 @@
     "chainId": 8453,
     "address": "0x4200000000000000000000000000000000000006",
     "name": "Wrapped Ether",
-    "symbol": "WETH",
+    "symbol": "ETH",
     "decimals": 18,
     "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png"
   },

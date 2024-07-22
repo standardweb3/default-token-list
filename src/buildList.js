@@ -15,6 +15,9 @@ const avalanche = require("./tokens/avalanche.json");
 const base = require("./tokens/base.json");
 const blast = require("./tokens/blast.json");
 
+// pairs
+const basePairs = require("./pairs/base.json");
+
 const bridgeUtils = require("@uniswap/token-list-bridge-utils");
 
 module.exports = function buildList() {
@@ -30,6 +33,9 @@ module.exports = function buildList() {
     tags: {},
     logoURI: "https://avatars.githubusercontent.com/u/73440097?s=200&v=4",
     keywords: ["standard", "default"],
+    pairs: [
+      ...basePairs,
+    ],
     tokens: [
       ...mainnet,
       ...ropsten,

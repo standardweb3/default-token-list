@@ -1,6 +1,6 @@
 {
   "name": "@standardweb3/default-token-list",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Standard default token list",
   "main": "build/standard-default.tokenlist.json",
   "scripts": {
@@ -19,6 +19,7 @@
     "standard",
     "default",
     "token",
+    "pair",
     "list"
   ],
   "author": "Hyungsuk Kang",

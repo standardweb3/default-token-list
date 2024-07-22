@@ -42,7 +42,7 @@ describe('buildList', () => {
       } else {
         const key = `${token.chainId}-${symbol}`;
         expect(typeof map[key])
-          .to.equal('undefined', `duplicate symbol: ${symbol}`);
+          .to.equal('undefined', `duplicate symbol: ${token.chainId}-${symbol}`);
         map[key] = true;
       }
     }
@@ -53,7 +53,7 @@ describe('buildList', () => {
     for (let token of defaultTokenList.tokens) {
       const key = `${token.chainId}-${token.name.toLowerCase()}`;
       expect(typeof map[key])
-        .to.equal('undefined', `duplicate name: ${token.name}`);
+        .to.equal('undefined', `duplicate name: ${token.chainId}-${token.name}`);
       map[key] = true;
     }
   })

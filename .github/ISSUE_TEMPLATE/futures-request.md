@@ -1,8 +1,8 @@
 ---
-name: Pair Request
-about: Request a Pair Addtion
+name: Futures Request
+about: Request a Futures Pair Addtion
 title: 'Add {BASE_TOKEN_SYMBOL}/{QUOTE_TOKEN_SYMBOL} on {Chain/Chains}'
-labels: pair request
+labels: futures request
 assignees: ''
 ---
 
@@ -29,4 +29,4 @@ Quote Token Symbol (from contract):
 Link to the official homepage of quote token:
 Link to CoinMarketCap or CoinGecko page of quote token: 
 
-Listing Price(Base/Quote): 
+Leverage Limit(1~100x): 

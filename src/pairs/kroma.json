@@ -1,0 +1,154 @@
+[
+  {
+    "base": {
+      "chainId": 255,
+      "name": "Wrapped Ether",
+      "symbol": "ETH",
+      "address": "0x4200000000000000000000000000000000000001",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "decimals": 18
+    },
+    "quote": {
+      "chainId": 255,
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "address": "0x0257e4d92C00C9EfcCa1d641b224d7d09cfa4522",
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
+      "decimals": 6
+    },
+    "listing_price": 3462.61
+  },
+  {
+    "base": {
+      "chainId": 255,
+      "name": "Wrapped Ether",
+      "symbol": "ETH",
+      "address": "0x4200000000000000000000000000000000000001",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "decimals": 18
+    },
+    "quote": {
+      "chainId": 255,
+      "name": "Tether",
+      "symbol": "USDT",
+      "address": "0x0Cf7c2A584988871b654Bd79f96899e4cd6C41C0",
+      "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png",
+      "decimals": 6
+    },
+    "listing_price": 3462.61
+  },
+  {
+    "base": {
+      "chainId": 255,
+      "name": "Spectrum Ethereum",
+      "symbol": "spETH",
+      "address": "0x61e0D34b5206Fa8005EC1De8000df9B9dDee23Db",
+      "logoURI": "https://assets.coingecko.com/coins/images/38605/standard/spETH_%281%29.png?1718098938",
+      "decimals": 18
+    },
+    "quote": {
+      "chainId": 255,
+      "name": "Wrapped Ether",
+      "symbol": "ETH",
+      "address": "0x4200000000000000000000000000000000000001",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "decimals": 18
+    },
+    "listing_price": 1
+  },
+  {
+    "base": {
+      "chainId": 255,
+      "name": "Wrapped Ether",
+      "symbol": "ETH",
+      "address": "0x4200000000000000000000000000000000000001",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "decimals": 18
+    },
+    "quote": {
+      "chainId": 255,
+      "name": "Spectrum Ethereum",
+      "symbol": "spETH",
+      "address": "0x61e0D34b5206Fa8005EC1De8000df9B9dDee23Db",
+      "logoURI": "https://assets.coingecko.com/coins/images/38605/standard/spETH_%281%29.png?1718098938",
+      "decimals": 18
+    },
+    "listing_price": 1
+  },
+  {
+    "base": {
+      "chainId": 255,
+      "name": "Spectrum Ethereum",
+      "symbol": "spETH",
+      "address": "0x61e0D34b5206Fa8005EC1De8000df9B9dDee23Db",
+      "logoURI": "https://assets.coingecko.com/coins/images/38605/standard/spETH_%281%29.png?1718098938",
+      "decimals": 18
+    },
+    "quote": {
+      "chainId": 255,
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "address": "0x0257e4d92C00C9EfcCa1d641b224d7d09cfa4522",
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
+      "decimals": 6
+    },
+    "listing_price": 3462.61
+  },
+  {
+    "base": {
+      "chainId": 255,
+      "name": "Spectrum Ethereum",
+      "symbol": "spETH",
+      "address": "0x61e0D34b5206Fa8005EC1De8000df9B9dDee23Db",
+      "logoURI": "https://assets.coingecko.com/coins/images/38605/standard/spETH_%281%29.png?1718098938",
+      "decimals": 18
+    },
+    "quote": {
+      "chainId": 255,
+      "name": "Tether",
+      "symbol": "USDT",
+      "address": "0x0Cf7c2A584988871b654Bd79f96899e4cd6C41C0",
+      "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png",
+      "decimals": 6
+    },
+    "listing_price": 3462.61
+  },
+  {
+    "base": {
+      "chainId": 255,
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "address": "0x0257e4d92C00C9EfcCa1d641b224d7d09cfa4522",
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
+      "decimals": 6
+    },
+    "quote": {
+      "chainId": 255,
+      "name": "Tether",
+      "symbol": "USDT",
+      "address": "0x0Cf7c2A584988871b654Bd79f96899e4cd6C41C0",
+      "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png",
+      "decimals": 6
+    },
+    "listing_price": 1
+  },
+  {
+    "base": {
+      "chainId": 255,
+      "name": "Tether",
+      "symbol": "USDT",
+      "address": "0x0Cf7c2A584988871b654Bd79f96899e4cd6C41C0",
+      "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png",
+      "decimals": 6
+    },
+    "quote": {
+      "chainId": 255,
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "address": "0x0257e4d92C00C9EfcCa1d641b224d7d09cfa4522",
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
+      "decimals": 6
+    },
+    "listing_price": 1
+  }
+]

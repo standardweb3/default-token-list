@@ -14,9 +14,11 @@ const sepolia = require("./tokens/sepolia.json");
 const avalanche = require("./tokens/avalanche.json");
 const base = require("./tokens/base.json");
 const blast = require("./tokens/blast.json");
+const kroma = require("./tokens/kroma.json")
 
 // pairs
 const basePairs = require("./pairs/base.json");
+const kromaPairs = require("./pairs/kroma.json");
 
 const bridgeUtils = require("@uniswap/token-list-bridge-utils");
 
@@ -35,6 +37,7 @@ module.exports = function buildList() {
     keywords: ["standard", "default"],
     pairs: [
       ...basePairs,
+      ...kromaPairs,
     ],
     tokens: [
       ...mainnet,
@@ -52,6 +55,7 @@ module.exports = function buildList() {
       ...avalanche,
       ...base,
       ...blast,
+      ...kroma,
     ]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {

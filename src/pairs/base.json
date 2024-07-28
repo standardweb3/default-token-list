@@ -16,6 +16,8 @@
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
     },
-    "listing_price": 3503.97
+    "listing_price": 3503.97,
+    "buy_tick": 200,
+    "sell_tick": 200
   }
 ]

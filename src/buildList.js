@@ -32,6 +32,10 @@ module.exports = function buildList() {
       minor: +parsed[1],
       patch: +parsed[2],
     },
+    matchingEngine: {
+      "Base": "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+      "Kroma": "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47"
+    },
     tags: {},
     logoURI: "https://avatars.githubusercontent.com/u/73440097?s=200&v=4",
     keywords: ["standard", "default"],

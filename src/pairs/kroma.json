@@ -54,7 +54,9 @@
       "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
       "decimals": 18
     },
-    "listing_price": 1
+    "listing_price": 1,
+    "buy_tick": 10,
+    "sell_tick": 10
   },
   {
     "base": {
@@ -73,7 +75,9 @@
       "logoURI": "https://assets.coingecko.com/coins/images/38605/standard/spETH_%281%29.png?1718098938",
       "decimals": 18
     },
-    "listing_price": 1
+    "listing_price": 1,
+    "buy_tick": 10,
+    "sell_tick": 10
   },
   {
     "base": {
@@ -130,7 +134,9 @@
       "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png",
       "decimals": 6
     },
-    "listing_price": 1
+    "listing_price": 1,
+    "buy_tick": 10,
+    "sell_tick": 10
   },
   {
     "base": {
@@ -149,6 +155,8 @@
       "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png",
       "decimals": 6
     },
-    "listing_price": 1
+    "listing_price": 1,
+    "buy_tick": 10,
+    "sell_tick": 10
   }
 ]

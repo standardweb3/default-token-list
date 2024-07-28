@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha",
     "build": "rimraf build && mkdir -p build && node src/write.js > build/standard-default.tokenlist.json",
-    "prepublishOnly": "npm test && npm run build"
+    "prepublishOnly": "npm test && npm run build",
+    "addPairs": "node src/scripts/addPairs.js"
   },
   "files": [
     "build/standard-default.tokenlist.json"
@@ -30,8 +31,8 @@
   "homepage": "https://github.com/standardweb3/default-token-list#readme",
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
+    "@standardweb3/market-lists": "0.0.1",
     "@uniswap/token-list-bridge-utils": "^2.3.0",
-    "@standardweb3/market-lists": "0.0.0",
     "ajv": "^6.12.3",
     "chai": "^4.2.0",
     "mocha": "^8.0.1",
@@ -39,5 +40,12 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "viem": "^2.18.2"
+  },
+  "exports": {
+    "./abis/matchingEngineAbi": "./abis/matchingEngineAbi.js"
   }
 }

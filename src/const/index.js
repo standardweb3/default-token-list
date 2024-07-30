@@ -17,7 +17,8 @@ const ChainIds = {
     "Injective EVM": 2525,
     "Astar ZKEVM": 3776,
     "Base": 8453,
-    "Kroma": 255
+    "Kroma": 255,
+    "MorphHolesky": 2810
 };
 
 module.exports = { ChainIds }

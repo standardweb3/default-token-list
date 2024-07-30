@@ -36,7 +36,8 @@ module.exports = function buildList() {
     },
     matchingEngine: {
       "Base": "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
-      "Kroma": "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47"
+      "Kroma": "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+      "MorphHolesky": "0x0AdBf7ec00A03BE9d5556Adb2600e2552029C63c"
     },
     tags: {},
     logoURI: "https://avatars.githubusercontent.com/u/73440097?s=200&v=4",

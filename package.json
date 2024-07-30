@@ -1,6 +1,6 @@
 {
   "name": "@standardweb3/default-token-list",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Standard default token list",
   "main": "build/standard-default.tokenlist.json",
   "scripts": {
@@ -32,7 +32,7 @@
   "homepage": "https://github.com/standardweb3/default-token-list#readme",
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
-    "@standardweb3/market-lists": "0.0.1",
+    "@standardweb3/market-lists": "0.0.2",
     "@uniswap/token-list-bridge-utils": "^2.3.0",
     "ajv": "^6.12.3",
     "chai": "^4.2.0",

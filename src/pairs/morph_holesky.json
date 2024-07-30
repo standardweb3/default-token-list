@@ -1,0 +1,289 @@
+[
+  {
+    "base": {
+      "chainId": 2810,
+      "address": "0x0000000000000000000000000000000000000000",
+      "symbol": "ETH",
+      "name": "Ethereum Token",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/ETH.svg"
+    },
+    "quote": {
+      "chainId": 2810,
+      "address": "0x64c76ccc33969cA1414EEE0Da3713C4203E9ba2D",
+      "symbol": "DAI",
+      "name": "Dai",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/DAI.svg"
+    },
+    "listing_price": 3253.89
+  },
+  {
+    "base": {
+      "chainId": 2810,
+      "address": "0xAf516662B8ee41cB7C4fDF4D76faC4BC70E8d481",
+      "symbol": "DYDX",
+      "name": "ETHDYDX",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/DYDX.svg"
+    },
+    "quote": {
+      "chainId": 2810,
+      "address": "0x0000000000000000000000000000000000000000",
+      "symbol": "ETH",
+      "name": "Ethereum Token",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/ETH.svg"
+    },
+    "listing_price": 0.0004
+  },
+  {
+    "base": {
+      "chainId": 2810,
+      "address": "0xAf516662B8ee41cB7C4fDF4D76faC4BC70E8d481",
+      "symbol": "DYDX",
+      "name": "ETHDYDX",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/DYDX.svg"
+    },
+    "quote": {
+      "chainId": 2810,
+      "address": "0x9E12AD42c4E4d2acFBADE01a96446e48e6764B98",
+      "symbol": "USDT",
+      "name": "Tether",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDT.svg"
+    },
+    "listing_price": 1.31
+  },
+  {
+    "base": {
+      "chainId": 2810,
+      "address": "0xfb7a7f40C96703dEFa984757401062bEA6004Eb8",
+      "symbol": "LDO",
+      "name": "Lido Dao",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/LDO.svg"
+    },
+    "quote": {
+      "chainId": 2810,
+      "address": "0x9E12AD42c4E4d2acFBADE01a96446e48e6764B98",
+      "symbol": "USDT",
+      "name": "Tether",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDT.svg"
+    },
+    "listing_price": 1.59
+  },
+  {
+    "base": {
+      "chainId": 2810,
+      "address": "0xfb7a7f40C96703dEFa984757401062bEA6004Eb8",
+      "symbol": "LDO",
+      "name": "Lido Dao",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/LDO.svg"
+    },
+    "quote": {
+      "chainId": 2810,
+      "address": "0x0000000000000000000000000000000000000000",
+      "symbol": "ETH",
+      "name": "Ethereum Token",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/ETH.svg"
+    },
+    "listing_price": 0.0004849
+  },
+  {
+    "base": {
+      "chainId": 2810,
+      "address": "0x64c76ccc33969cA1414EEE0Da3713C4203E9ba2D",
+      "symbol": "DAI",
+      "name": "Dai",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/DAI.svg"
+    },
+    "quote": {
+      "chainId": 2810,
+      "address": "0x0000000000000000000000000000000000000000",
+      "symbol": "ETH",
+      "name": "Ethereum Token",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/ETH.svg"
+    },
+    "listing_price": 0.00030
+  },
+  {
+    "base": {
+      "chainId": 2810,
+      "address": "0x64c76ccc33969cA1414EEE0Da3713C4203E9ba2D",
+      "symbol": "DAI",
+      "name": "Dai",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/DAI.svg"
+    },
+    "quote": {
+      "chainId": 2810,
+      "address": "0x9E12AD42c4E4d2acFBADE01a96446e48e6764B98",
+      "symbol": "USDT",
+      "name": "Tether",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDT.svg"
+    },
+    "listing_price": 1,
+    "buy_tick": 10,
+    "sell_tick": 10
+  },
+  {
+    "base": {
+      "chainId": 2810,
+      "address": "0xbBb8861fB3750dc9BF5FcD2add08BA543fC5C266",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/LINK.svg"
+    },
+    "quote": {
+      "chainId": 2810,
+      "address": "0x0000000000000000000000000000000000000000",
+      "symbol": "ETH",
+      "name": "Ethereum Token",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/ETH.svg"
+    },
+    "listing_price": 0.0040
+  },
+  {
+    "base": {
+      "chainId": 2810,
+      "address": "0xbBb8861fB3750dc9BF5FcD2add08BA543fC5C266",
+      "symbol": "LINK",
+      "name": "Chainlink",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/LINK.svg"
+    },
+    "quote": {
+      "chainId": 2810,
+      "address": "0x9E12AD42c4E4d2acFBADE01a96446e48e6764B98",
+      "symbol": "USDT",
+      "name": "Tether",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDT.svg"
+    },
+    "listing_price": 13.27
+  },
+  {
+    "base": {
+      "chainId": 2810,
+      "address": "0xfb7a7f40C96703dEFa984757401062bEA6004Eb8",
+      "symbol": "MKR",
+      "name": "Maker",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/MKR.svg"
+    },
+    "quote": {
+      "chainId": 2810,
+      "address": "0x0000000000000000000000000000000000000000",
+      "symbol": "ETH",
+      "name": "Ethereum Token",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/ETH.svg"
+    },
+    "listing_price": 0.84
+  },
+  {
+    "base": {
+      "chainId": 2810,
+      "address": "0xfb7a7f40C96703dEFa984757401062bEA6004Eb8",
+      "symbol": "MKR",
+      "name": "Maker",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/MKR.svg"
+    },
+    "quote": {
+      "chainId": 2810,
+      "address": "0x9E12AD42c4E4d2acFBADE01a96446e48e6764B98",
+      "symbol": "USDT",
+      "name": "Tether",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDT.svg"
+    },
+    "listing_price": 2775.61
+  },
+  {
+    "base": {
+      "chainId": 2810,
+      "address": "0x340Bad9627Cb72d1c4cC92c7F53c4995454130Ae",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/UNI.svg"
+    },
+    "quote": {
+      "chainId": 2810,
+      "address": "0x0000000000000000000000000000000000000000",
+      "symbol": "ETH",
+      "name": "Ethereum Token",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/ETH.svg"
+    },
+    "listing_price": 0.0023
+  },
+  {
+    "base": {
+      "chainId": 2810,
+      "address": "0x340Bad9627Cb72d1c4cC92c7F53c4995454130Ae",
+      "symbol": "UNI",
+      "name": "Uniswap",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/UNI.svg"
+    },
+    "quote": {
+      "chainId": 2810,
+      "address": "0x9E12AD42c4E4d2acFBADE01a96446e48e6764B98",
+      "symbol": "USDT",
+      "name": "Tether",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDT.svg"
+    },
+    "listing_price": 7.40
+  },
+  {
+    "base": {
+      "chainId": 2810,
+      "address": "0xa3D49e607cb5C40d2259877F2256C6DcD76aeFCd",
+      "symbol": "WBTC",
+      "name": "Wrapped Bitcoin",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/WBTC.svg"
+    },
+    "quote": {
+      "chainId": 2810,
+      "address": "0x0000000000000000000000000000000000000000",
+      "symbol": "ETH",
+      "name": "Ethereum Token",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/ETH.svg"
+    },
+    "listing_price": 20.07
+  },
+  {
+    "base": {
+      "chainId": 2810,
+      "address": "0xa3D49e607cb5C40d2259877F2256C6DcD76aeFCd",
+      "symbol": "WBTC",
+      "name": "Wrapped Bitcoin",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/WBTC.svg"
+    },
+    "quote": {
+      "chainId": 2810,
+      "address": "0x9E12AD42c4E4d2acFBADE01a96446e48e6764B98",
+      "symbol": "USDT",
+      "name": "Tether",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDT.svg"
+    },
+    "listing_price": 65980.49
+  }
+]

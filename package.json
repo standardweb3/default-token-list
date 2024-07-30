@@ -7,7 +7,8 @@
     "test": "mocha",
     "build": "rimraf build && mkdir -p build && node src/write.js > build/standard-default.tokenlist.json",
     "prepublishOnly": "npm test && npm run build",
-    "addPairs": "node src/scripts/addPairs.js"
+    "addPairs": "node src/scripts/addPairs.js",
+    "addETHUSDTPairs": "node src/scripts/addETHUSDTPairs.js"
   },
   "files": [
     "build/standard-default.tokenlist.json"

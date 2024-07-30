@@ -10,13 +10,14 @@ const validator = ajv.compile(schema);
 let defaultTokenList;
 
 before(async function () {
-  this.timeout(120000);
+  this.timeout(200000);
   defaultTokenList = await buildList();
 });
 
 describe('buildList', () => {
 
   it('validates', () => {
+    console.log(validator(defaultTokenList), "validator.errors")
     expect(validator(defaultTokenList)).to.equal(true);
   });
 

@@ -36,6 +36,7 @@ module.exports = function buildList() {
     },
     nativeToken: {
       Base: {
+        chainId: 8453,
         name: "Ether",
         symbol: "ETH",
         decimals: 18,
@@ -51,7 +52,7 @@ module.exports = function buildList() {
         logoURI:
           "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
       },
-      MorphHolesky: {
+      "Morph Holesky": {
         name: "Ethereum Token",
         symbol: "ETH",
         decimals: 18,
@@ -63,6 +64,7 @@ module.exports = function buildList() {
     defaultPair: {
       Base: {
         base: {
+          chainId: 8453,
           name: "Ether",
           symbol: "ETH",
           decimals: 18,
@@ -71,6 +73,7 @@ module.exports = function buildList() {
             "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
         },
         quote: {
+          chainId: 8453,
           name: "USD Coin",
           symbol: "USDC",
           decimals: 6,
@@ -97,7 +100,7 @@ module.exports = function buildList() {
           decimals: 6,
         },
       },
-      MorphHolesky: {
+      "Morph Holesky": {
         base: {
           chainId: 2810,
           address: "0x0000000000000000000000000000000000000000",
@@ -121,12 +124,12 @@ module.exports = function buildList() {
     scannerLink: {
       Base: "https://basescan.org",
       Kroma: "https://kromascan.com",
-      MorphHolesky: "https://explorer-testnet.morphl2.io",
+      "Morph Holesky": "https://explorer-testnet.morphl2.io",
     },
     matchingEngine: {
       Base: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
       Kroma: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
-      MorphHolesky: "0x0AdBf7ec00A03BE9d5556Adb2600e2552029C63c",
+      "Morph Holesky": "0x0AdBf7ec00A03BE9d5556Adb2600e2552029C63c",
     },
     tags: {},
     logoURI: "https://avatars.githubusercontent.com/u/73440097?s=200&v=4",

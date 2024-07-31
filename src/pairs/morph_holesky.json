@@ -2,7 +2,7 @@
   {
     "base": {
       "chainId": 2810,
-      "address": "0x0000000000000000000000000000000000000000",
+      "address": "0x5300000000000000000000000000000000000011",
       "symbol": "ETH",
       "name": "Ethereum Token",
       "decimals": 18,
@@ -29,7 +29,7 @@
     },
     "quote": {
       "chainId": 2810,
-      "address": "0x0000000000000000000000000000000000000000",
+      "address": "0x5300000000000000000000000000000000000011",
       "symbol": "ETH",
       "name": "Ethereum Token",
       "decimals": 18,
@@ -86,7 +86,7 @@
     },
     "quote": {
       "chainId": 2810,
-      "address": "0x0000000000000000000000000000000000000000",
+      "address": "0x5300000000000000000000000000000000000011",
       "symbol": "ETH",
       "name": "Ethereum Token",
       "decimals": 18,
@@ -105,7 +105,7 @@
     },
     "quote": {
       "chainId": 2810,
-      "address": "0x0000000000000000000000000000000000000000",
+      "address": "0x5300000000000000000000000000000000000011",
       "symbol": "ETH",
       "name": "Ethereum Token",
       "decimals": 18,
@@ -145,7 +145,7 @@
     },
     "quote": {
       "chainId": 2810,
-      "address": "0x0000000000000000000000000000000000000000",
+      "address": "0x5300000000000000000000000000000000000011",
       "symbol": "ETH",
       "name": "Ethereum Token",
       "decimals": 18,
@@ -183,7 +183,7 @@
     },
     "quote": {
       "chainId": 2810,
-      "address": "0x0000000000000000000000000000000000000000",
+      "address": "0x5300000000000000000000000000000000000011",
       "symbol": "ETH",
       "name": "Ethereum Token",
       "decimals": 18,
@@ -221,7 +221,7 @@
     },
     "quote": {
       "chainId": 2810,
-      "address": "0x0000000000000000000000000000000000000000",
+      "address": "0x5300000000000000000000000000000000000011",
       "symbol": "ETH",
       "name": "Ethereum Token",
       "decimals": 18,
@@ -259,7 +259,7 @@
     },
     "quote": {
       "chainId": 2810,
-      "address": "0x0000000000000000000000000000000000000000",
+      "address": "0x5300000000000000000000000000000000000011",
       "symbol": "ETH",
       "name": "Ethereum Token",
       "decimals": 18,

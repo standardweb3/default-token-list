@@ -56,7 +56,7 @@ module.exports = function buildList() {
         name: "Ethereum Token",
         symbol: "ETH",
         decimals: 18,
-        address: "0x0000000000000000000000000000000000000000",
+        address: "0x5300000000000000000000000000000000000011",
         logoURI:
           "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/ETH.svg",
       },
@@ -103,7 +103,7 @@ module.exports = function buildList() {
       "Morph Holesky": {
         base: {
           chainId: 2810,
-          address: "0x0000000000000000000000000000000000000000",
+          address: "0x5300000000000000000000000000000000000011",
           symbol: "ETH",
           name: "Ethereum Token",
           decimals: 18,

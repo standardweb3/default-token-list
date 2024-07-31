@@ -34,6 +34,32 @@ module.exports = function buildList() {
       minor: +parsed[1],
       patch: +parsed[2],
     },
+    nativeToken: {
+      Base: {
+        name: "Ether",
+        symbol: "ETH",
+        decimals: 18,
+        address: "0x4200000000000000000000000000000000000006",
+        logoURI:
+          "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      },
+      Kroma: {
+        name: "Wrapped Ether",
+        symbol: "ETH",
+        decimals: 18,
+        address: "0x4200000000000000000000000000000000000001",
+        logoURI:
+          "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      },
+      MorphHolesky: {
+        name: "Ethereum Token",
+        symbol: "ETH",
+        decimals: 18,
+        address: "0x0000000000000000000000000000000000000000",
+        logoURI:
+          "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/ETH.svg",
+      },
+    },
     defaultPair: {
       Base: {
         base: {

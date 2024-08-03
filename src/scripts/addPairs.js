@@ -7,16 +7,6 @@ const { MatchingEngineABI } = require('../abis/matchingEngineAbi');
 const defaultTokenList = require('../../build/standard-default.tokenlist.json');
 require('dotenv').config()
 
-const account = privateKeyToAccount(process.env.ADMIN_PRIVATE_KEY);
-const walletClient = createWalletClient({
-  account,
-  chain: morphHolesky,
-  transport: http(process.env.MORPH_HOLESKY_RPC),
-});
-
-const abi = MatchingEngineABI;
-
-
 async function getPairs(networkName) {
     try {
         const chainId = ChainIds[networkName];
@@ -27,7 +17,7 @@ async function getPairs(networkName) {
     }
 }
 
-async function addPair(pair, matchingEngine) {
+async function addPair(pair, matchingEngine, walletClient, abi) {
   try {
     // Add pair
     const result = await walletClient.writeContract({
@@ -47,7 +37,7 @@ async function addPair(pair, matchingEngine) {
   }
 }
 
-async function setSpread(pair, matchingEngine) {
+async function setSpread(pair, matchingEngine, walletClient, abi) {
   try {
     // Set up ticks for listed pair
     const result2 = await walletClient.writeContract({
@@ -69,13 +59,23 @@ async function setSpread(pair, matchingEngine) {
 }
 
 async function main() {
+
+
+const account = privateKeyToAccount(process.env.ADMIN_PRIVATE_KEY);
+const walletClient = createWalletClient({
+  account,
+  chain: kroma,
+  transport: http(process.env.KROMA_RPC),
+});
+
+const abi = MatchingEngineABI;
   
   const pairs = await getPairs("Kroma");
   // make contract call on each pair in the list
   const matchingEngine = defaultTokenList.matchingEngine["Kroma"];
   for (const pair of pairs) {
-    await addPair(pair, matchingEngine);
-    await setSpread(pair, matchingEngine);
+    await addPair(pair, matchingEngine, walletClient, abi);
+    await setSpread(pair, matchingEngine, walletClient, abi);
   }
 }
 

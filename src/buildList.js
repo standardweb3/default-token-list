@@ -142,8 +142,8 @@ module.exports = function buildList() {
     },
     stndxp: {
       Base: {
-        address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
-        startBlock: 17944165,
+        address: "0xb10a2AceC87757d7C8801dD6d0E194F00B9be7d2",
+        startBlock: 17951815,
       },
       Kroma: {
         address: "0xdd2D72Ccdf83dB18B83ba487E0ebCB52e75B9c6f",

@@ -140,6 +140,20 @@ module.exports = function buildList() {
         startBlock: 5389919,
       },
     },
+    stndxp: {
+      Base: {
+        address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
+        startBlock: 17944165,
+      },
+      Kroma: {
+        address: "0xdd2D72Ccdf83dB18B83ba487E0ebCB52e75B9c6f",
+        startBlock: 14395927,
+      },
+      "Morph Holesky": {
+        address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
+        startBlock: 5389919,
+      },
+    },
     tags: {},
     logoURI: "https://avatars.githubusercontent.com/u/73440097?s=200&v=4",
     keywords: ["standard", "default"],

@@ -127,9 +127,9 @@ module.exports = function buildList() {
       "Morph Holesky": "https://explorer-testnet.morphl2.io",
     },
     matchingEngine: {
-      Base: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
-      Kroma: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
-      "Morph Holesky": "0x0AdBf7ec00A03BE9d5556Adb2600e2552029C63c",
+      Base: "0x492620a940ad6A7bC4c597f2681C22c6acF34c62",
+      Kroma: "0xdd2D72Ccdf83dB18B83ba487E0ebCB52e75B9c6f",
+      "Morph Holesky": "0xD93580D0d179ed232b7540ef06dA8803a82EF552",
     },
     tags: {},
     logoURI: "https://avatars.githubusercontent.com/u/73440097?s=200&v=4",

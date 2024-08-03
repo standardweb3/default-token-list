@@ -70,9 +70,9 @@ async function setSpread(pair, matchingEngine) {
 
 async function main() {
   
-  const pairs = await getPairs("MorphHolesky");
+  const pairs = await getPairs("Kroma");
   // make contract call on each pair in the list
-  const matchingEngine = defaultTokenList.matchingEngine["MorphHolesky"];
+  const matchingEngine = defaultTokenList.matchingEngine["Kroma"];
   for (const pair of pairs) {
     await addPair(pair, matchingEngine);
     await setSpread(pair, matchingEngine);

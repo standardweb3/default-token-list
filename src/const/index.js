@@ -18,7 +18,7 @@ const ChainIds = {
     "Astar ZKEVM": 3776,
     "Base": 8453,
     "Kroma": 255,
-    "MorphHolesky": 2810
+    "Morph Holesky": 2810
 };
 
 module.exports = { ChainIds }

@@ -77,7 +77,7 @@ module.exports = function buildList() {
           name: "USD Coin",
           symbol: "USDC",
           decimals: 6,
-          address: "0x0257e4d92C00C9EfcCa1d641b224d7d09cfa4522",
+          address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
           logoURI: "https://ethereum-optimism.github.io/data/USDC/logo.png",
         },
       },

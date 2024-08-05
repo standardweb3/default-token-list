@@ -10,7 +10,7 @@ assignees: ''
 - [ ] I will not ping the Discord about this listing request.
 
 **Please provide the following information for your token.**
-
+Network Name:
 Token Address: 
 Token Name (from contract): 
 Token Decimals (from contract): 

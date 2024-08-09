@@ -112,12 +112,12 @@ module.exports = function buildList() {
         },
         quote: {
           chainId: 2810,
-          address: "0x64c76ccc33969cA1414EEE0Da3713C4203E9ba2D",
-          symbol: "DAI",
-          name: "Dai",
+          address: "0x9E12AD42c4E4d2acFBADE01a96446e48e6764B98",
+          symbol: "USDT",
+          name: "Tether",
           decimals: 18,
           logoURI:
-            "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/DAI.svg",
+            "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDT.svg",
         },
       },
     },

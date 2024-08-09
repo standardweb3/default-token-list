@@ -64,15 +64,15 @@ async function main() {
 const account = privateKeyToAccount(process.env.ADMIN_PRIVATE_KEY);
 const walletClient = createWalletClient({
   account,
-  chain: kroma,
-  transport: http(process.env.KROMA_RPC),
+  chain: morphHolesky,
+  transport: http(process.env.MORPH_HOLESKY_RPC),
 });
 
 const abi = MatchingEngineABI;
   
-  const pairs = await getPairs("Kroma");
+  const pairs = await getPairs("Morph Holesky");
   // make contract call on each pair in the list
-  const matchingEngine = defaultTokenList.matchingEngine["Kroma"];
+  const matchingEngine = defaultTokenList.matchingEngine["Morph Holesky"].address;
   for (const pair of pairs) {
     await addPair(pair, matchingEngine, walletClient, abi);
     await setSpread(pair, matchingEngine, walletClient, abi);

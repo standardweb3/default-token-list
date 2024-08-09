@@ -124,7 +124,7 @@ module.exports = function buildList() {
     scannerLink: {
       Base: "https://basescan.org",
       Kroma: "https://kromascan.com",
-      "Morph Holesky": "https://explorer-testnet.morphl2.io",
+      "Morph Holesky": "https://explorer-holesky.morphl2.io/",
     },
     matchingEngine: {
       Base: {

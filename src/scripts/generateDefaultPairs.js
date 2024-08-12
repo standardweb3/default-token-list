@@ -1,12 +1,13 @@
-const morphHolesky = require("../tokens/morph_holesky.json")
+// replace path with path to desired network tokenlist
+const tokenlist = require("../tokens/metal.json")
 
 
 
 function addETHUSDTPairs() {
-    const usdt = morphHolesky.find((token) => token.symbol === "USDT");
-    const eth = morphHolesky.find((token) => token.symbol === "ETH");
+    const stablecoin = tokenlist.find((token) => token.symbol === "USDC");
+    const eth = tokenlist.find((token) => token.symbol === "ETH");
 
-    const remainingTokens = morphHolesky.filter((token) => token.address !== usdt.address && token.address !== eth.address);
+    const remainingTokens = tokenlist.filter((token) => token.address !== stablecoin.address && token.address !== eth.address);
 
 
     const ETHUSDTPairs = [];
@@ -33,7 +34,7 @@ function addETHUSDTPairs() {
                 "decimals": token.decimals,
                 "logoURI": token.logoURI
             },
-            "quote": usdt,
+            "quote": stablecoin,
             "listing_price": 0.
         })
     }

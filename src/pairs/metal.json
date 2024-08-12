@@ -1,0 +1,40 @@
+[
+    {
+      "base": {
+        "chainId": 1750,
+        "address": "0xBCFc435d8F276585f6431Fc1b9EE9A850B5C00A9",
+        "symbol": "MTL",
+        "name": "Metal",
+        "decimals": 8,
+        "logoURI": "https://assets.coingecko.com/coins/images/763/standard/Metal.png?1696501916"
+      },
+      "quote": {
+        "chainId": 1750,
+        "address": "0x4200000000000000000000000000000000000006",
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1595348880"
+      },
+      "listing_price": 0.00037089
+    },
+    {
+      "base": {
+        "chainId": 1750,
+        "address": "0xBCFc435d8F276585f6431Fc1b9EE9A850B5C00A9",
+        "symbol": "MTL",
+        "name": "Metal",
+        "decimals": 8,
+        "logoURI": "https://assets.coingecko.com/coins/images/763/standard/Metal.png?1696501916"
+      },
+      "quote": {
+        "chainId": 1750,
+        "address": "0xb91CFCcA485C6E40E3bC622f9BFA02a8ACdEeBab",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png?1547042389"
+      },
+      "listing_price": 0.944
+    }
+  ]

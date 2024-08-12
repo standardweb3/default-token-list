@@ -16,11 +16,15 @@ const base = require("./tokens/base.json");
 const blast = require("./tokens/blast.json");
 const kroma = require("./tokens/kroma.json");
 const morphHolesky = require("./tokens/morph_holesky.json");
+const metal = require("./tokens/metal.json");
+const fraxtal = require("./tokens/fraxtal.json");
 
 // pairs
 const basePairs = require("./pairs/base.json");
 const kromaPairs = require("./pairs/kroma.json");
 const morphHoleskyPairs = require("./pairs/morph_holesky.json");
+const metalPairs = require("./pairs/metal.json");
+const fraxtalPairs = require("./pairs/fraxtal.json");
 
 const bridgeUtils = require("@uniswap/token-list-bridge-utils");
 
@@ -59,6 +63,24 @@ module.exports = function buildList() {
         address: "0x5300000000000000000000000000000000000011",
         logoURI:
           "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/ETH.svg",
+      },
+      Fraxtal: {
+        chainId: 252,
+        address: "0xFC00000000000000000000000000000000000006",
+        name: "Frax Ether",
+        symbol: "FRXETH",
+        decimals: 18,
+        logoURI:
+          "https://assets.coingecko.com/coins/images/28284/standard/frxETH_icon.png?1696527284",
+      },
+      Metal: {
+        chainId: 1750,
+        address: "0x4200000000000000000000000000000000000006",
+        name: "Ether",
+        symbol: "ETH",
+        decimals: 18,
+        logoURI:
+          "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1595348880",
       },
     },
     defaultPair: {
@@ -120,11 +142,49 @@ module.exports = function buildList() {
             "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDT.svg",
         },
       },
+      Fraxtal: {
+        "base": {
+          "chainId": 252,
+          "address": "0xFc00000000000000000000000000000000000001",
+          "symbol": "FRAX",
+          "name": "Frax",
+          "decimals": 18,
+          "logoURI": "https://assets.coingecko.com/coins/images/13422/small/frax_logo.png?1608476506"
+        },
+        "quote": {
+          "chainId": 252,
+          "address": "0xFC00000000000000000000000000000000000006",
+          "name": "Frax Ether",
+          "symbol": "FRXETH",
+          "decimals": 18,
+          "logoURI": "https://assets.coingecko.com/coins/images/28284/standard/frxETH_icon.png?1696527284"
+        }
+      },
+      Metal: {
+        "base": {
+          "chainId": 1750,
+          "address": "0xBCFc435d8F276585f6431Fc1b9EE9A850B5C00A9",
+          "symbol": "MTL",
+          "name": "Metal",
+          "decimals": 8,
+          "logoURI": "https://assets.coingecko.com/coins/images/763/standard/Metal.png?1696501916"
+        },
+        "quote": {
+          "chainId": 1750,
+          "address": "0x4200000000000000000000000000000000000006",
+          "name": "Ether",
+          "symbol": "ETH",
+          "decimals": 18,
+          "logoURI": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1595348880"
+        },
+      }
     },
     scannerLink: {
       Base: "https://basescan.org",
       Kroma: "https://kromascan.com",
       "Morph Holesky": "https://explorer-holesky.morphl2.io/",
+      Fraxtal: "https://fraxscan.com/",
+      Metal: "https://metalscan.io/",
     },
     matchingEngine: {
       Base: {
@@ -157,8 +217,14 @@ module.exports = function buildList() {
     tags: {},
     logoURI: "https://avatars.githubusercontent.com/u/73440097?s=200&v=4",
     keywords: ["standard", "default"],
-    pairs: [...basePairs, ...kromaPairs, ...morphHoleskyPairs],
-    tokens: [...base, ...kroma, ...morphHolesky]
+    pairs: [
+      ...basePairs,
+      ...kromaPairs,
+      ...morphHoleskyPairs,
+      ...fraxtalPairs,
+      ...metalPairs,
+    ],
+    tokens: [...base, ...kroma, ...morphHolesky, ...fraxtal, ...metal]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {
         if (t1.chainId === t2.chainId) {

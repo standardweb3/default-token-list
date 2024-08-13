@@ -1,5 +1,5 @@
 // replace path with path to desired network tokenlist
-const tokenlist = require("../tokens/metal.json")
+const tokenlist = require("../tokens/fraxtal.json")
 
 
 

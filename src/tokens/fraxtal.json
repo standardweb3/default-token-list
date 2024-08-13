@@ -1,34 +1,34 @@
 [
-    {
-        "chainId": 252,
-        "address": "0xFc00000000000000000000000000000000000001",
-        "name": "Frax",
-        "symbol": "FRAX",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/13422/small/frax_logo.png?1608476506"
-    },
-    {
-        "chainId": 252,
-        "address": "0xFC00000000000000000000000000000000000006",
-        "name": "Frax Ether",
-        "symbol": "FRXETH",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/28284/standard/frxETH_icon.png?1696527284"
-    },
-    {
-        "chainId": 252,
-        "address": "0xFc00000000000000000000000000000000000003",
-        "name": "Frax Price Index",
-        "symbol": "FPI",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/24945/standard/FPI_icon.png?1696524100"
-    },
-    {
-        "chainId": 252,
-        "address": "0xDcc0F2D8F90FDe85b10aC1c8Ab57dc0AE946A543",
-        "name": "USD Coin",
-        "symbol": "USDC",
-        "decimals": 6,
-        "logoURI": "https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389" 
-    }
+  {
+    "chainId": 252,
+    "address": "0xFc00000000000000000000000000000000000001",
+    "name": "Frax",
+    "symbol": "FRAX",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/13422/small/frax_logo.png?1608476506"
+  },
+  {
+    "chainId": 252,
+    "address": "0x4200000000000000000000000000000000000006",
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/28284/standard/frxETH_icon.png?1696527284"
+  },
+  {
+    "chainId": 252,
+    "address": "0xFc00000000000000000000000000000000000003",
+    "name": "Frax Price Index",
+    "symbol": "FPI",
+    "decimals": 18,
+    "logoURI": "https://assets.coingecko.com/coins/images/24945/standard/FPI_icon.png?1696524100"
+  },
+  {
+    "chainId": 252,
+    "address": "0xDcc0F2D8F90FDe85b10aC1c8Ab57dc0AE946A543",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "logoURI": "https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389"
+  }
 ]

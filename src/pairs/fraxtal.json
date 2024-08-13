@@ -1,80 +1,80 @@
 [
-    {
-      "base": {
-        "chainId": 252,
-        "address": "0xFc00000000000000000000000000000000000001",
-        "symbol": "FRAX",
-        "name": "Frax",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/13422/small/frax_logo.png?1608476506"
-      },
-      "quote": {
-        "chainId": 252,
-        "address": "0xFC00000000000000000000000000000000000006",
-        "name": "Frax Ether",
-        "symbol": "FRXETH",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/28284/standard/frxETH_icon.png?1696527284"
-      },
-      "listing_price": 0.00039179
+  {
+    "base": {
+      "chainId": 252,
+      "address": "0xFc00000000000000000000000000000000000001",
+      "symbol": "FRAX",
+      "name": "Frax",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13422/small/frax_logo.png?1608476506"
     },
-    {
-      "base": {
-        "chainId": 252,
-        "address": "0xFc00000000000000000000000000000000000001",
-        "symbol": "FRAX",
-        "name": "Frax",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/13422/small/frax_logo.png?1608476506"
-      },
-      "quote": {
-        "chainId": 252,
-        "address": "0xDcc0F2D8F90FDe85b10aC1c8Ab57dc0AE946A543",
-        "name": "USD Coin",
-        "symbol": "USDC",
-        "decimals": 6,
-        "logoURI": "https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389"
-      },
-      "listing_price": 0.99729973,
-      "buy_tick": 10,
-      "sell_tick": 10
+    "quote": {
+      "chainId": 252,
+      "address": "0x4200000000000000000000000000000000000006",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28284/standard/frxETH_icon.png?1696527284"
     },
-    {
-      "base": {
-        "chainId": 252,
-        "address": "0xFc00000000000000000000000000000000000003",
-        "symbol": "FPI",
-        "name": "Frax Price Index",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/24945/standard/FPI_icon.png?1696524100"
-      },
-      "quote": {
-        "chainId": 252,
-        "address": "0xFC00000000000000000000000000000000000006",
-        "name": "Frax Ether",
-        "symbol": "FRXETH",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/28284/standard/frxETH_icon.png?1696527284"
-      },
-      "listing_price": 0.00043611
+    "listing_price": 0.00039179
+  },
+  {
+    "base": {
+      "chainId": 252,
+      "address": "0xFc00000000000000000000000000000000000001",
+      "symbol": "FRAX",
+      "name": "Frax",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/13422/small/frax_logo.png?1608476506"
     },
-    {
-      "base": {
-        "chainId": 252,
-        "address": "0xFc00000000000000000000000000000000000003",
-        "symbol": "FPI",
-        "name": "Frax Price Index",
-        "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/24945/standard/FPI_icon.png?1696524100"
-      },
-      "quote": {
-        "chainId": 252,
-        "address": "0xDcc0F2D8F90FDe85b10aC1c8Ab57dc0AE946A543",
-        "name": "USD Coin",
-        "symbol": "USDC",
-        "decimals": 6,
-        "logoURI": "https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389"
-      },
-      "listing_price": 1.11
-    }
-  ]
+    "quote": {
+      "chainId": 252,
+      "address": "0xDcc0F2D8F90FDe85b10aC1c8Ab57dc0AE946A543",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389"
+    },
+    "listing_price": 0.99729973,
+    "buy_tick": 10,
+    "sell_tick": 10
+  },
+  {
+    "base": {
+      "chainId": 252,
+      "address": "0xFc00000000000000000000000000000000000003",
+      "symbol": "FPI",
+      "name": "Frax Price Index",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24945/standard/FPI_icon.png?1696524100"
+    },
+    "quote": {
+      "chainId": 252,
+      "address": "0x4200000000000000000000000000000000000006",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/28284/standard/frxETH_icon.png?1696527284"
+    },
+    "listing_price": 0.00043611
+  },
+  {
+    "base": {
+      "chainId": 252,
+      "address": "0xFc00000000000000000000000000000000000003",
+      "symbol": "FPI",
+      "name": "Frax Price Index",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/24945/standard/FPI_icon.png?1696524100"
+    },
+    "quote": {
+      "chainId": 252,
+      "address": "0xDcc0F2D8F90FDe85b10aC1c8Ab57dc0AE946A543",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389"
+    },
+    "listing_price": 1.11
+  }
+]

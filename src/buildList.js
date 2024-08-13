@@ -66,9 +66,9 @@ module.exports = function buildList() {
       },
       Fraxtal: {
         chainId: 252,
-        address: "0xFC00000000000000000000000000000000000006",
-        name: "Frax Ether",
-        symbol: "FRXETH",
+        address: "0x4200000000000000000000000000000000000006",
+        name: "Ether",
+        symbol: "ETH",
         decimals: 18,
         logoURI:
           "https://assets.coingecko.com/coins/images/28284/standard/frxETH_icon.png?1696527284",
@@ -151,13 +151,14 @@ module.exports = function buildList() {
           "decimals": 18,
           "logoURI": "https://assets.coingecko.com/coins/images/13422/small/frax_logo.png?1608476506"
         },
-        "quote": {
-          "chainId": 252,
-          "address": "0xFC00000000000000000000000000000000000006",
-          "name": "Frax Ether",
-          "symbol": "FRXETH",
-          "decimals": 18,
-          "logoURI": "https://assets.coingecko.com/coins/images/28284/standard/frxETH_icon.png?1696527284"
+        "quote":  {
+          chainId: 252,
+          address: "0x4200000000000000000000000000000000000006",
+          name: "Ether",
+          symbol: "ETH",
+          decimals: 18,
+          logoURI:
+            "https://assets.coingecko.com/coins/images/28284/standard/frxETH_icon.png?1696527284",
         }
       },
       Metal: {
@@ -188,17 +189,25 @@ module.exports = function buildList() {
     },
     matchingEngine: {
       Base: {
-        address: "0x808D8b45B310646c7e1752C7bc3C68581533FfaA",
-        startBlock: 18293005,
+        address: "0xE0892785D00F192110A05282387fBAC21b942Aad",
+        startBlock: 18359658,
       },
       Kroma: {
         address: "0x64aa8360dcb9CA4c641D7118ccEd9B56D7546Ca8",
         startBlock: 14747553,
       },
       "Morph Holesky": {
-        address: "0x738339C9d3EaEb0e6FD552Ec4Aba18bB6BD94B40",
-        startBlock: 5960170,
+        address: "0x2D25464C8C044b9Ab122076BE55E353fA1F9bd29",
+        startBlock: 14814243,
       },
+      "Fraxtal": {
+        address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        startBlock: 8354873,
+      },
+      "Metal": {
+        address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        startBlock: 5979301,
+      }
     },
     stndxp: {
       Base: {
@@ -213,6 +222,14 @@ module.exports = function buildList() {
         address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
         startBlock: 5389919,
       },
+      "Fraxtal": {
+        address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
+        startBlock: 5389919,
+      },
+      "Metal": {
+        address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
+        startBlock: 5389919,
+      }
     },
     tags: {},
     logoURI: "https://avatars.githubusercontent.com/u/73440097?s=200&v=4",

@@ -18,11 +18,13 @@ const kroma = require("./tokens/kroma.json");
 const morphHolesky = require("./tokens/morph_holesky.json");
 const metal = require("./tokens/metal.json");
 const fraxtal = require("./tokens/fraxtal.json");
+const mode = require("./tokens/mode.json");
 
 // pairs
 const basePairs = require("./pairs/base.json");
 const kromaPairs = require("./pairs/kroma.json");
 const morphHoleskyPairs = require("./pairs/morph_holesky.json");
+const modePairs = require("./pairs/mode.json");
 const metalPairs = require("./pairs/metal.json");
 const fraxtalPairs = require("./pairs/fraxtal.json");
 
@@ -57,12 +59,21 @@ module.exports = function buildList() {
           "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
       },
       "Morph Holesky": {
-        name: "Ethereum Token",
+        name: "Ether",
         symbol: "ETH",
         decimals: 18,
         address: "0x5300000000000000000000000000000000000011",
         logoURI:
           "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/ETH.svg",
+      },
+      Mode: {
+        chainId: 8453,
+        name: "Ether",
+        symbol: "ETH",
+        decimals: 18,
+        address: "0x4200000000000000000000000000000000000006",
+        logoURI:
+          "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
       },
       Fraxtal: {
         chainId: 252,
@@ -187,6 +198,7 @@ module.exports = function buildList() {
       Base: "https://basescan.org",
       Kroma: "https://kromascan.com",
       "Morph Holesky": "https://explorer-holesky.morphl2.io/",
+      Mode: "https://modescan.io/",
       Fraxtal: "https://fraxscan.com/",
       Metal: "https://metalscan.io/",
     },
@@ -202,6 +214,10 @@ module.exports = function buildList() {
       "Morph Holesky": {
         address: "0x2D25464C8C044b9Ab122076BE55E353fA1F9bd29",
         startBlock: 6038844,
+      },
+      Mode: {
+        address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        startBlock: 11698902,
       },
       Fraxtal: {
         address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
@@ -225,6 +241,10 @@ module.exports = function buildList() {
         address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
         startBlock: 5389919,
       },
+      Mode: {
+        address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
+        startBlock: 5389919,
+      },
       Fraxtal: {
         address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
         startBlock: 5389919,
@@ -241,10 +261,11 @@ module.exports = function buildList() {
       ...basePairs,
       ...kromaPairs,
       ...morphHoleskyPairs,
+      ...modePairs,
       ...fraxtalPairs,
       ...metalPairs,
     ],
-    tokens: [...base, ...kroma, ...morphHolesky, ...fraxtal, ...metal]
+    tokens: [...base, ...kroma, ...morphHolesky, ...mode, ...fraxtal, ...metal]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {
         if (t1.chainId === t2.chainId) {

@@ -1,19 +1,21 @@
 // replace path with path to desired network tokenlist
-const tokenlist = require("../tokens/fraxtal.json")
+const tokenlist = require("../tokens/mode.json")
 
 
 
-function addETHUSDTPairs() {
+function adddefaultPairs() {
+
+    const stablecoin2 = tokenlist.find((token) => token.symbol === "USDT");
     const stablecoin = tokenlist.find((token) => token.symbol === "USDC");
     const eth = tokenlist.find((token) => token.symbol === "ETH");
 
-    const remainingTokens = tokenlist.filter((token) => token.address !== stablecoin.address && token.address !== eth.address);
+    const remainingTokens = tokenlist.filter((token) => token.address !== stablecoin.address && token.address !== eth.address && token.address !== stablecoin2.address);
 
 
-    const ETHUSDTPairs = [];
+    const defaultPairs = [];
 
     for (const token of remainingTokens) {
-        ETHUSDTPairs.push({
+        defaultPairs.push({
             "base": {
                 "chainId": token.chainId,
                 "address": token.address,
@@ -25,7 +27,7 @@ function addETHUSDTPairs() {
             "quote": eth,
             "listing_price": 0.
         })
-        ETHUSDTPairs.push({
+        defaultPairs.push({
             "base": {
                 "chainId": token.chainId,
                 "address": token.address,
@@ -37,9 +39,21 @@ function addETHUSDTPairs() {
             "quote": stablecoin,
             "listing_price": 0.
         })
+        defaultPairs.push({
+            "base": {
+                "chainId": token.chainId,
+                "address": token.address,
+                "symbol": token.symbol,
+                "name": token.name,
+                "decimals": token.decimals,
+                "logoURI": token.logoURI
+            },
+            "quote": stablecoin2,
+            "listing_price": 0.
+        })
     }
 
-    console.log(JSON.stringify(ETHUSDTPairs, null, 2));
+    console.log(JSON.stringify(defaultPairs, null, 2));
 }
 
-addETHUSDTPairs()
+adddefaultPairs()

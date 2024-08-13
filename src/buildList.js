@@ -143,15 +143,16 @@ module.exports = function buildList() {
         },
       },
       Fraxtal: {
-        "base": {
-          "chainId": 252,
-          "address": "0xFc00000000000000000000000000000000000001",
-          "symbol": "FRAX",
-          "name": "Frax",
-          "decimals": 18,
-          "logoURI": "https://assets.coingecko.com/coins/images/13422/small/frax_logo.png?1608476506"
+        base: {
+          chainId: 252,
+          address: "0xFc00000000000000000000000000000000000001",
+          symbol: "FRAX",
+          name: "Frax",
+          decimals: 18,
+          logoURI:
+            "https://assets.coingecko.com/coins/images/13422/small/frax_logo.png?1608476506",
         },
-        "quote":  {
+        quote: {
           chainId: 252,
           address: "0x4200000000000000000000000000000000000006",
           name: "Ether",
@@ -159,26 +160,28 @@ module.exports = function buildList() {
           decimals: 18,
           logoURI:
             "https://assets.coingecko.com/coins/images/28284/standard/frxETH_icon.png?1696527284",
-        }
+        },
       },
       Metal: {
-        "base": {
-          "chainId": 1750,
-          "address": "0xBCFc435d8F276585f6431Fc1b9EE9A850B5C00A9",
-          "symbol": "MTL",
-          "name": "Metal",
-          "decimals": 8,
-          "logoURI": "https://assets.coingecko.com/coins/images/763/standard/Metal.png?1696501916"
+        base: {
+          chainId: 1750,
+          address: "0xBCFc435d8F276585f6431Fc1b9EE9A850B5C00A9",
+          symbol: "MTL",
+          name: "Metal",
+          decimals: 8,
+          logoURI:
+            "https://assets.coingecko.com/coins/images/763/standard/Metal.png?1696501916",
         },
-        "quote": {
-          "chainId": 1750,
-          "address": "0x4200000000000000000000000000000000000006",
-          "name": "Ether",
-          "symbol": "ETH",
-          "decimals": 18,
-          "logoURI": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1595348880"
+        quote: {
+          chainId: 1750,
+          address: "0x4200000000000000000000000000000000000006",
+          name: "Ether",
+          symbol: "ETH",
+          decimals: 18,
+          logoURI:
+            "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1595348880",
         },
-      }
+      },
     },
     scannerLink: {
       Base: "https://basescan.org",
@@ -193,21 +196,21 @@ module.exports = function buildList() {
         startBlock: 18359658,
       },
       Kroma: {
-        address: "0x64aa8360dcb9CA4c641D7118ccEd9B56D7546Ca8",
-        startBlock: 14747553,
+        address: "0x41f21E381a70E404854D1f95788208BBc6A8Cd72",
+        startBlock: 14814243,
       },
       "Morph Holesky": {
         address: "0x2D25464C8C044b9Ab122076BE55E353fA1F9bd29",
-        startBlock: 14814243,
+        startBlock: 6038844,
       },
-      "Fraxtal": {
+      Fraxtal: {
         address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
         startBlock: 8354873,
       },
-      "Metal": {
+      Metal: {
         address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
         startBlock: 5979301,
-      }
+      },
     },
     stndxp: {
       Base: {
@@ -222,14 +225,14 @@ module.exports = function buildList() {
         address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
         startBlock: 5389919,
       },
-      "Fraxtal": {
+      Fraxtal: {
         address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
         startBlock: 5389919,
       },
-      "Metal": {
+      Metal: {
         address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
         startBlock: 5389919,
-      }
+      },
     },
     tags: {},
     logoURI: "https://avatars.githubusercontent.com/u/73440097?s=200&v=4",

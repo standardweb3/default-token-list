@@ -18,7 +18,8 @@ const ChainIds = {
     "Astar ZKEVM": 3776,
     "Base": 8453,
     "Kroma": 255,
-    "Morph Holesky": 2810
+    "Morph Holesky": 2810,
+    "Scroll": 534352,
 };
 
 module.exports = { ChainIds }

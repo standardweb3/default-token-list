@@ -1,0 +1,520 @@
+[
+  {
+    "base": {
+      "chainId": 534352,
+      "address": "0x5300000000000000000000000000000000000004",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "WETH"
+      }
+    },
+    "quote": {
+      "chainId": 534352,
+      "address": "0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDC"
+      }
+    },
+    "listing_price": 2581.92
+  },
+  {
+    "base": {
+      "chainId": 534352,
+      "address": "0x5300000000000000000000000000000000000004",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "WETH"
+      }
+    },
+    "quote": {
+      "chainId": 534352,
+      "address": "0xf55BEC9cafDbE8730f096Aa55dad6D22d44099Df",
+      "name": "Tether",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDT/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDT"
+      }
+    },
+    "listing_price": 2580.64
+  },
+  {
+    "base": {
+      "chainId": 534352,
+      "address": "0x5300000000000000000000000000000000000004",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "WETH"
+      }
+    },
+    "quote": {
+      "chainId": 534352,
+      "address": "0xf55BEC9cafDbE8730f096Aa55dad6D22d44099Df",
+      "name": "Tether",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDT/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDT"
+      }
+    },
+    "listing_price": 2580.64
+  },
+  {
+    "base": {
+      "chainId": 534352,
+      "address": "0xa25b25548B4C98B0c7d3d27dcA5D5ca743d68b7F",
+      "name": "Wrapped Kelp DAO Restaked ETH",
+      "symbol": "wrsETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/37919/standard/rseth.png?1715936438",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "wrsETH"
+      }
+    },
+    "quote": {
+      "chainId": 534352,
+      "address": "0x5300000000000000000000000000000000000004",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "WETH"
+      }
+    },
+    "listing_price": 1.02019
+  },
+  {
+    "base": {
+      "chainId": 534352,
+      "address": "0xf610A9dfB7C89644979b4A0f27063E9e7d7Cda32",
+      "name": "Wrapped stETH",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/wstETH/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "wstETH"
+      }
+    },
+    "quote": {
+      "chainId": 534352,
+      "address": "0x5300000000000000000000000000000000000004",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "WETH"
+      }
+    },
+    "listing_price": 1.17522
+  },
+  {
+    "base": {
+      "chainId": 534352,
+      "address": "0x5300000000000000000000000000000000000004",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "WETH"
+      }
+    },
+    "quote": {
+      "chainId": 534352,
+      "address": "0x3C1BCa5a656e69edCD0D4E36BEbb3FcDAcA60Cf1",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/WBTC/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "WBTC"
+      }
+    },
+    "listing_price": 0.04184
+  },
+  {
+    "base": {
+      "chainId": 534352,
+      "address": "0x7122985656e38bdc0302db86685bb972b145bd3c",
+      "name": "StakeStone ETH",
+      "symbol": "STONE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/33103/standard/200_200.png?1702602672"
+    },
+    "quote": {
+      "chainId": 534352,
+      "address": "0x5300000000000000000000000000000000000004",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "WETH"
+      }
+    },
+    "listing_price": 1.02457
+  },
+  {
+    "base": {
+      "chainId": 534352,
+      "address": "0xf55BEC9cafDbE8730f096Aa55dad6D22d44099Df",
+      "name": "Tether",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDT/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDT"
+      }
+    },
+    "quote": {
+      "chainId": 534352,
+      "address": "0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDC"
+      }
+    },
+    "listing_price": 1.00007,
+    "buy_tick": 10,
+    "sell_tick": 10
+  },
+  {
+    "base": {
+      "chainId": 534352,
+      "address": "0x3C1BCa5a656e69edCD0D4E36BEbb3FcDAcA60Cf1",
+      "name": "Wrapped BTC",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/WBTC/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "WBTC"
+      }
+    },
+    "quote": {
+      "chainId": 534352,
+      "address": "0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDC"
+      }
+    },
+    "listing_price": 61806.24
+  },
+  {
+    "base": {
+      "chainId": 534352,
+      "address": "0x01f0a31698C4d065659b9bdC21B3610292a1c506",
+      "name": "Wrapped eETH",
+      "symbol": "weETH",
+      "decimals": 18,
+      "logoURI": "https://ambient.finance/assets/WEETH-BaE4haRA.svg"
+    },
+    "quote": {
+      "chainId": 534352,
+      "address": "0x5300000000000000000000000000000000000004",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "WETH"
+      }
+    },
+    "listing_price": 1.04722
+  },
+  {
+    "base": {
+      "chainId": 534352,
+      "address": "0x5300000000000000000000000000000000000004",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "WETH"
+      }
+    },
+    "quote": {
+      "chainId": 534352,
+      "address": "0xcA77eB3fEFe3725Dc33bccB54eDEFc3D9f764f97",
+      "name": "Dai",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/DAI/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "DAI"
+      }
+    },
+    "listing_price": 2582.12
+  },
+  {
+    "base": {
+      "chainId": 534352,
+      "address": "0xa25b25548B4C98B0c7d3d27dcA5D5ca743d68b7F",
+      "name": "Wrapped Kelp DAO Restaked ETH",
+      "symbol": "wrsETH",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/37919/standard/rseth.png?1715936438",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "wrsETH"
+      }
+    },
+    "quote": {
+      "chainId": 534352,
+      "address": "0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDC"
+      }
+    },
+    "listing_price": 2637.69
+  },
+  {
+    "base": {
+      "chainId": 534352,
+      "address": "0xc4d46E8402F476F269c379677C99F18E22Ea030e",
+      "name": "Puffer Vault",
+      "symbol": "pufETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/PufETH/logo.svg",
+      "extensions": {
+        "scrollListId": "extended",
+        "scrollTokenId": "pufETH"
+      }
+    },
+    "quote": {
+      "chainId": 534352,
+      "address": "0x5300000000000000000000000000000000000004",
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "WETH"
+      }
+    },
+    "listing_price": 0.99475
+  },
+  {
+    "base": {
+      "chainId": 534352,
+      "address": "0x7122985656e38bdc0302db86685bb972b145bd3c",
+      "name": "StakeStone ETH",
+      "symbol": "STONE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/33103/standard/200_200.png?1702602672"
+    },
+    "quote": {
+      "chainId": 534352,
+      "address": "0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDC"
+      }
+    },
+    "listing_price": 2647.3
+  },
+  {
+    "base": {
+      "chainId": 534352,
+      "address": "0xcA77eB3fEFe3725Dc33bccB54eDEFc3D9f764f97",
+      "name": "Dai",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/DAI/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "DAI"
+      }
+    },
+    "quote": {
+      "chainId": 534352,
+      "address": "0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDC"
+      }
+    },
+    "listing_price": 0.99995,
+    "buy_tick": 10,
+    "sell_tick": 10
+  },
+  {
+    "base": {
+      "chainId": 534352,
+      "address": "0xf610A9dfB7C89644979b4A0f27063E9e7d7Cda32",
+      "name": "Wrapped stETH",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/wstETH/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "wstETH"
+      }
+    },
+    "quote": {
+      "chainId": 534352,
+      "address": "0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDC"
+      }
+    },
+    "listing_price": 3042.79
+  },
+  {
+    "base": {
+      "chainId": 534352,
+      "address": "0xf610A9dfB7C89644979b4A0f27063E9e7d7Cda32",
+      "name": "Wrapped stETH",
+      "symbol": "wstETH",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/wstETH/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "wstETH"
+      }
+    },
+    "quote": {
+      "chainId": 534352,
+      "address": "0x01f0a31698C4d065659b9bdC21B3610292a1c506",
+      "name": "Wrapped eETH",
+      "symbol": "weETH",
+      "decimals": 18,
+      "logoURI": "https://ambient.finance/assets/WEETH-BaE4haRA.svg"
+    },
+    "listing_price": 0.888
+  },
+  {
+    "base": {
+      "chainId": 534352,
+      "address": "0x01f0a31698C4d065659b9bdC21B3610292a1c506",
+      "name": "Wrapped eETH",
+      "symbol": "weETH",
+      "decimals": 18,
+      "logoURI": "https://ambient.finance/assets/WEETH-BaE4haRA.svg"
+    },
+    "quote": {
+      "chainId": 534352,
+      "address": "0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDC"
+      }
+    },
+    "listing_price": 2708.88
+  },
+  {
+    "base": {
+      "chainId": 534352,
+      "address": "0x7122985656e38bdc0302db86685bb972b145bd3c",
+      "name": "StakeStone ETH",
+      "symbol": "STONE",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/33103/standard/200_200.png?1702602672"
+    },
+    "quote": {
+      "chainId": 534352,
+      "address": "0x01f0a31698C4d065659b9bdC21B3610292a1c506",
+      "name": "Wrapped eETH",
+      "symbol": "weETH",
+      "decimals": 18,
+      "logoURI": "https://ambient.finance/assets/WEETH-BaE4haRA.svg"
+    },
+    "listing_price": 0.97818
+  },
+  {
+    "base": {
+      "chainId": 534352,
+      "address": "0xf55BEC9cafDbE8730f096Aa55dad6D22d44099Df",
+      "name": "Tether",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/USDT/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "USDT"
+      }
+    },
+    "quote": {
+      "chainId": 534352,
+      "address": "0xcA77eB3fEFe3725Dc33bccB54eDEFc3D9f764f97",
+      "name": "Dai",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://scroll-tech.github.io/token-list/data/DAI/logo.svg",
+      "extensions": {
+        "scrollListId": "default",
+        "scrollTokenId": "DAI"
+      }
+    },
+    "listing_price": 0.99934,
+    "buy_tick": 10,
+    "sell_tick": 10
+  }
+]

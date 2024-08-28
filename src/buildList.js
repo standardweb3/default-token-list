@@ -19,6 +19,7 @@ const morphHolesky = require("./tokens/morph_holesky.json");
 const metal = require("./tokens/metal.json");
 const fraxtal = require("./tokens/fraxtal.json");
 const mode = require("./tokens/mode.json");
+const scroll = require("./tokens/scroll.json");
 
 // pairs
 const basePairs = require("./pairs/base.json");
@@ -27,6 +28,7 @@ const morphHoleskyPairs = require("./pairs/morph_holesky.json");
 const modePairs = require("./pairs/mode.json");
 const metalPairs = require("./pairs/metal.json");
 const fraxtalPairs = require("./pairs/fraxtal.json");
+const scrollPairs = require("./pairs/scroll.json");
 
 const bridgeUtils = require("@uniswap/token-list-bridge-utils");
 
@@ -92,6 +94,18 @@ module.exports = function buildList() {
         decimals: 18,
         logoURI:
           "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1595348880",
+      },
+      Scroll: {
+        "chainId": 534352,
+        "address": "0x5300000000000000000000000000000000000004",
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18,
+        "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+        "extensions": {
+          "scrollListId": "default",
+          "scrollTokenId": "WETH"
+        }
       },
     },
     defaultPair: {
@@ -193,6 +207,32 @@ module.exports = function buildList() {
             "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1595348880",
         },
       },
+      Scroll: {
+        base: {
+          "chainId": 534352,
+          "address": "0x5300000000000000000000000000000000000004",
+          "name": "Ether",
+          "symbol": "ETH",
+          "decimals": 18,
+          "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+          "extensions": {
+            "scrollListId": "default",
+            "scrollTokenId": "WETH"
+          }
+        },
+        quote: {
+          "chainId": 534352,
+          "address": "0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4",
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "decimals": 6,
+          "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
+          "extensions": {
+            "scrollListId": "default",
+            "scrollTokenId": "USDC"
+          }
+        },
+      }
     },
     scannerLink: {
       Base: "https://basescan.org",
@@ -200,32 +240,37 @@ module.exports = function buildList() {
       "Morph Holesky": "https://explorer-holesky.morphl2.io/",
       Mode: "https://modescan.io/",
       Fraxtal: "https://fraxscan.com/",
-      Metal: "https://metalscan.io/",
+      Metal: "https://explorer.metall2.com/",
+      Scroll: "https://scrollscan.com/",
     },
     matchingEngine: {
       Base: {
-        address: "0xE0892785D00F192110A05282387fBAC21b942Aad",
-        startBlock: 18359658,
+        address: "0x97FaA5289DCB12ecE5f553D84A3eEb294914D221",
+        startBlock: 18894099,
       },
       Kroma: {
-        address: "0x41f21E381a70E404854D1f95788208BBc6A8Cd72",
-        startBlock: 14814243,
+        address: "0x353195Aa4A75069629B863012518E4c40a1198A5",
+        startBlock: 15349021,
       },
       "Morph Holesky": {
-        address: "0x2D25464C8C044b9Ab122076BE55E353fA1F9bd29",
-        startBlock: 6038844,
+        address: "0x1abC5dcEb0296601c9f800137b1bA5A60cBaB538",
+        startBlock: 7033411,
       },
       Mode: {
-        address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        address: "0x959245EA66ac26caF38B8Eb9d48418c6B7Aa621D",
         startBlock: 11698902,
       },
       Fraxtal: {
-        address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        address: "0x959245EA66ac26caF38B8Eb9d48418c6B7Aa621D",
         startBlock: 8354873,
       },
       Metal: {
+        address: "0x959245EA66ac26caF38B8Eb9d48418c6B7Aa621D",
+        startBlock: 6513267,
+      },
+      Scroll: {
         address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
-        startBlock: 5979301,
+        startBlock: 8734538,
       },
     },
     stndxp: {
@@ -264,8 +309,9 @@ module.exports = function buildList() {
       ...modePairs,
       ...fraxtalPairs,
       ...metalPairs,
+      ...scrollPairs
     ],
-    tokens: [...base, ...kroma, ...morphHolesky, ...mode, ...fraxtal, ...metal]
+    tokens: [...base, ...kroma, ...morphHolesky, ...mode, ...fraxtal, ...metal, ...scroll]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {
         if (t1.chainId === t2.chainId) {

@@ -1,6 +1,6 @@
 const { createWalletClient, http, parseUnits } = require("viem");
 const { privateKeyToAccount } = require("viem/accounts");
-const { base, kroma, morphHolesky } = require("viem/chains");
+const { base, kroma, morphHolesky, scroll} = require("viem/chains");
 //const { MatchingEngineABI } = require('./abis/matchingEngineAbi');
 const { ChainIds } = require("../const");
 const { MatchingEngineABI } = require("../abis/matchingEngineAbi");
@@ -64,16 +64,17 @@ async function main() {
   const account = privateKeyToAccount(process.env.ADMIN_PRIVATE_KEY);
   const walletClient = createWalletClient({
     account,
-    chain: kroma,
-    transport: http(process.env.KROMA_RPC),
+    chain: scroll,
+    transport: http(process.env.SCROLL_RPC),
   });
 
   const abi = MatchingEngineABI;
 
-  const pairs = await getPairs("Kroma");
+  const pairs = await getPairs("Scroll");
   // make contract call on each pair in the list
   const matchingEngine =
-    defaultTokenList.matchingEngine["Kroma"].address;
+    defaultTokenList.matchingEngine["Scroll"].address;
+
   for (const pair of pairs) {
     await addPair(pair, matchingEngine, walletClient, abi);
     await setSpread(pair, matchingEngine, walletClient, abi);

@@ -1,7 +1,7 @@
 const packageJson = require('../package.json');
 const schema = require('@standardweb3/market-lists/src/tokenlist.schema.json');
 const { expect } = require('chai');
-const { getAddress } = require('@ethersproject/address');
+const { getAddress } = require('viem');
 const Ajv = require('ajv');
 const buildList = require('../src/buildList');
 

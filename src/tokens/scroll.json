@@ -22,7 +22,7 @@
   },
   {
     "chainId": 534352,
-    "address": "0x7122985656e38bdc0302db86685bb972b145bd3c",
+    "address": "0x7122985656e38BDC0302Db86685bb972b145bD3C",
     "name": "StakeStone ETH",
     "symbol": "STONE",
     "decimals": 18,
@@ -30,7 +30,7 @@
   },
   {
     "chainId": 534352,
-    "address": "0x65421ba909200b81640d98b979d07487c9781b66",
+    "address": "0x65421ba909200b81640d98B979d07487C9781B66",
     "name": "KelpDao Restaked ETH",
     "symbol": "rsETH",
     "decimals": 18,

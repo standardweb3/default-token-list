@@ -164,7 +164,7 @@
   {
     "base": {
       "chainId": 534352,
-      "address": "0x7122985656e38bdc0302db86685bb972b145bd3c",
+      "address": "0x7122985656e38BDC0302Db86685bb972b145bD3C",
       "name": "StakeStone ETH",
       "symbol": "STONE",
       "decimals": 18,
@@ -347,7 +347,7 @@
   {
     "base": {
       "chainId": 534352,
-      "address": "0x7122985656e38bdc0302db86685bb972b145bd3c",
+      "address": "0x7122985656e38BDC0302Db86685bb972b145bD3C",
       "name": "StakeStone ETH",
       "symbol": "STONE",
       "decimals": 18,
@@ -472,7 +472,7 @@
   {
     "base": {
       "chainId": 534352,
-      "address": "0x7122985656e38bdc0302db86685bb972b145bd3c",
+      "address": "0x7122985656e38BDC0302Db86685bb972b145bD3C",
       "name": "StakeStone ETH",
       "symbol": "STONE",
       "decimals": 18,

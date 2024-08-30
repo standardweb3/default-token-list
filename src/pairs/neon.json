@@ -828,7 +828,7 @@
   {
     "base": {
       "chainId": 245022934,
-      "address": "0x7b9f9033afcf602b556a7aeac5871a52b56a06ee",
+      "address": "0x7b9f9033aFCF602B556a7aeAC5871a52b56a06ee",
       "symbol": "JSOL",
       "name": "JPool Staked SOL",
       "decimals": 9,
@@ -847,7 +847,7 @@
   {
     "base": {
       "chainId": 245022934,
-      "address": "0x7b9f9033afcf602b556a7aeac5871a52b56a06ee",
+      "address": "0x7b9f9033aFCF602B556a7aeAC5871a52b56a06ee",
       "symbol": "JSOL",
       "name": "JPool Staked SOL",
       "decimals": 9,
@@ -867,7 +867,7 @@
   {
     "base": {
       "chainId": 245022934,
-      "address": "0x7b9f9033afcf602b556a7aeac5871a52b56a06ee",
+      "address": "0x7b9f9033aFCF602B556a7aeAC5871a52b56a06ee",
       "symbol": "JSOL",
       "name": "JPool Staked SOL",
       "decimals": 9,
@@ -1123,7 +1123,7 @@
   {
     "base": {
       "chainId": 245022934,
-      "address": "0xb89c62e960457d1d2c5f20135bedfd215d2466de",
+      "address": "0xB89c62E960457D1d2c5f20135bEdfD215D2466DE",
       "symbol": "POPCAT",
       "name": "POPCAT",
       "decimals": 9,
@@ -1142,7 +1142,7 @@
   {
     "base": {
       "chainId": 245022934,
-      "address": "0xb89c62e960457d1d2c5f20135bedfd215d2466de",
+      "address": "0xB89c62E960457D1d2c5f20135bEdfD215D2466DE",
       "symbol": "POPCAT",
       "name": "POPCAT",
       "decimals": 9,
@@ -1162,7 +1162,7 @@
   {
     "base": {
       "chainId": 245022934,
-      "address": "0xb89c62e960457d1d2c5f20135bedfd215d2466de",
+      "address": "0xB89c62E960457D1d2c5f20135bEdfD215D2466DE",
       "symbol": "POPCAT",
       "name": "POPCAT",
       "decimals": 9,
@@ -1182,7 +1182,7 @@
   {
     "base": {
       "chainId": 245022934,
-      "address": "0x663572b924db12e0e3822c6160df29154630c8e3",
+      "address": "0x663572b924Db12E0e3822C6160Df29154630c8e3",
       "symbol": "WHALE",
       "name": "WHALEBERT",
       "decimals": 8,
@@ -1201,7 +1201,7 @@
   {
     "base": {
       "chainId": 245022934,
-      "address": "0x663572b924db12e0e3822c6160df29154630c8e3",
+      "address": "0x663572b924Db12E0e3822C6160Df29154630c8e3",
       "symbol": "WHALE",
       "name": "WHALEBERT",
       "decimals": 8,
@@ -1221,7 +1221,7 @@
   {
     "base": {
       "chainId": 245022934,
-      "address": "0x663572b924db12e0e3822c6160df29154630c8e3",
+      "address": "0x663572b924Db12E0e3822C6160Df29154630c8e3",
       "symbol": "WHALE",
       "name": "WHALEBERT",
       "decimals": 8,

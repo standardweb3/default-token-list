@@ -40,6 +40,10 @@ async function addPair(pair, matchingEngine, walletClient, abi) {
 }
 
 async function setSpread(pair, matchingEngine, walletClient, abi) {
+  if(pair.buy_tick === undefined && pair.sell_tick === undefined) {
+    console.log("Spread already set");
+    return;
+  }
   try {
     // Set up ticks for listed pair
     const result2 = await walletClient.writeContract({
@@ -64,16 +68,16 @@ async function main() {
   const account = privateKeyToAccount(process.env.ADMIN_PRIVATE_KEY);
   const walletClient = createWalletClient({
     account,
-    chain: neonMainnet,
-    transport: http(process.env.NEON_RPC),
+    chain: scroll,
+    transport: http(process.env.SCROLL_RPC),
   });
 
   const abi = MatchingEngineABI;
 
-  const pairs = await getPairs("Neon EVM MainNet");
+  const pairs = await getPairs("Scroll");
   // make contract call on each pair in the list
   const matchingEngine =
-    defaultTokenList.matchingEngine["Neon EVM MainNet"].address;
+    defaultTokenList.matchingEngine["Scroll"].address;
 
   for (const pair of pairs) {
     await addPair(pair, matchingEngine, walletClient, abi);

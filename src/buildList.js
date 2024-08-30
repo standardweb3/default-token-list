@@ -301,8 +301,8 @@ module.exports = function buildList() {
         startBlock: 6513267,
       },
       Scroll: {
-        address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
-        startBlock: 8734538,
+        address: "0x3828a06c0D78e33e77d4B8B1c9B16c1214C3071B",
+        startBlock: 8849622,
       },
       "Neon EVM MainNet": {
         address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",

@@ -154,7 +154,7 @@
   {
     "chainId": 245022934,
     "address_spl": "7Q2afV64in6N6SeZsAAB81TJzwDoD6zpqmHkzi9Dcavn",
-    "address": "0x7b9f9033afcf602b556a7aeac5871a52b56a06ee",
+    "address": "0x7b9f9033aFCF602B556a7aeAC5871a52b56a06ee",
     "decimals": 9,
     "name": "JPool Staked SOL",
     "symbol": "JSOL",
@@ -199,7 +199,7 @@
   {
     "chainId": 245022934,
     "address_spl": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
-    "address": "0xb89c62e960457d1d2c5f20135bedfd215d2466de",
+    "address": "0xB89c62E960457D1d2c5f20135bEdfD215D2466DE",
     "decimals": 9,
     "name": "POPCAT",
     "symbol": "POPCAT",
@@ -208,7 +208,7 @@
   {
     "chainId": 245022934,
     "address_spl": "9uhHjyfc5tKdaZnjstLLKoLGcF889ub8zX9wtwhtzgK6",
-    "address": "0x663572b924db12e0e3822c6160df29154630c8e3",
+    "address": "0x663572b924Db12E0e3822C6160Df29154630c8e3",
     "decimals": 8,
     "name": "WHALEBERT",
     "symbol": "WHALE",

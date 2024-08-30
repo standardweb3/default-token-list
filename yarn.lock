@@ -435,10 +435,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@standardweb3/market-lists@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@standardweb3/market-lists/-/market-lists-0.0.2.tgz#6e9e47e81a9a257ce876399a45b51e5752c1fab8"
-  integrity sha512-phinTzWrDhIrZM5hdRNbNUj1iQZHz0ONszRxA446ltK5sOiANQSZTmcg4UDs8z9gaFjKrvfzFVQKBh7LaIiBlg==
+"@standardweb3/market-lists@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@standardweb3/market-lists/-/market-lists-0.0.4.tgz#14cce0787ea8d169610bd7b316c46428a994f8dc"
+  integrity sha512-nEXQhN0nRZWPOjgr5NkD8Qw2UxjZaW5msuBvCeQfKwfDa3QrLjMYXLiDsYECi0S9kaXmUPyAvn6jXPds5fTESA==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"

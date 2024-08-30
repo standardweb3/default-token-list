@@ -6,7 +6,7 @@
       "name": "Ether",
       "symbol": "ETH",
       "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "WETH"
@@ -33,7 +33,7 @@
       "name": "Ether",
       "symbol": "ETH",
       "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "WETH"
@@ -60,7 +60,7 @@
       "name": "Ether",
       "symbol": "ETH",
       "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "WETH"
@@ -99,7 +99,7 @@
       "name": "Ether",
       "symbol": "ETH",
       "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "WETH"
@@ -126,7 +126,7 @@
       "name": "Ether",
       "symbol": "ETH",
       "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "WETH"
@@ -141,7 +141,7 @@
       "name": "Ether",
       "symbol": "ETH",
       "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "WETH"
@@ -164,7 +164,7 @@
   {
     "base": {
       "chainId": 534352,
-      "address": "0x7122985656e38BDC0302Db86685bb972b145bD3C",
+      "address": "0x80137510979822322193FC997d400D5A6C747bf7",
       "name": "StakeStone ETH",
       "symbol": "STONE",
       "decimals": 18,
@@ -176,7 +176,7 @@
       "name": "Ether",
       "symbol": "ETH",
       "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "WETH"
@@ -255,7 +255,7 @@
       "name": "Ether",
       "symbol": "ETH",
       "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "WETH"
@@ -270,7 +270,7 @@
       "name": "Ether",
       "symbol": "ETH",
       "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "WETH"
@@ -336,7 +336,7 @@
       "name": "Ether",
       "symbol": "ETH",
       "decimals": 18,
-      "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
+      "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
       "extensions": {
         "scrollListId": "default",
         "scrollTokenId": "WETH"
@@ -347,7 +347,7 @@
   {
     "base": {
       "chainId": 534352,
-      "address": "0x7122985656e38BDC0302Db86685bb972b145bD3C",
+      "address": "0x80137510979822322193FC997d400D5A6C747bf7",
       "name": "StakeStone ETH",
       "symbol": "STONE",
       "decimals": 18,
@@ -472,7 +472,7 @@
   {
     "base": {
       "chainId": 534352,
-      "address": "0x7122985656e38BDC0302Db86685bb972b145bD3C",
+      "address": "0x80137510979822322193FC997d400D5A6C747bf7",
       "name": "StakeStone ETH",
       "symbol": "STONE",
       "decimals": 18,

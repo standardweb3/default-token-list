@@ -1,0 +1,1241 @@
+[
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x5f38248f339Bf4e84A2caf4e4c0552862dC9F82a",
+      "symbol": "wSOL",
+      "name": "Wrapped SOL",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/solana-wsol-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 396.11158072
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x5f38248f339Bf4e84A2caf4e4c0552862dC9F82a",
+      "symbol": "wSOL",
+      "name": "Wrapped SOL",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/solana-wsol-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 140.58
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x5f38248f339Bf4e84A2caf4e4c0552862dC9F82a",
+      "symbol": "wSOL",
+      "name": "Wrapped SOL",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/solana-wsol-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 140.58
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0xcFFd84d468220c11be64dc9dF64eaFE02AF60e8A",
+      "symbol": "WETH",
+      "name": "Wrapped Ether (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wormhole-weth-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 7115.44096928
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0xcFFd84d468220c11be64dc9dF64eaFE02AF60e8A",
+      "symbol": "WETH",
+      "name": "Wrapped Ether (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wormhole-weth-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 2525.21
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0xcFFd84d468220c11be64dc9dF64eaFE02AF60e8A",
+      "symbol": "WETH",
+      "name": "Wrapped Ether (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wormhole-weth-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 2525.21
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x54EcEC9D995A6CbFF3838F6a8F38099E518805d7",
+      "symbol": "BTC",
+      "name": "Wrapped Bitcoin (Sollet)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/sollet-wbtc-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 166873.31642716
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x54EcEC9D995A6CbFF3838F6a8F38099E518805d7",
+      "symbol": "BTC",
+      "name": "Wrapped Bitcoin (Sollet)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/sollet-wbtc-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 59223.34
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x54EcEC9D995A6CbFF3838F6a8F38099E518805d7",
+      "symbol": "BTC",
+      "name": "Wrapped Bitcoin (Sollet)",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/sollet-wbtc-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 59223.34
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x14CCfFC97aC156A7f1E3183adAa8E7CC888AD162",
+      "symbol": "LST",
+      "name": "Liquid Staking Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/liquid-staking-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 527.24711186
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x14CCfFC97aC156A7f1E3183adAa8E7CC888AD162",
+      "symbol": "LST",
+      "name": "Liquid Staking Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/liquid-staking-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 187.12
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x14CCfFC97aC156A7f1E3183adAa8E7CC888AD162",
+      "symbol": "LST",
+      "name": "Liquid Staking Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/liquid-staking-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 187.12
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0xFA8fB7e3bd299B2A9693B1BFDCf5DD13Ab57007E",
+      "symbol": "JitoSOL",
+      "name": "Jito Staked SOL",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/jitosol-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 448.71794871
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0xFA8fB7e3bd299B2A9693B1BFDCf5DD13Ab57007E",
+      "symbol": "JitoSOL",
+      "name": "Jito Staked SOL",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/jitosol-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 159.25
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0xFA8fB7e3bd299B2A9693B1BFDCf5DD13Ab57007E",
+      "symbol": "JitoSOL",
+      "name": "Jito Staked SOL",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/jitosol-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 159.25
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x6EFFb385713f22df4846d8156451a5efEC22a4c8",
+      "symbol": "mSOL",
+      "name": "Marinade staked SOL (mSOL)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/marinade-staked-sol-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 479.6844181
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x6EFFb385713f22df4846d8156451a5efEC22a4c8",
+      "symbol": "mSOL",
+      "name": "Marinade staked SOL (mSOL)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/marinade-staked-sol-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 170.24
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x6EFFb385713f22df4846d8156451a5efEC22a4c8",
+      "symbol": "mSOL",
+      "name": "Marinade staked SOL (mSOL)",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/marinade-staked-sol-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 170.24
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0xD4B6520f7Fb78E1EE75639F3376c581a71bcdb0E",
+      "symbol": "Bonk",
+      "name": "Bonk",
+      "decimals": 5,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/bonk-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 0.00005097
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0xD4B6520f7Fb78E1EE75639F3376c581a71bcdb0E",
+      "symbol": "Bonk",
+      "name": "Bonk",
+      "decimals": 5,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/bonk-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 0.00001809
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0xD4B6520f7Fb78E1EE75639F3376c581a71bcdb0E",
+      "symbol": "Bonk",
+      "name": "Bonk",
+      "decimals": 5,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/bonk-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 0.00001809
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x26320e7ffd9be68ca61c1C75b3Be4aAb0AA98E1f",
+      "symbol": "MELL",
+      "name": "Mellivora",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/Mellivora-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 0.01292476
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x26320e7ffd9be68ca61c1C75b3Be4aAb0AA98E1f",
+      "symbol": "MELL",
+      "name": "Mellivora",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/Mellivora-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 0.004587
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x26320e7ffd9be68ca61c1C75b3Be4aAb0AA98E1f",
+      "symbol": "MELL",
+      "name": "Mellivora",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/Mellivora-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 0.004587
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x6d12eAA69f8e4902D3F83d546B31F7318717014C",
+      "symbol": "MNGO",
+      "name": "Mango",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/mango-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 0.04198365
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x6d12eAA69f8e4902D3F83d546B31F7318717014C",
+      "symbol": "MNGO",
+      "name": "Mango",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/mango-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 0.0149
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x6d12eAA69f8e4902D3F83d546B31F7318717014C",
+      "symbol": "MNGO",
+      "name": "Mango",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/mango-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 0.0149
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x96e636d3Ef60ee9745945120010c73619144632C",
+      "symbol": "2080",
+      "name": "2080",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/fidelion-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 0.01269935
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x96e636d3Ef60ee9745945120010c73619144632C",
+      "symbol": "2080",
+      "name": "2080",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/fidelion-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 0.004507
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x96e636d3Ef60ee9745945120010c73619144632C",
+      "symbol": "2080",
+      "name": "2080",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/fidelion-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 0.004507
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x0575dD4AFD93B7522fEE4e0179f243ecA3856137",
+      "symbol": "PYTH",
+      "name": "Pyth Network",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/pyth-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 0.78444632
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x0575dD4AFD93B7522fEE4e0179f243ecA3856137",
+      "symbol": "PYTH",
+      "name": "Pyth Network",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/pyth-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 0.2784
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x0575dD4AFD93B7522fEE4e0179f243ecA3856137",
+      "symbol": "PYTH",
+      "name": "Pyth Network",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/pyth-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 0.2784
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x16a3Fe59080D6944A42B441E44450432C1445372",
+      "symbol": "WBTC",
+      "name": "Wrapped BTC (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-btc-wormhole-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 165922.79515356
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x16a3Fe59080D6944A42B441E44450432C1445372",
+      "symbol": "WBTC",
+      "name": "Wrapped BTC (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-btc-wormhole-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 58886
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x16a3Fe59080D6944A42B441E44450432C1445372",
+      "symbol": "WBTC",
+      "name": "Wrapped BTC (Wormhole)",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-btc-wormhole-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 58886
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x799dBaC6fE5738efeB4716433Eea7838Dd1A1F6c",
+      "symbol": "JTO",
+      "name": "JITO",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/jito-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 6.64976049
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x799dBaC6fE5738efeB4716433Eea7838Dd1A1F6c",
+      "symbol": "JTO",
+      "name": "JITO",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/jito-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 2.36
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x799dBaC6fE5738efeB4716433Eea7838Dd1A1F6c",
+      "symbol": "JTO",
+      "name": "JITO",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/jito-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 2.36
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x09F8A075D6fca984EA0bAda25A64326DF00691A4",
+      "symbol": "BLZE",
+      "name": "Blaze",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/blaze-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 0.00102817
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x09F8A075D6fca984EA0bAda25A64326DF00691A4",
+      "symbol": "BLZE",
+      "name": "Blaze",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/blaze-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 0.0003649
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x09F8A075D6fca984EA0bAda25A64326DF00691A4",
+      "symbol": "BLZE",
+      "name": "Blaze",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/blaze-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 0.0003649
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x7b9f9033afcf602b556a7aeac5871a52b56a06ee",
+      "symbol": "JSOL",
+      "name": "JPool Staked SOL",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/jsol-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 478.2473936
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x7b9f9033afcf602b556a7aeac5871a52b56a06ee",
+      "symbol": "JSOL",
+      "name": "JPool Staked SOL",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/jsol-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 169.73
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x7b9f9033afcf602b556a7aeac5871a52b56a06ee",
+      "symbol": "JSOL",
+      "name": "JPool Staked SOL",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/jsol-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 169.73
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x9950ef047D87599EB28bF5E9Fc7F63cEd1b5F4AE",
+      "symbol": "CGT",
+      "name": "Curio Governance Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/cgt-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 0.030769230
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x9950ef047D87599EB28bF5E9Fc7F63cEd1b5F4AE",
+      "symbol": "CGT",
+      "name": "Curio Governance Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/cgt-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 0.01092
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x9950ef047D87599EB28bF5E9Fc7F63cEd1b5F4AE",
+      "symbol": "CGT",
+      "name": "Curio Governance Token",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/cgt-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 0.01092
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x9F0fCE2AB962984b1EE50108A8510eA190BeEb8d",
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/jupiter-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 2.19273034
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x9F0fCE2AB962984b1EE50108A8510eA190BeEb8d",
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/jupiter-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 0.7782
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x9F0fCE2AB962984b1EE50108A8510eA190BeEb8d",
+      "symbol": "JUP",
+      "name": "Jupiter",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/jupiter-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 0.7782
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0xF86934c2b05c31f3bBE3BCd6E3a8aA7790cAd9c1",
+      "symbol": "$WIF",
+      "name": "dogwifhat",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/dogwifhat-logo.png"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 4.36742744
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0xF86934c2b05c31f3bBE3BCd6E3a8aA7790cAd9c1",
+      "symbol": "$WIF",
+      "name": "dogwifhat",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/dogwifhat-logo.png"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 1.55
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0xF86934c2b05c31f3bBE3BCd6E3a8aA7790cAd9c1",
+      "symbol": "$WIF",
+      "name": "dogwifhat",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/dogwifhat-logo.png"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 1.55
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0xc61e8aB62666D25F0854C5723587507A7E92E289",
+      "symbol": "WEN",
+      "name": "Wen",
+      "decimals": 5,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wen-logo.png"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 0.00025474
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0xc61e8aB62666D25F0854C5723587507A7E92E289",
+      "symbol": "WEN",
+      "name": "Wen",
+      "decimals": 5,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wen-logo.png"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 0.00009041
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0xc61e8aB62666D25F0854C5723587507A7E92E289",
+      "symbol": "WEN",
+      "name": "Wen",
+      "decimals": 5,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wen-logo.png"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 0.00009041
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0xb89c62e960457d1d2c5f20135bedfd215d2466de",
+      "symbol": "POPCAT",
+      "name": "POPCAT",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/popcat-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 1.83770076
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0xb89c62e960457d1d2c5f20135bedfd215d2466de",
+      "symbol": "POPCAT",
+      "name": "POPCAT",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/popcat-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 0.6522
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0xb89c62e960457d1d2c5f20135bedfd215d2466de",
+      "symbol": "POPCAT",
+      "name": "POPCAT",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/popcat-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 0.6522
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x663572b924db12e0e3822c6160df29154630c8e3",
+      "symbol": "WHALE",
+      "name": "WHALEBERT",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/whale-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+      "decimals": 18,
+      "name": "Neon",
+      "symbol": "NEON",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+    },
+    "listing_price": 0.00005804
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x663572b924db12e0e3822c6160df29154630c8e3",
+      "symbol": "WHALE",
+      "name": "WHALEBERT",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/whale-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "address": "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+      "decimals": 6,
+      "name": "USDC",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg"
+    },
+    "listing_price": 0.0000206
+  },
+  {
+    "base": {
+      "chainId": 245022934,
+      "address": "0x663572b924db12e0e3822c6160df29154630c8e3",
+      "symbol": "WHALE",
+      "name": "WHALEBERT",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/whale-token-logo.svg"
+    },
+    "quote": {
+      "chainId": 245022934,
+      "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+    },
+    "listing_price": 0.0000206
+  }
+]

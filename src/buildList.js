@@ -20,6 +20,7 @@ const metal = require("./tokens/metal.json");
 const fraxtal = require("./tokens/fraxtal.json");
 const mode = require("./tokens/mode.json");
 const scroll = require("./tokens/scroll.json");
+const neon = require("./tokens/neon.json");
 
 // pairs
 const basePairs = require("./pairs/base.json");
@@ -29,6 +30,7 @@ const modePairs = require("./pairs/mode.json");
 const metalPairs = require("./pairs/metal.json");
 const fraxtalPairs = require("./pairs/fraxtal.json");
 const scrollPairs = require("./pairs/scroll.json");
+const neonPairs = require("./pairs/neon.json");
 
 const bridgeUtils = require("@uniswap/token-list-bridge-utils");
 
@@ -96,16 +98,24 @@ module.exports = function buildList() {
           "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1595348880",
       },
       Scroll: {
-        "chainId": 534352,
-        "address": "0x5300000000000000000000000000000000000004",
-        "name": "Ether",
-        "symbol": "ETH",
+        chainId: 534352,
+        address: "0x5300000000000000000000000000000000000004",
+        name: "Ether",
+        symbol: "ETH",
+        decimals: 18,
+        logoURI: "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+        extensions: {
+          scrollListId: "default",
+          scrollTokenId: "WETH",
+        },
+      },
+      "Neon EVM MainNet": {
+        "chainId": 245022934,
+        "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
         "decimals": 18,
-        "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
-        "extensions": {
-          "scrollListId": "default",
-          "scrollTokenId": "WETH"
-        }
+        "name": "Neon",
+        "symbol": "NEON",
+        "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
       },
     },
     defaultPair: {
@@ -209,29 +219,50 @@ module.exports = function buildList() {
       },
       Scroll: {
         base: {
-          "chainId": 534352,
-          "address": "0x5300000000000000000000000000000000000004",
-          "name": "Ether",
-          "symbol": "ETH",
-          "decimals": 18,
-          "logoURI": "https://scroll-tech.github.io/token-list/data/WETH/logo.png",
-          "extensions": {
-            "scrollListId": "default",
-            "scrollTokenId": "WETH"
-          }
+          chainId: 534352,
+          address: "0x5300000000000000000000000000000000000004",
+          name: "Ether",
+          symbol: "ETH",
+          decimals: 18,
+          logoURI:
+            "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+          extensions: {
+            scrollListId: "default",
+            scrollTokenId: "WETH",
+          },
         },
         quote: {
-          "chainId": 534352,
-          "address": "0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4",
-          "name": "USD Coin",
-          "symbol": "USDC",
-          "decimals": 6,
-          "logoURI": "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
-          "extensions": {
-            "scrollListId": "default",
-            "scrollTokenId": "USDC"
-          }
+          chainId: 534352,
+          address: "0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4",
+          name: "USD Coin",
+          symbol: "USDC",
+          decimals: 6,
+          logoURI:
+            "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
+          extensions: {
+            scrollListId: "default",
+            scrollTokenId: "USDC",
+          },
         },
+      },
+      "Neon EVM MainNet": {
+        base: {
+          "chainId": 245022934,
+          "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
+          "decimals": 18,
+          "name": "Neon",
+          "symbol": "NEON",
+          "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+        },
+        quote: {
+          "chainId": 245022934,
+          "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+          "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+          "decimals": 6,
+          "name": "USDT",
+          "symbol": "USDT",
+          "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
+        }
       }
     },
     scannerLink: {
@@ -242,6 +273,7 @@ module.exports = function buildList() {
       Fraxtal: "https://fraxscan.com/",
       Metal: "https://explorer.metall2.com/",
       Scroll: "https://scrollscan.com/",
+      "Neon EVM MainNet": "https://neonscan.org"
     },
     matchingEngine: {
       Base: {
@@ -272,6 +304,10 @@ module.exports = function buildList() {
         address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
         startBlock: 8734538,
       },
+      "Neon EVM MainNet": {
+        address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        startBlock: 286654632,
+      }
     },
     stndxp: {
       Base: {
@@ -298,6 +334,14 @@ module.exports = function buildList() {
         address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
         startBlock: 5389919,
       },
+      Scroll: {
+        address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
+        startBlock: 5389919,
+      },
+      "Neon EVM MainNet": {
+        address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
+        startBlock: 5389919,
+      },
     },
     tags: {},
     logoURI: "https://avatars.githubusercontent.com/u/73440097?s=200&v=4",
@@ -309,9 +353,19 @@ module.exports = function buildList() {
       ...modePairs,
       ...fraxtalPairs,
       ...metalPairs,
-      ...scrollPairs
+      ...scrollPairs,
+      ...neonPairs,
     ],
-    tokens: [...base, ...kroma, ...morphHolesky, ...mode, ...fraxtal, ...metal, ...scroll]
+    tokens: [
+      ...base,
+      ...kroma,
+      ...morphHolesky,
+      ...mode,
+      ...fraxtal,
+      ...metal,
+      ...scroll,
+      ...neon,
+    ]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {
         if (t1.chainId === t2.chainId) {

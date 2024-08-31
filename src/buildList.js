@@ -1,19 +1,5 @@
 const { version } = require("../package.json");
-const mainnet = require("./tokens/mainnet.json");
-const ropsten = require("./tokens/ropsten.json");
-const rinkeby = require("./tokens/rinkeby.json");
-const goerli = require("./tokens/goerli.json");
-const kovan = require("./tokens/kovan.json");
-const polygon = require("./tokens/polygon.json");
-const mumbai = require("./tokens/mumbai.json");
-const optimism = require("./tokens/optimism.json");
-const celo = require("./tokens/celo.json");
-const arbitrum = require("./tokens/arbitrum.json");
-const bnb = require("./tokens/bnb.json");
-const sepolia = require("./tokens/sepolia.json");
-const avalanche = require("./tokens/avalanche.json");
 const base = require("./tokens/base.json");
-const blast = require("./tokens/blast.json");
 const kroma = require("./tokens/kroma.json");
 const morphHolesky = require("./tokens/morph_holesky.json");
 const metal = require("./tokens/metal.json");
@@ -21,6 +7,7 @@ const fraxtal = require("./tokens/fraxtal.json");
 const mode = require("./tokens/mode.json");
 const scroll = require("./tokens/scroll.json");
 const neon = require("./tokens/neon.json");
+const taiko = require("./tokens/taiko.json");
 
 // pairs
 const basePairs = require("./pairs/base.json");
@@ -31,6 +18,7 @@ const metalPairs = require("./pairs/metal.json");
 const fraxtalPairs = require("./pairs/fraxtal.json");
 const scrollPairs = require("./pairs/scroll.json");
 const neonPairs = require("./pairs/neon.json");
+const taikoPairs = require("./pairs/taiko.json");
 
 const bridgeUtils = require("@uniswap/token-list-bridge-utils");
 
@@ -103,19 +91,30 @@ module.exports = function buildList() {
         name: "Ether",
         symbol: "ETH",
         decimals: 18,
-        logoURI: "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+        logoURI:
+          "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
         extensions: {
           scrollListId: "default",
           scrollTokenId: "WETH",
         },
       },
       "Neon EVM MainNet": {
-        "chainId": 245022934,
-        "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
-        "decimals": 18,
-        "name": "Neon",
-        "symbol": "NEON",
-        "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+        chainId: 245022934,
+        address: "0x202C35e517Fa803B537565c40F0a6965D7204609",
+        decimals: 18,
+        name: "Neon",
+        symbol: "NEON",
+        logoURI:
+          "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg",
+      },
+      "Taiko Mainnet": {
+        name: "Ether",
+        address: "0xA51894664A773981C6C112C43ce576f315d5b1B6",
+        symbol: "ETH",
+        decimals: 18,
+        chainId: 167000,
+        logoURI:
+          "https://assets.coingecko.com/coins/images/279/standard/ethereum.png?1696501628",
       },
     },
     defaultPair: {
@@ -247,33 +246,56 @@ module.exports = function buildList() {
       },
       "Neon EVM MainNet": {
         base: {
-          "chainId": 245022934,
-          "address": "0x202C35e517Fa803B537565c40F0a6965D7204609",
-          "decimals": 18,
-          "name": "Neon",
-          "symbol": "NEON",
-          "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg"
+          chainId: 245022934,
+          address: "0x202C35e517Fa803B537565c40F0a6965D7204609",
+          decimals: 18,
+          name: "Neon",
+          symbol: "NEON",
+          logoURI:
+            "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/wrapped-neon-logo.svg",
         },
         quote: {
-          "chainId": 245022934,
-          "address_spl": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
-          "address": "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
-          "decimals": 6,
-          "name": "USDT",
-          "symbol": "USDT",
-          "logoURI": "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg"
-        }
-      }
+          chainId: 245022934,
+          address_spl: "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+          address: "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+          decimals: 6,
+          name: "USDT",
+          symbol: "USDT",
+          logoURI:
+            "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg",
+        },
+      },
+      "Taiko Mainnet": {
+        base: {
+          name: "Ether",
+          address: "0xA51894664A773981C6C112C43ce576f315d5b1B6",
+          symbol: "ETH",
+          decimals: 18,
+          chainId: 167000,
+          logoURI:
+            "https://assets.coingecko.com/coins/images/279/standard/ethereum.png?1696501628",
+        },
+        quote: {
+          chainId: 167000,
+          address: "0x7d02A3E0180451B17e5D7f29eF78d06F8117106C",
+          symbol: "DAI",
+          name: "Dai Stablecoin",
+          decimals: 18,
+          logoURI:
+            "https://assets.coingecko.com/coins/images/9956/standard/Badge_Dai.png?1696509996",
+        },
+      },
     },
     scannerLink: {
-      Base: "https://basescan.org",
-      Kroma: "https://kromascan.com",
+      Base: "https://basescan.org/",
+      Kroma: "https://kromascan.com/",
       "Morph Holesky": "https://explorer-holesky.morphl2.io/",
       Mode: "https://modescan.io/",
       Fraxtal: "https://fraxscan.com/",
       Metal: "https://explorer.metall2.com/",
       Scroll: "https://scrollscan.com/",
-      "Neon EVM MainNet": "https://neonscan.org"
+      "Neon EVM MainNet": "https://neonscan.org/",
+      "Taiko Mainnet": "https://taikoscan.io/",
     },
     matchingEngine: {
       Base: {
@@ -307,7 +329,11 @@ module.exports = function buildList() {
       "Neon EVM MainNet": {
         address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
         startBlock: 286654632,
-      }
+      },
+      "Taiko Mainnet": {
+        address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        startBlock: 342912,
+      },
     },
     stndxp: {
       Base: {
@@ -342,6 +368,10 @@ module.exports = function buildList() {
         address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
         startBlock: 5389919,
       },
+      "Taiko Mainnet": {
+        address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
+        startBlock: 5389919,
+      },
     },
     tags: {},
     logoURI: "https://avatars.githubusercontent.com/u/73440097?s=200&v=4",
@@ -355,6 +385,7 @@ module.exports = function buildList() {
       ...metalPairs,
       ...scrollPairs,
       ...neonPairs,
+      ...taikoPairs,
     ],
     tokens: [
       ...base,
@@ -365,6 +396,7 @@ module.exports = function buildList() {
       ...metal,
       ...scroll,
       ...neon,
+      ...taiko,
     ]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {

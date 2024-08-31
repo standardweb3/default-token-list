@@ -20,6 +20,7 @@ const ChainIds = {
     "Kroma": 255,
     "Morph Holesky": 2810,
     "Scroll": 534352,
+    "Taiko Mainnet": 167000
 };
 
 module.exports = { ChainIds }

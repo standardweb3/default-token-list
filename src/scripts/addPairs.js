@@ -1,6 +1,6 @@
 const { createWalletClient, http, parseUnits } = require("viem");
 const { privateKeyToAccount } = require("viem/accounts");
-const { base, kroma, morphHolesky, scroll, neonMainnet} = require("viem/chains");
+const { base, kroma, morphHolesky, scroll, neonMainnet, taiko} = require("viem/chains");
 //const { MatchingEngineABI } = require('./abis/matchingEngineAbi');
 const { ChainIds } = require("../const");
 const { MatchingEngineABI } = require("../abis/matchingEngineAbi");
@@ -68,16 +68,18 @@ async function main() {
   const account = privateKeyToAccount(process.env.ADMIN_PRIVATE_KEY);
   const walletClient = createWalletClient({
     account,
-    chain: scroll,
-    transport: http(process.env.SCROLL_RPC),
+    chain: taiko,
+    transport: http(process.env.TAIKO_RPC),
   });
 
   const abi = MatchingEngineABI;
 
-  const pairs = await getPairs("Scroll");
+  const pairs = await getPairs("Taiko Mainnet");
+
+  console.log("Pairs to add:", pairs.length);
   // make contract call on each pair in the list
   const matchingEngine =
-    defaultTokenList.matchingEngine["Scroll"].address;
+    defaultTokenList.matchingEngine["Taiko Mainnet"].address;
 
   for (const pair of pairs) {
     await addPair(pair, matchingEngine, walletClient, abi);

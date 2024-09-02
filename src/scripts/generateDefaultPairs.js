@@ -1,5 +1,5 @@
 // replace path with path to desired network tokenlist
-const tokenlist = require("../tokens/taiko.json");
+const tokenlist = require("../tokens/story_iliad.json");
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -28,7 +28,7 @@ async function getCoinPrice(coinId) {
 async function adddefaultPairs() {
   const stablecoin2 = tokenlist.find((token) => token.symbol === "USDT");
   const stablecoin = tokenlist.find((token) => token.symbol === "USDC");
-  const eth = tokenlist.find((token) => token.symbol === "ETH");
+  const eth = tokenlist.find((token) => token.symbol === "IP");
 
   const remainingTokens = tokenlist.filter(
     (token) =>

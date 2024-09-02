@@ -1,0 +1,135 @@
+[
+  {
+    "base": {
+      "chainId": 1513,
+      "address": "0x6e990040Fd9b06F98eFb62A147201696941680b5",
+      "name": "IP",
+      "symbol": "IP",
+      "decimals": 18,
+      "logoURI": "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png"
+    },
+    "quote": {
+      "chainId": 1513,
+      "address": "0x700722D24f9256Be288f56449E8AB1D27C4a70ca",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+    },
+    "listing_price": 10
+  },
+  {
+    "base": {
+      "chainId": 1513,
+      "address": "0x153B112138C6dE2CAD16D66B4B6448B7b88CAEF3",
+      "symbol": "WBTC",
+      "name": "Wrapped Bitcoin",
+      "decimals": 8,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/3717.png"
+    },
+    "quote": {
+      "chainId": 1513,
+      "address": "0x6e990040Fd9b06F98eFb62A147201696941680b5",
+      "name": "IP",
+      "symbol": "IP",
+      "decimals": 18,
+      "logoURI": "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png"
+    },
+    "listing_price": 0.00017125
+  },
+  {
+    "base": {
+      "chainId": 1513,
+      "address": "0x153B112138C6dE2CAD16D66B4B6448B7b88CAEF3",
+      "symbol": "WBTC",
+      "name": "Wrapped Bitcoin",
+      "decimals": 8,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/3717.png"
+    },
+    "quote": {
+      "chainId": 1513,
+      "address": "0x700722D24f9256Be288f56449E8AB1D27C4a70ca",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+    },
+    "listing_price": 58388.62
+  },
+  {
+    "base": {
+      "chainId": 1513,
+      "address": "0x153B112138C6dE2CAD16D66B4B6448B7b88CAEF3",
+      "symbol": "WBTC",
+      "name": "Wrapped Bitcoin",
+      "decimals": 8,
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/3717.png"
+    },
+    "quote": {
+      "chainId": 1513,
+      "address": "0x8812d810EA7CC4e1c3FB45cef19D6a7ECBf2D85D",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png"
+    },
+    "listing_price": 58388.62
+  },
+  {
+    "base": {
+      "chainId": 1513,
+      "address": "0x968B9a5603ddEb2A78Aa08182BC44Ece1D9E5bf0",
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png"
+    },
+    "quote": {
+      "chainId": 1513,
+      "address": "0x6e990040Fd9b06F98eFb62A147201696941680b5",
+      "name": "IP",
+      "symbol": "IP",
+      "decimals": 18,
+      "logoURI": "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png"
+    },
+    "listing_price": 252.416
+  },
+  {
+    "base": {
+      "chainId": 1513,
+      "address": "0x968B9a5603ddEb2A78Aa08182BC44Ece1D9E5bf0",
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png"
+    },
+    "quote": {
+      "chainId": 1513,
+      "address": "0x700722D24f9256Be288f56449E8AB1D27C4a70ca",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+    },
+    "listing_price": 2524.16
+  },
+  {
+    "base": {
+      "chainId": 1513,
+      "address": "0x968B9a5603ddEb2A78Aa08182BC44Ece1D9E5bf0",
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/WETH/logo.png"
+    },
+    "quote": {
+      "chainId": 1513,
+      "address": "0x8812d810EA7CC4e1c3FB45cef19D6a7ECBf2D85D",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png"
+    },
+    "listing_price": 2524.16
+  }
+]

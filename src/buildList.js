@@ -8,6 +8,7 @@ const mode = require("./tokens/mode.json");
 const scroll = require("./tokens/scroll.json");
 const neon = require("./tokens/neon.json");
 const taiko = require("./tokens/taiko.json");
+const storyIliad = require("./tokens/story_iliad.json");
 
 // pairs
 const basePairs = require("./pairs/base.json");
@@ -19,6 +20,7 @@ const fraxtalPairs = require("./pairs/fraxtal.json");
 const scrollPairs = require("./pairs/scroll.json");
 const neonPairs = require("./pairs/neon.json");
 const taikoPairs = require("./pairs/taiko.json");
+const storyIliadPairs = require("./pairs/story_iliad.json");
 
 const bridgeUtils = require("@uniswap/token-list-bridge-utils");
 
@@ -115,6 +117,14 @@ module.exports = function buildList() {
         chainId: 167000,
         logoURI:
           "https://assets.coingecko.com/coins/images/279/standard/ethereum.png?1696501628",
+      },
+      "Story Public Testnet": {
+        "chainId": 1513,
+        "address": "0x6e990040Fd9b06F98eFb62A147201696941680b5",
+        "name": "IP",
+        "symbol": "IP",
+        "decimals": 18,
+        "logoURI": "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png"
       },
     },
     defaultPair: {
@@ -285,6 +295,24 @@ module.exports = function buildList() {
             "https://assets.coingecko.com/coins/images/9956/standard/Badge_Dai.png?1696509996",
         },
       },
+      "Story Public Testnet": {
+        "base": {
+          "chainId": 1513,
+          "address": "0x6e990040Fd9b06F98eFb62A147201696941680b5",
+          "name": "IP",
+          "symbol": "IP",
+          "decimals": 18,
+          "logoURI": "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png"
+        },
+        "quote": {
+          "chainId": 1513,
+          "address": "0x700722D24f9256Be288f56449E8AB1D27C4a70ca",
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "decimals": 6,
+          "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+        }
+      }
     },
     scannerLink: {
       Base: "https://basescan.org/",
@@ -296,6 +324,7 @@ module.exports = function buildList() {
       Scroll: "https://scrollscan.com/",
       "Neon EVM MainNet": "https://neonscan.org/",
       "Taiko Mainnet": "https://taikoscan.io/",
+      "Story Public Testnet": "https://testnet.storyrpc.io/",
     },
     matchingEngine: {
       Base: {
@@ -334,6 +363,10 @@ module.exports = function buildList() {
         address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
         startBlock: 342912,
       },
+      "Story Public Testnet": {
+        address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        startBlock: 217636,
+      }
     },
     stndxp: {
       Base: {
@@ -372,6 +405,10 @@ module.exports = function buildList() {
         address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
         startBlock: 5389919,
       },
+      "Story Public Testnet": {
+        address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
+        startBlock: 5389919,
+      },
     },
     tags: {},
     logoURI: "https://avatars.githubusercontent.com/u/73440097?s=200&v=4",
@@ -386,6 +423,7 @@ module.exports = function buildList() {
       ...scrollPairs,
       ...neonPairs,
       ...taikoPairs,
+      ...storyIliadPairs
     ],
     tokens: [
       ...base,
@@ -397,6 +435,7 @@ module.exports = function buildList() {
       ...scroll,
       ...neon,
       ...taiko,
+      ...storyIliad,
     ]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {

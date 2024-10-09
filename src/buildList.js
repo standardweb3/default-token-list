@@ -119,13 +119,199 @@ module.exports = function buildList() {
           "https://assets.coingecko.com/coins/images/279/standard/ethereum.png?1696501628",
       },
       "Story Public Testnet": {
-        "chainId": 1513,
-        "address": "0x6e990040Fd9b06F98eFb62A147201696941680b5",
-        "name": "IP",
-        "symbol": "IP",
-        "decimals": 18,
-        "logoURI": "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png"
+        chainId: 1513,
+        address: "0x6e990040Fd9b06F98eFb62A147201696941680b5",
+        name: "IP",
+        symbol: "IP",
+        decimals: 18,
+        logoURI: "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png",
       },
+    },
+    stablecoins: {
+      Base: [
+        {
+          chainId: 8453,
+          address: "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+          name: "USD Base Coin",
+          symbol: "USDbC",
+          decimals: 6,
+          logoURI: "https://ethereum-optimism.github.io/data/USDC/logo.png",
+        },
+        {
+          chainId: 8453,
+          address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          name: "USD Coin",
+          symbol: "USDC",
+          decimals: 6,
+          logoURI: "https://ethereum-optimism.github.io/data/USDC/logo.png",
+        },
+      ],
+      Kroma: [
+        {
+          chainId: 255,
+          name: "USD Coin",
+          symbol: "USDC",
+          address: "0x0257e4d92C00C9EfcCa1d641b224d7d09cfa4522",
+          logoURI: "https://ethereum-optimism.github.io/data/USDC/logo.png",
+          decimals: 6,
+        },
+        {
+          chainId: 255,
+          name: "Tether",
+          symbol: "USDT",
+          address: "0x0Cf7c2A584988871b654Bd79f96899e4cd6C41C0",
+          logoURI: "https://ethereum-optimism.github.io/data/USDT/logo.png",
+          decimals: 6,
+        },
+      ],
+      "Morph Holesky": [
+        {
+          chainId: 2810,
+          address: "0x9E12AD42c4E4d2acFBADE01a96446e48e6764B98",
+          symbol: "USDT",
+          name: "Tether",
+          decimals: 18,
+          logoURI:
+            "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDT.svg",
+        },
+      ],
+      Mode: [
+        {
+          chainId: 34443,
+          address: "0xd988097fb8612cc24eeC14542bC03424c656005f",
+          name: "USD Coin",
+          symbol: "USDC",
+          decimals: 6,
+          logoURI: "https://ethereum-optimism.github.io/data/USDC/logo.png",
+        },
+        {
+          chainId: 34443,
+          address: "0xf0F161fDA2712DB8b566946122a5af183995e2eD",
+          name: "Tether",
+          symbol: "USDT",
+          decimals: 6,
+          logoURI: "https://ethereum-optimism.github.io/data/USDT/logo.png",
+        },
+      ],
+      Fraxtal: [
+        {
+          chainId: 252,
+          address: "0xDcc0F2D8F90FDe85b10aC1c8Ab57dc0AE946A543",
+          name: "USD Coin",
+          symbol: "USDC",
+          decimals: 6,
+          logoURI:
+            "https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389",
+        },
+      ],
+      Metal: [
+        {
+          chainId: 1750,
+          address: "0xb91CFCcA485C6E40E3bC622f9BFA02a8ACdEeBab",
+          name: "USD Coin",
+          symbol: "USDC",
+          decimals: 6,
+          logoURI:
+            "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png?1547042389",
+        },
+      ],
+      Scroll: [
+        {
+          chainId: 534352,
+          address: "0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4",
+          name: "USD Coin",
+          symbol: "USDC",
+          decimals: 6,
+          logoURI:
+            "https://scroll-tech.github.io/token-list/data/USDC/logo.svg",
+          extensions: {
+            scrollListId: "default",
+            scrollTokenId: "USDC",
+          },
+        },
+        {
+          chainId: 534352,
+          address: "0xf55BEC9cafDbE8730f096Aa55dad6D22d44099Df",
+          name: "Tether",
+          symbol: "USDT",
+          decimals: 6,
+          logoURI:
+            "https://scroll-tech.github.io/token-list/data/USDT/logo.svg",
+          extensions: {
+            scrollListId: "default",
+            scrollTokenId: "USDT",
+          },
+        },
+      ],
+      "Neon EVM MainNet": [
+        {
+          chainId: 245022934,
+          address_spl: "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+          address: "0x5f0155d08eF4aaE2B500AefB64A3419dA8bB611a",
+          decimals: 6,
+          name: "USDT",
+          symbol: "USDT",
+          logoURI:
+            "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/tether-usdt-logo.svg",
+        },
+        {
+          chainId: 245022934,
+          address_spl: "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          address: "0xEA6B04272f9f62F997F666F07D3a974134f7FFb9",
+          decimals: 6,
+          name: "USDC",
+          symbol: "USDC",
+          logoURI:
+            "https://raw.githubusercontent.com/neonlabsorg/token-list/master/assets/usd-coin-usdc-logo.svg",
+        },
+      ],
+      "Taiko Mainnet": [
+        {
+          name: "Bridged USDC (Stargate)",
+          address: "0x19e26B0638bf63aa9fa4d14c6baF8D52eBE86C5C",
+          symbol: "USDC.e",
+          decimals: 6,
+          chainId: 167000,
+          logoURI:
+            "https://assets.coingecko.com/coins/images/14425/small/USDC.png?1629456341",
+        },
+        {
+          name: "USD Coin",
+          address: "0x07d83526730c7438048D55A4fc0b850e2aaB6f0b",
+          symbol: "USDC",
+          decimals: 6,
+          chainId: 167000,
+          logoURI:
+            "https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png?1547042389",
+        },
+        {
+          name: "Tether USD",
+          address: "0x9c2dc7377717603eB92b2655c5f2E7997a4945BD",
+          symbol: "USDT",
+          decimals: 6,
+          chainId: 167000,
+          logoURI:
+            "https://assets.coingecko.com/coins/images/325/small/Tether.png?1668148663",
+        },
+      ],
+      "Story Public Testnet": [
+        {
+          chainId: 1513,
+          address: "0x700722D24f9256Be288f56449E8AB1D27C4a70ca",
+          name: "USD Coin",
+          symbol: "USDC",
+          decimals: 6,
+          logoURI: "https://ethereum-optimism.github.io/data/USDC/logo.png",
+        },
+        {
+          chainId: 1513,
+          address: "0x8812d810EA7CC4e1c3FB45cef19D6a7ECBf2D85D",
+          name: "Tether USD",
+          symbol: "USDT",
+          decimals: 6,
+          logoURI: "https://ethereum-optimism.github.io/data/USDT/logo.png",
+        },
+      ],
     },
     defaultPair: {
       Base: {
@@ -296,23 +482,23 @@ module.exports = function buildList() {
         },
       },
       "Story Public Testnet": {
-        "base": {
-          "chainId": 1513,
-          "address": "0x6e990040Fd9b06F98eFb62A147201696941680b5",
-          "name": "IP",
-          "symbol": "IP",
-          "decimals": 18,
-          "logoURI": "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png"
+        base: {
+          chainId: 1513,
+          address: "0x6e990040Fd9b06F98eFb62A147201696941680b5",
+          name: "IP",
+          symbol: "IP",
+          decimals: 18,
+          logoURI: "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png",
         },
-        "quote": {
-          "chainId": 1513,
-          "address": "0x700722D24f9256Be288f56449E8AB1D27C4a70ca",
-          "name": "USD Coin",
-          "symbol": "USDC",
-          "decimals": 6,
-          "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
-        }
-      }
+        quote: {
+          chainId: 1513,
+          address: "0x700722D24f9256Be288f56449E8AB1D27C4a70ca",
+          name: "USD Coin",
+          symbol: "USDC",
+          decimals: 6,
+          logoURI: "https://ethereum-optimism.github.io/data/USDC/logo.png",
+        },
+      },
     },
     scannerLink: {
       Base: "https://basescan.org/",
@@ -324,7 +510,7 @@ module.exports = function buildList() {
       Scroll: "https://scrollscan.com/",
       "Neon EVM MainNet": "https://neonscan.org/",
       "Taiko Mainnet": "https://taikoscan.io/",
-      "Story Public Testnet": "https://testnet.storyrpc.io/",
+      "Story Public Testnet": "https://testnet.storyscan.xyz/",
     },
     matchingEngine: {
       Base: {
@@ -336,7 +522,7 @@ module.exports = function buildList() {
         startBlock: 15349021,
       },
       "Morph Holesky": {
-        address: "0x1abC5dcEb0296601c9f800137b1bA5A60cBaB538",
+        address: "0xC963F5C84B109422d844b18D4CB118b8BCc01504",
         startBlock: 7033411,
       },
       Mode: {
@@ -366,7 +552,7 @@ module.exports = function buildList() {
       "Story Public Testnet": {
         address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
         startBlock: 217636,
-      }
+      },
     },
     stndxp: {
       Base: {
@@ -423,7 +609,7 @@ module.exports = function buildList() {
       ...scrollPairs,
       ...neonPairs,
       ...taikoPairs,
-      ...storyIliadPairs
+      ...storyIliadPairs,
     ],
     tokens: [
       ...base,

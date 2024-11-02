@@ -5,7 +5,7 @@ const morphHolesky = require("./tokens/morph_holesky.json");
 const metal = require("./tokens/metal.json");
 const fraxtal = require("./tokens/fraxtal.json");
 const mode = require("./tokens/mode.json");
-const scroll = require("./tokens/scroll.json");
+const scroll =  require("./tokens/scroll.json");
 const neon = require("./tokens/neon.json");
 const taiko = require("./tokens/taiko.json");
 const storyIliad = require("./tokens/story_iliad.json");
@@ -127,16 +127,9 @@ module.exports = function buildList() {
         logoURI: "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png",
       },
     },
+    // List stablecoins with top market cap on each chain
     stablecoins: {
       Base: [
-        {
-          chainId: 8453,
-          address: "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
-          name: "USD Base Coin",
-          symbol: "USDbC",
-          decimals: 6,
-          logoURI: "https://ethereum-optimism.github.io/data/USDC/logo.png",
-        },
         {
           chainId: 8453,
           address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
@@ -145,6 +138,14 @@ module.exports = function buildList() {
           decimals: 6,
           logoURI: "https://ethereum-optimism.github.io/data/USDC/logo.png",
         },
+        {
+          chainId: 8453,
+          address: "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+          name: "USD Base Coin",
+          symbol: "USDbC",
+          decimals: 6,
+          logoURI: "https://ethereum-optimism.github.io/data/USDC/logo.png",
+        }
       ],
       Kroma: [
         {
@@ -522,8 +523,8 @@ module.exports = function buildList() {
         startBlock: 15349021,
       },
       "Morph Holesky": {
-        address: "0xC963F5C84B109422d844b18D4CB118b8BCc01504",
-        startBlock: 7033411,
+        address: "0xDFE6c31633e33e11624bb8b0154dd1E2551Fb5bD",
+        startBlock: 12533953,
       },
       Mode: {
         address: "0x959245EA66ac26caF38B8Eb9d48418c6B7Aa621D",
@@ -550,8 +551,8 @@ module.exports = function buildList() {
         startBlock: 342912,
       },
       "Story Public Testnet": {
-        address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
-        startBlock: 217636,
+        address: "0x9140Ea931a0A33c2804540122EC632d0a08e9D2e",
+        startBlock: 1610258,
       },
     },
     stndxp: {

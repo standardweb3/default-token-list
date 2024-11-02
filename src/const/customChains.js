@@ -30,4 +30,4 @@ const StoryIliad = defineChain({
   },
 });
 
-module.exports = { StoryIliad }
+module.exports =  { StoryIliad }

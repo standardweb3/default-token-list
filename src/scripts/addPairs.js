@@ -1,10 +1,16 @@
 const { createWalletClient, http, parseUnits } = require("viem");
 const { privateKeyToAccount } = require("viem/accounts");
 const { StoryIliad } = require("../const/customChains");
-const { base, kroma, morphHolesky, scroll, neonMainnet, taiko} = require("viem/chains");
-//const { MatchingEngineABI } = require('./abis/matchingEngineAbi');
+const {
+  base,
+  kroma,
+  morphHolesky,
+  scroll,
+  neonMainnet,
+  taiko,
+} = require("viem/chains");
 const { ChainIds } = require("../const");
-const { MatchingEngineABI } = require("../abis/matchingEngineAbi");
+const MatchingEngineABI = require("../abis/MatchingEngineABI");
 const defaultTokenList = require("../../build/standard-default.tokenlist.json");
 require("dotenv").config();
 
@@ -31,6 +37,7 @@ async function addPair(pair, matchingEngine, walletClient, abi) {
         pair.base.address,
         pair.quote.address,
         parseUnits(pair.listing_price.toString(), 8),
+        0,
       ],
     });
 
@@ -41,7 +48,7 @@ async function addPair(pair, matchingEngine, walletClient, abi) {
 }
 
 async function setSpread(pair, matchingEngine, walletClient, abi) {
-  if(pair.buy_tick === undefined && pair.sell_tick === undefined) {
+  if (pair.buy_tick === undefined && pair.sell_tick === undefined) {
     console.log("Spread already set");
     return;
   }
@@ -69,18 +76,18 @@ async function main() {
   const account = privateKeyToAccount(process.env.ADMIN_PRIVATE_KEY);
   const walletClient = createWalletClient({
     account,
-    chain: StoryIliad,
-    transport: http(process.env.STORY_RPC),
+    chain: morphHolesky,
+    transport: http(process.env.MORPH_HOLESKY_RPC),
   });
 
   const abi = MatchingEngineABI;
 
-  const pairs = await getPairs("Story Public Testnet");
+  const pairs = await getPairs("Morph Holesky");
 
   console.log("Pairs to add:", pairs.length);
   // make contract call on each pair in the list
   const matchingEngine =
-    defaultTokenList.matchingEngine["Story Public Testnet"].address;
+    defaultTokenList.matchingEngine["Morph Holesky"].address;
 
   for (const pair of pairs) {
     await addPair(pair, matchingEngine, walletClient, abi);

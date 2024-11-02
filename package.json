@@ -1,11 +1,11 @@
 {
   "name": "@standardweb3/default-token-list",
-  "version": "0.0.41",
+  "version": "0.0.42",
   "description": "Standard default token list",
   "main": "build/standard-default.tokenlist.json",
   "scripts": {
     "test": "mocha",
-    "build": "rimraf build && mkdir -p build && node src/write.js > build/standard-default.tokenlist.json",
+    "build": "rimraf build && mkdir -p build && node src/write.js > build/standard-default.tokenlist.json && cp src/abis/matchingengineAbi.js build/",
     "prepublishOnly": "npm test && npm run build",
     "addPairs": "node src/scripts/addPairs.js",
     "generateDefaultPairs": "node src/scripts/generateDefaultPairs.js"

@@ -1,6 +1,6 @@
 {
   "name": "@standardweb3/default-token-list",
-  "version": "0.0.39",
+  "version": "0.0.40",
   "description": "Standard default token list",
   "main": "build/standard-default.tokenlist.json",
   "scripts": {
@@ -11,7 +11,8 @@
     "generateDefaultPairs": "node src/scripts/generateDefaultPairs.js"
   },
   "files": [
-    "build/standard-default.tokenlist.json"
+    "build/standard-default.tokenlist.json",
+    "src/abis/matchingengineAbi.js"
   ],
   "repository": {
     "type": "git",

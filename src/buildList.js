@@ -523,8 +523,8 @@ module.exports = function buildList() {
         startBlock: 15349021,
       },
       "Morph Holesky": {
-        address: "0xDFE6c31633e33e11624bb8b0154dd1E2551Fb5bD",
-        startBlock: 12533953,
+        address: "0x231dAc5283dc34D27926621a835C5Afd86EcBc9C",
+        startBlock: 12798196,
       },
       Mode: {
         address: "0x959245EA66ac26caF38B8Eb9d48418c6B7Aa621D",

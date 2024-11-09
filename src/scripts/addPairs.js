@@ -1,6 +1,6 @@
 const { createWalletClient, http, parseUnits } = require("viem");
 const { privateKeyToAccount } = require("viem/accounts");
-const { StoryIliad } = require("../const/customChains");
+const { StoryIliad, StoryOdyssey } = require("../const/customChains");
 const {
   base,
   kroma,
@@ -76,18 +76,18 @@ async function main() {
   const account = privateKeyToAccount(process.env.ADMIN_PRIVATE_KEY);
   const walletClient = createWalletClient({
     account,
-    chain: morphHolesky,
-    transport: http(process.env.MORPH_HOLESKY_RPC),
+    chain: StoryOdyssey,
+    transport: http(process.env.STORY_ODYSSEY_RPC),
   });
 
   const abi = MatchingEngineABI;
 
-  const pairs = await getPairs("Morph Holesky");
+  const pairs = await getPairs("Story Odyssey Testnet");
 
   console.log("Pairs to add:", pairs.length);
   // make contract call on each pair in the list
   const matchingEngine =
-    defaultTokenList.matchingEngine["Morph Holesky"].address;
+    defaultTokenList.matchingEngine["Story Odyssey Testnet"].address;
 
   for (const pair of pairs) {
     await addPair(pair, matchingEngine, walletClient, abi);

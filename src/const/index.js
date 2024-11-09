@@ -22,6 +22,7 @@ const ChainIds = {
     "Scroll": 534352,
     "Taiko Mainnet": 167000,
     "Story Public Testnet": 1513,
+    "Story Odyssey Testnet": 1516,
 };
 
 module.exports = { ChainIds }

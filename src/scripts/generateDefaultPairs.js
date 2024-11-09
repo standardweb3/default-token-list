@@ -1,5 +1,5 @@
 // replace path with path to desired network tokenlist
-const tokenlist = require("../tokens/story_iliad.json");
+const tokenlist = require("../tokens/story_odyssey.json");
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));

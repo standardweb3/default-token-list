@@ -5,10 +5,11 @@ const morphHolesky = require("./tokens/morph_holesky.json");
 const metal = require("./tokens/metal.json");
 const fraxtal = require("./tokens/fraxtal.json");
 const mode = require("./tokens/mode.json");
-const scroll =  require("./tokens/scroll.json");
+const scroll = require("./tokens/scroll.json");
 const neon = require("./tokens/neon.json");
 const taiko = require("./tokens/taiko.json");
 const storyIliad = require("./tokens/story_iliad.json");
+const storyOdyssey = require("./tokens/story_odyssey.json");
 
 // pairs
 const basePairs = require("./pairs/base.json");
@@ -21,6 +22,7 @@ const scrollPairs = require("./pairs/scroll.json");
 const neonPairs = require("./pairs/neon.json");
 const taikoPairs = require("./pairs/taiko.json");
 const storyIliadPairs = require("./pairs/story_iliad.json");
+const storyOdysseyPairs = require("./pairs/story_odyssey.json");
 
 const bridgeUtils = require("@uniswap/token-list-bridge-utils");
 
@@ -126,6 +128,14 @@ module.exports = function buildList() {
         decimals: 18,
         logoURI: "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png",
       },
+      "Story Odyssey Testnet": {
+        chainId: 1516,
+        address: "0xe8CabF9d1FFB6CE23cF0a86641849543ec7BD7d5",
+        name: "IP",
+        symbol: "IP",
+        decimals: 18,
+        logoURI: "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png",
+      },
     },
     // List stablecoins with top market cap on each chain
     stablecoins: {
@@ -145,7 +155,7 @@ module.exports = function buildList() {
           symbol: "USDbC",
           decimals: 6,
           logoURI: "https://ethereum-optimism.github.io/data/USDC/logo.png",
-        }
+        },
       ],
       Kroma: [
         {
@@ -311,6 +321,16 @@ module.exports = function buildList() {
           symbol: "USDT",
           decimals: 6,
           logoURI: "https://ethereum-optimism.github.io/data/USDT/logo.png",
+        },
+      ],
+      "Story Odyssey Testnet": [
+        {
+          chainId: 1516,
+          address: "0xF1815bd50389c46847f0Bda824eC8da914045D14",
+          name: "USD Coin",
+          symbol: "USDC",
+          decimals: 6,
+          logoURI: "https://ethereum-optimism.github.io/data/USDC/logo.png",
         },
       ],
     },
@@ -500,6 +520,24 @@ module.exports = function buildList() {
           logoURI: "https://ethereum-optimism.github.io/data/USDC/logo.png",
         },
       },
+      "Story Odyssey Testnet": {
+        base: {
+          chainId: 1516,
+          address: "0xe8CabF9d1FFB6CE23cF0a86641849543ec7BD7d5",
+          name: "IP",
+          symbol: "IP",
+          decimals: 18,
+          logoURI: "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png",
+        },
+        quote: {
+          chainId: 1516,
+          address: "0xF1815bd50389c46847f0Bda824eC8da914045D14",
+          name: "USD Coin",
+          symbol: "USDC",
+          decimals: 6,
+          logoURI: "https://ethereum-optimism.github.io/data/USDC/logo.png",
+        },
+      },
     },
     scannerLink: {
       Base: "https://basescan.org/",
@@ -512,6 +550,8 @@ module.exports = function buildList() {
       "Neon EVM MainNet": "https://neonscan.org/",
       "Taiko Mainnet": "https://taikoscan.io/",
       "Story Public Testnet": "https://testnet.storyscan.xyz/",
+      "Story Odyssey Testnet":
+        "https://odyssey-testnet-explorer.storyscan.xyz/",
     },
     matchingEngine: {
       Base: {
@@ -553,6 +593,10 @@ module.exports = function buildList() {
       "Story Public Testnet": {
         address: "0x9140Ea931a0A33c2804540122EC632d0a08e9D2e",
         startBlock: 1610258,
+      },
+      "Story Odyssey Testnet": {
+        address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        startBlock: 365748,
       },
     },
     stndxp: {
@@ -600,18 +644,6 @@ module.exports = function buildList() {
     tags: {},
     logoURI: "https://avatars.githubusercontent.com/u/73440097?s=200&v=4",
     keywords: ["standard", "default"],
-    pairs: [
-      ...basePairs,
-      ...kromaPairs,
-      ...morphHoleskyPairs,
-      ...modePairs,
-      ...fraxtalPairs,
-      ...metalPairs,
-      ...scrollPairs,
-      ...neonPairs,
-      ...taikoPairs,
-      ...storyIliadPairs,
-    ],
     tokens: [
       ...base,
       ...kroma,
@@ -623,6 +655,7 @@ module.exports = function buildList() {
       ...neon,
       ...taiko,
       ...storyIliad,
+      ...storyOdyssey,
     ]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {
@@ -631,6 +664,19 @@ module.exports = function buildList() {
         }
         return t1.chainId < t2.chainId ? -1 : 1;
       }),
+    pairs: [
+      ...basePairs,
+      ...kromaPairs,
+      ...morphHoleskyPairs,
+      ...modePairs,
+      ...fraxtalPairs,
+      ...metalPairs,
+      ...scrollPairs,
+      ...neonPairs,
+      ...taikoPairs,
+      ...storyIliadPairs,
+      ...storyOdysseyPairs,
+    ],
   };
   return bridgeUtils.chainify(l1List);
 };

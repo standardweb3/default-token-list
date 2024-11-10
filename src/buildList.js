@@ -595,8 +595,8 @@ module.exports = function buildList() {
         startBlock: 1610258,
       },
       "Story Odyssey Testnet": {
-        address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
-        startBlock: 365748,
+        address: "0x8c1F7817657aAe22E22ce84d552fE0C01bD8A254",
+        startBlock: 440605,
       },
     },
     stndxp: {

@@ -326,7 +326,7 @@ module.exports = function buildList() {
       "Story Odyssey Testnet": [
         {
           chainId: 1516,
-          address: "0xF1815bd50389c46847f0Bda824eC8da914045D14",
+          address: "0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D",
           name: "USD Coin",
           symbol: "USDC",
           decimals: 6,
@@ -531,7 +531,7 @@ module.exports = function buildList() {
         },
         quote: {
           chainId: 1516,
-          address: "0xF1815bd50389c46847f0Bda824eC8da914045D14",
+          address: "0x40fCa9cB1AB15eD9B5bDA19A52ac00A78AE08e1D",
           name: "USD Coin",
           symbol: "USDC",
           decimals: 6,
@@ -597,48 +597,6 @@ module.exports = function buildList() {
       "Story Odyssey Testnet": {
         address: "0x8c1F7817657aAe22E22ce84d552fE0C01bD8A254",
         startBlock: 440605,
-      },
-    },
-    stndxp: {
-      Base: {
-        address: "0xb10a2AceC87757d7C8801dD6d0E194F00B9be7d2",
-        startBlock: 17951815,
-      },
-      Kroma: {
-        address: "0xdd2D72Ccdf83dB18B83ba487E0ebCB52e75B9c6f",
-        startBlock: 14395927,
-      },
-      "Morph Holesky": {
-        address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
-        startBlock: 5389919,
-      },
-      Mode: {
-        address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
-        startBlock: 5389919,
-      },
-      Fraxtal: {
-        address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
-        startBlock: 5389919,
-      },
-      Metal: {
-        address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
-        startBlock: 5389919,
-      },
-      Scroll: {
-        address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
-        startBlock: 5389919,
-      },
-      "Neon EVM MainNet": {
-        address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
-        startBlock: 5389919,
-      },
-      "Taiko Mainnet": {
-        address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
-        startBlock: 5389919,
-      },
-      "Story Public Testnet": {
-        address: "0xEA98008F20e06636470b6a3C7ddA9caE63B668EC",
-        startBlock: 5389919,
       },
     },
     tags: {},

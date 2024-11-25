@@ -23,6 +23,7 @@ const ChainIds = {
     "Taiko Mainnet": 167000,
     "Story Public Testnet": 1513,
     "Story Odyssey Testnet": 1516,
+    "Morph Mainnet": 2818,
 };
 
 module.exports = { ChainIds }

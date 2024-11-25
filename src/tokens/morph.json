@@ -1,0 +1,47 @@
+[
+  {
+    "chainId": 2818,
+    "address": "0xc7D67A9cBB121b3b0b9c053DD9f469523243379A",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 18,
+    "cgId": "tether",
+    "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDT.svg"
+  },
+  {
+    "chainId": 2818,
+    "address": "0x803DcE4D3f4Ae2e17AF6C51343040dEe320C149D",
+    "name": "Wrapped Bitcoin",
+    "symbol": "BTC",
+    "decimals": 18,
+    "cgId": "bitcoin",
+    "logoURI": "https://raw.githubusercontent.com/ubeswap/default-token-list/master/assets/asset_WBTC.png"
+  },
+  {
+    "chainId": 2818,
+    "address": "0x5300000000000000000000000000000000000011",
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18,
+    "cgId": "ethereum",
+    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/128x128/1027.png"
+  },
+  {
+    "chainId": 2818,
+    "address": "0xe34c91815d7fc18A9e2148bcD4241d0a5848b693",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "cgId": "usd-coin",
+    "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDC.svg"
+  },
+  {
+    "chainId": 2818,
+    "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+    "name": "Dai",
+    "symbol": "DAI",
+    "decimals": 18,
+    "cgId": "dai",
+    "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/DAI.svg"
+  }
+]

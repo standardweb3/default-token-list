@@ -58,4 +58,34 @@ const StoryOdyssey = defineChain({
   },
 });
 
-module.exports = { StoryOdyssey, StoryIliad };
+const Morph = defineChain({
+  id: 2818,
+  name: "Morph",
+  nativeCurrency: { name: "Ether", symbol: "ETH", decimals: 18 },
+  rpcUrls: {
+    public: { http: ["https://rpc.morphl2.io"] },
+    default: {
+      http: ["https://rpc.morphl2.io"],
+    },
+  },
+  blockExplorers: {
+    etherscan: {
+      name: "Morph Scan",
+      url: "https://explorer.morphl2.io",
+    },
+    default: {
+      name: "Morph Scan",
+      url: "https://explorer.morphl2.io",
+    },
+  },
+  testnet: false,
+  contracts: {
+    multicall3: {
+      address: "0x35f965903A85e7528437C3Ce0b4bdfbc4E5Fc27c",
+      blockCreated: 
+      52602,
+    },
+  },
+})
+
+module.exports = { StoryOdyssey, StoryIliad, Morph };

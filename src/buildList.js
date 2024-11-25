@@ -10,6 +10,7 @@ const neon = require("./tokens/neon.json");
 const taiko = require("./tokens/taiko.json");
 const storyIliad = require("./tokens/story_iliad.json");
 const storyOdyssey = require("./tokens/story_odyssey.json");
+const morph = require("./tokens/morph.json");
 
 // pairs
 const basePairs = require("./pairs/base.json");
@@ -23,6 +24,7 @@ const neonPairs = require("./pairs/neon.json");
 const taikoPairs = require("./pairs/taiko.json");
 const storyIliadPairs = require("./pairs/story_iliad.json");
 const storyOdysseyPairs = require("./pairs/story_odyssey.json");
+const morphPairs = require("./pairs/morph.json");
 
 const bridgeUtils = require("@uniswap/token-list-bridge-utils");
 
@@ -135,6 +137,15 @@ module.exports = function buildList() {
         symbol: "IP",
         decimals: 18,
         logoURI: "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png",
+      },
+      Morph: {
+        "chainId": 2818,
+        "address": "0x5300000000000000000000000000000000000011",
+        "name": "Ether",
+        "symbol": "ETH",
+        "decimals": 18,
+        "cgId": "ethereum",
+        "logoURI": "https://s2.coinmarketcap.com/static/img/coins/128x128/1027.png"
       },
     },
     // List stablecoins with top market cap on each chain
@@ -333,6 +344,35 @@ module.exports = function buildList() {
           logoURI: "https://ethereum-optimism.github.io/data/USDC/logo.png",
         },
       ],
+      Morph: [
+        {
+          "chainId": 2818,
+          "address": "0xc7D67A9cBB121b3b0b9c053DD9f469523243379A",
+          "name": "Tether USD",
+          "symbol": "USDT",
+          "decimals": 18,
+          "cgId": "tether",
+          "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDT.svg"
+        },
+        {
+          "chainId": 2818,
+          "address": "0xe34c91815d7fc18A9e2148bcD4241d0a5848b693",
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "decimals": 6,
+          "cgId": "usd-coin",
+          "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDC.svg"
+        },
+        {
+          "chainId": 2818,
+          "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+          "name": "Dai",
+          "symbol": "DAI",
+          "decimals": 18,
+          "cgId": "dai",
+          "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/DAI.svg"
+        }
+      ]
     },
     defaultPair: {
       Base: {
@@ -538,6 +578,27 @@ module.exports = function buildList() {
           logoURI: "https://ethereum-optimism.github.io/data/USDC/logo.png",
         },
       },
+      Morph: {
+        "base":  {
+          "chainId": 2818,
+          "address": "0x5300000000000000000000000000000000000011",
+          "name": "Ether",
+          "symbol": "ETH",
+          "decimals": 18,
+          "cgId": "ethereum",
+          "logoURI": "https://s2.coinmarketcap.com/static/img/coins/128x128/1027.png"
+        },
+        "quote": {
+          "chainId": 2818,
+          "address": "0xc7D67A9cBB121b3b0b9c053DD9f469523243379A",
+          "name": "Tether USD",
+          "symbol": "USDT",
+          "decimals": 18,
+          "cgId": "tether",
+          "logoURI": "https://raw.githubusercontent.com/morph-l2/morph-list/main/tokenIcons/USDT.svg"
+        },
+        "listing_price": 3347.96
+      },
     },
     scannerLink: {
       Base: "https://basescan.org/",
@@ -552,6 +613,7 @@ module.exports = function buildList() {
       "Story Public Testnet": "https://testnet.storyscan.xyz/",
       "Story Odyssey Testnet":
         "https://odyssey-testnet-explorer.storyscan.xyz/",
+      Morph: "https://explorer.morphl2.io/",
     },
     matchingEngine: {
       Base: {
@@ -598,6 +660,10 @@ module.exports = function buildList() {
         address: "0x8c1F7817657aAe22E22ce84d552fE0C01bD8A254",
         startBlock: 440605,
       },
+      "Morph": {
+        address: "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        startBlock: 556889,
+      },
     },
     tags: {},
     logoURI: "https://avatars.githubusercontent.com/u/73440097?s=200&v=4",
@@ -614,6 +680,7 @@ module.exports = function buildList() {
       ...taiko,
       ...storyIliad,
       ...storyOdyssey,
+      ...morph,
     ]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {
@@ -634,6 +701,7 @@ module.exports = function buildList() {
       ...taikoPairs,
       ...storyIliadPairs,
       ...storyOdysseyPairs,
+      ...morphPairs,
     ],
   };
   return bridgeUtils.chainify(l1List);

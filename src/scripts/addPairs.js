@@ -1,6 +1,6 @@
 const { createWalletClient, http, parseUnits } = require("viem");
 const { privateKeyToAccount } = require("viem/accounts");
-const { StoryIliad, StoryOdyssey } = require("../const/customChains");
+const { StoryIliad, StoryOdyssey, Morph } = require("../const/customChains");
 const {
   base,
   kroma,
@@ -9,16 +9,16 @@ const {
   neonMainnet,
   taiko,
 } = require("viem/chains");
-const { ChainIds } = require("../const");
 const MatchingEngineABI = require("../abis/MatchingEngineABI");
 const defaultTokenList = require("../../build/standard-default.tokenlist.json");
 require("dotenv").config();
 
-async function getPairs(networkName) {
+async function getPairs(network) {
   try {
-    const chainId = ChainIds[networkName];
+    console.log("Getting pairs for network:", network.name, network.chainId);
+    const chainId = network.id;
     const pairs = defaultTokenList.pairs.filter(
-      (pair) => pair.base.chainId == chainId
+      (pair) => pair.base.chainId === chainId
     );
     return pairs;
   } catch (error) {
@@ -76,18 +76,20 @@ async function main() {
   const account = privateKeyToAccount(process.env.ADMIN_PRIVATE_KEY);
   const walletClient = createWalletClient({
     account,
-    chain: StoryOdyssey,
+    // Change network to configure pair list to add in a network
+    chain: Morph,
     transport: http(process.env.STORY_ODYSSEY_RPC),
   });
 
   const abi = MatchingEngineABI;
 
-  const pairs = await getPairs("Story Odyssey Testnet");
+  // Change network to configure pair list to add in a network
+  const pairs = await getPairs(Morph);
 
   console.log("Pairs to add:", pairs.length);
   // make contract call on each pair in the list
   const matchingEngine =
-    defaultTokenList.matchingEngine["Story Odyssey Testnet"].address;
+    defaultTokenList.matchingEngine.Morph.address;
 
   for (const pair of pairs) {
     await addPair(pair, matchingEngine, walletClient, abi);

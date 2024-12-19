@@ -31,6 +31,14 @@ const storyOdysseyGroups = require("./groups/story_odyssey.json");
 
 const bridgeUtils = require("@uniswap/token-list-bridge-utils");
 
+const getNativeToken = (tokens) => {
+  return tokens.filter((token) => token.tag.includes("stnd_native"));
+}
+
+const getStablecoins = (tokens) => {
+  return tokens.filter((token) => token.tag.includes("stnd_stablecoin"));
+}
+
 module.exports = function buildList() {
   const parsed = version.split(".");
   const l1List = {
@@ -44,6 +52,12 @@ module.exports = function buildList() {
     // groups are used to organize tokens in the app UI for Tradingview, each token is identified by its tag property
     groups:{
       "Story Odyssey Testnet": storyOdysseyGroups,
+    },
+    nativeToken: {
+      "Story Odyssey Testnet": getNativeToken(storyOdyssey),
+    },
+    stablecoins: {
+      "Story Odyssey Testnet": getStablecoins(storyOdyssey),  
     },
     defaultPair: {
       Base: {

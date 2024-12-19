@@ -32,7 +32,7 @@ const storyOdysseyGroups = require("./groups/story_odyssey.json");
 const bridgeUtils = require("@uniswap/token-list-bridge-utils");
 
 const getNativeToken = (tokens) => {
-  return tokens.filter((token) => token.tag.includes("stnd_native"));
+  return tokens.find((token) => token.tag.includes("stnd_native"));
 }
 
 const getStablecoins = (tokens) => {

@@ -1,0 +1,57 @@
+{
+  "stnd_native": {
+    "id": "stnd_native",
+    "name": "Native",
+    "description": "Native tokens or pair in a chain"
+  },
+  "stnd_stablecoin": {
+    "id": "stnd_stablecoin",
+    "name": "Stablecoin",
+    "description": "Stablecoin related tokens or pair in a chain"
+  },
+  "stnd_usdc": {
+    "id": "stnd_usdc",
+    "name": "USDC",
+    "description": "USDC related tokens or pair with quote token in a chain"
+  },
+  "stnd_usdt": {
+    "id": "stnd_usdt",
+    "name": "USDT",
+    "description": "USDT related tokens or pair with quote token in a chain"
+  },
+  "stnd_dai": {
+    "id": "stnd_dai",
+    "name": "DAI",
+    "description": "DAI related tokens or pair with quote token in a chain"
+  },
+  "stnd_eth": {
+    "id": "stnd_eth",
+    "name": "ETH",
+    "description": "ETH related tokens or pair with quote token in a chain"
+  },
+  "stnd_ip": {
+    "id": "stnd_ip",
+    "name": "IP",
+    "description": "IP related tokens or pair with quote token in a chain"
+  },
+  "stnd_alts": {
+    "id": "stnd_alts",
+    "name": "Alts",
+    "description": "Alts related tokens or pair with quote token in a chain"
+  },
+  "stnd_perps": {
+    "id": "stnd_perps",
+    "name": "Perps",
+    "description": "Perps related tokens or pair with quote token in a chain"
+  },
+  "stnd_spot": {
+    "id": "stnd_spot",
+    "name": "Spot",
+    "description": "Spot related tokens or pair with quote token in a chain"
+  },
+  "stnd_btc": {
+    "id": "stnd_btc",
+    "name": "BTC",
+    "description": "Bitcoin(BTC) related tokens or pair with quote token in a chain"
+  }
+}

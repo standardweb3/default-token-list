@@ -8,7 +8,8 @@
     "build": "rimraf build && mkdir -p build && node src/write.js > build/standard-default.tokenlist.json && cp src/abis/MatchingEngineABI.json build/",
     "prepublishOnly": "npm test && npm run build",
     "addPairs": "node src/scripts/addPairs.js",
-    "generateDefaultPairs": "node src/scripts/generateDefaultPairs.js"
+    "generateDefaultPairs": "node src/scripts/generateDefaultPairs.js",
+    "group": "node src/scripts/group.js"
   },
   "files": [
     "build"

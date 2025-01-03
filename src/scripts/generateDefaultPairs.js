@@ -25,7 +25,7 @@ async function getCoinPrice(coinId) {
   }
 }
 
-async function adddefaultPairs() {
+async function addDefaultPairs() {
   const stablecoin2 = tokenlist.find((token) => token.symbol === "USDT");
   const stablecoin = tokenlist.find((token) => token.symbol === "USDC");
   const eth = tokenlist.find((token) => token.symbol === "ETH");
@@ -82,4 +82,4 @@ async function adddefaultPairs() {
   console.log(JSON.stringify(defaultPairs, null, 2));
 }
 
-adddefaultPairs();
+addDefaultPairs();

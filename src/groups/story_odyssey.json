@@ -4,6 +4,11 @@
     "name": "Native",
     "description": "Native tokens or pair in a chain"
   },
+  "stnd_default": {
+    "id": "stnd_default",
+    "name": "Default",
+    "description": "Default tokens or pair in a chain"
+  },
   "stnd_stablecoin": {
     "id": "stnd_stablecoin",
     "name": "Stablecoin",

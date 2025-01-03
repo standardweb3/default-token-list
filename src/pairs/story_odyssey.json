@@ -16,6 +16,9 @@
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
     },
+    "tag": [
+      "stnd_stablecoin", "stnd_ip", "stnd_usdc", "stnd_default"
+    ],
     "listing_price": 23895.309
   },
   {
@@ -35,6 +38,9 @@
       "decimals": 18,
       "logoURI": "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png"
     },
+    "tag": [
+      "stnd_ip"
+    ],
     "listing_price": 36.06891
   },
   {
@@ -54,6 +60,9 @@
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
     },
+    "tag": [
+      "stnd_stablecoin", "stnd_usdc"
+    ],
     "listing_price": 7850.453
   },
   {
@@ -73,6 +82,9 @@
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
     },
+    "tag": [
+      "stnd_stablecoin", "stnd_usdt"
+    ],
     "listing_price": 7850.453
   },
   {
@@ -92,6 +104,9 @@
       "decimals": 18,
       "logoURI": "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png"
     },
+    "tag": [
+      "stnd_ip"
+    ],
     "listing_price": 9.120432
   },
   {
@@ -111,6 +126,9 @@
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
     },
+    "tag": [
+      "stnd_stablecoin", "stnd_usdc"
+    ],
     "listing_price": 957.9362
   },
   {
@@ -130,6 +148,9 @@
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
     },
+    "tag": [
+      "stnd_stablecoin", "stnd_usdt"
+    ],
     "listing_price": 957.9362
   }
 ]

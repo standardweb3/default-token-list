@@ -9,7 +9,7 @@ const {
   neonMainnet,
   taiko,
 } = require("viem/chains");
-const MatchingEngineABI = require("../abis/MatchingEngineABI");
+const MatchingEngineABI = require("../abis/MatchingEngineABI.json");
 const defaultTokenList = require("../../build/standard-default.tokenlist.json");
 require("dotenv").config();
 
@@ -38,7 +38,10 @@ async function addPair(pair, matchingEngine, walletClient, abi) {
         pair.quote.address,
         parseUnits(pair.listing_price.toString(), 8),
         0,
+        pair.base.address
       ],
+      gas: 30000000, // Set the gas limit (adjust as needed)
+      gasPrice: parseUnits('50', 'gwei') // Set the gas price higher to avoid underpriced error
     });
 
     console.log("Transaction hash for adding pair:", result);
@@ -77,19 +80,19 @@ async function main() {
   const walletClient = createWalletClient({
     account,
     // Change network to configure pair list to add in a network
-    chain: Morph,
+    chain: StoryOdyssey,
     transport: http(process.env.STORY_ODYSSEY_RPC),
   });
 
   const abi = MatchingEngineABI;
 
   // Change network to configure pair list to add in a network
-  const pairs = await getPairs(Morph);
+  const pairs = await getPairs(StoryOdyssey);
 
   console.log("Pairs to add:", pairs.length);
   // make contract call on each pair in the list
   const matchingEngine =
-    defaultTokenList.matchingEngine.Morph.address;
+    defaultTokenList.matchingEngine["Story Odyssey Testnet"].address;
 
   for (const pair of pairs) {
     await addPair(pair, matchingEngine, walletClient, abi);

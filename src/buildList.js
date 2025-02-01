@@ -55,9 +55,15 @@ module.exports = function buildList() {
     },
     matchingEngine: {
       "Story Odyssey Testnet": {
-        address: "0x8c1F7817657aAe22E22ce84d552fE0C01bD8A254",
-        startBlock: 440605,
+        address: "0x39800D00B0573317E8EABA8BFce1c71a59fD26ee",
+        startBlock: 2299914,
       },
+    },
+    haifuLaunchpad: {
+      "Story Odyssey Testnet": {
+        address: "0x3623A3cF0098B603ba89133ECD7D7f2E26D74Ba7",
+        startBlock: 2386633,
+      }
     },
     tags: {},
     logoURI: "https://avatars.githubusercontent.com/u/73440097?s=200&v=4",

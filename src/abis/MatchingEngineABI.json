@@ -26,12 +26,31 @@
         "type": "uint256",
         "internalType": "uint256"
       },
-      { "name": "listingDate", "type": "uint256", "internalType": "uint256" }
+      { "name": "listingDate", "type": "uint256", "internalType": "uint256" },
+      { "name": "payment", "type": "address", "internalType": "address" }
     ],
     "outputs": [
       { "name": "book", "type": "address", "internalType": "address" }
     ],
     "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "addPairETH",
+    "inputs": [
+      { "name": "base", "type": "address", "internalType": "address" },
+      { "name": "quote", "type": "address", "internalType": "address" },
+      {
+        "name": "listingPrice",
+        "type": "uint256",
+        "internalType": "uint256"
+      },
+      { "name": "listingDate", "type": "uint256", "internalType": "uint256" }
+    ],
+    "outputs": [
+      { "name": "book", "type": "address", "internalType": "address" }
+    ],
+    "stateMutability": "payable"
   },
   {
     "type": "function",
@@ -82,49 +101,6 @@
   },
   {
     "type": "function",
-    "name": "getBaseQuote",
-    "inputs": [
-      { "name": "orderbook", "type": "address", "internalType": "address" }
-    ],
-    "outputs": [
-      { "name": "base", "type": "address", "internalType": "address" },
-      { "name": "quote", "type": "address", "internalType": "address" }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "getMktPrices",
-    "inputs": [
-      { "name": "start", "type": "uint256", "internalType": "uint256" },
-      { "name": "end", "type": "uint256", "internalType": "uint256" }
-    ],
-    "outputs": [
-      {
-        "name": "mktPrices",
-        "type": "uint256[]",
-        "internalType": "uint256[]"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "getMktPricesWithIds",
-    "inputs": [
-      { "name": "ids", "type": "uint256[]", "internalType": "uint256[]" }
-    ],
-    "outputs": [
-      {
-        "name": "mktPrices",
-        "type": "uint256[]",
-        "internalType": "uint256[]"
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
     "name": "getOrder",
     "inputs": [
       { "name": "base", "type": "address", "internalType": "address" },
@@ -160,14 +136,9 @@
       { "name": "price", "type": "uint256", "internalType": "uint256" },
       { "name": "n", "type": "uint32", "internalType": "uint32" }
     ],
-    "outputs": [{ "name": "", "type": "uint32[]", "internalType": "uint32[]" }],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "getOrderbookById",
-    "inputs": [{ "name": "id", "type": "uint256", "internalType": "uint256" }],
-    "outputs": [{ "name": "", "type": "address", "internalType": "address" }],
+    "outputs": [
+      { "name": "", "type": "uint32[]", "internalType": "uint32[]" }
+    ],
     "stateMutability": "view"
   },
   {
@@ -179,35 +150,6 @@
       { "name": "isBid", "type": "bool", "internalType": "bool" },
       { "name": "price", "type": "uint256", "internalType": "uint256" },
       { "name": "n", "type": "uint32", "internalType": "uint32" }
-    ],
-    "outputs": [
-      {
-        "name": "",
-        "type": "tuple[]",
-        "internalType": "struct ExchangeOrderbook.Order[]",
-        "components": [
-          { "name": "owner", "type": "address", "internalType": "address" },
-          { "name": "price", "type": "uint256", "internalType": "uint256" },
-          {
-            "name": "depositAmount",
-            "type": "uint256",
-            "internalType": "uint256"
-          }
-        ]
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "getOrdersPaginated",
-    "inputs": [
-      { "name": "base", "type": "address", "internalType": "address" },
-      { "name": "quote", "type": "address", "internalType": "address" },
-      { "name": "isBid", "type": "bool", "internalType": "bool" },
-      { "name": "price", "type": "uint256", "internalType": "uint256" },
-      { "name": "start", "type": "uint32", "internalType": "uint32" },
-      { "name": "end", "type": "uint32", "internalType": "uint32" }
     ],
     "outputs": [
       {
@@ -241,89 +183,12 @@
   },
   {
     "type": "function",
-    "name": "getPairNames",
-    "inputs": [
-      { "name": "start", "type": "uint256", "internalType": "uint256" },
-      { "name": "end", "type": "uint256", "internalType": "uint256" }
-    ],
-    "outputs": [
-      { "name": "names", "type": "string[]", "internalType": "string[]" }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "getPairNamesWithIds",
-    "inputs": [
-      { "name": "ids", "type": "uint256[]", "internalType": "uint256[]" }
-    ],
-    "outputs": [
-      { "name": "names", "type": "string[]", "internalType": "string[]" }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "getPairs",
-    "inputs": [
-      { "name": "start", "type": "uint256", "internalType": "uint256" },
-      { "name": "end", "type": "uint256", "internalType": "uint256" }
-    ],
-    "outputs": [
-      {
-        "name": "pairs",
-        "type": "tuple[]",
-        "internalType": "struct IOrderbookFactory.Pair[]",
-        "components": [
-          { "name": "base", "type": "address", "internalType": "address" },
-          { "name": "quote", "type": "address", "internalType": "address" }
-        ]
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "getPairsWithIds",
-    "inputs": [
-      { "name": "ids", "type": "uint256[]", "internalType": "uint256[]" }
-    ],
-    "outputs": [
-      {
-        "name": "pairs",
-        "type": "tuple[]",
-        "internalType": "struct IOrderbookFactory.Pair[]",
-        "components": [
-          { "name": "base", "type": "address", "internalType": "address" },
-          { "name": "quote", "type": "address", "internalType": "address" }
-        ]
-      }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
     "name": "getPrices",
     "inputs": [
       { "name": "base", "type": "address", "internalType": "address" },
       { "name": "quote", "type": "address", "internalType": "address" },
       { "name": "isBid", "type": "bool", "internalType": "bool" },
       { "name": "n", "type": "uint32", "internalType": "uint32" }
-    ],
-    "outputs": [
-      { "name": "", "type": "uint256[]", "internalType": "uint256[]" }
-    ],
-    "stateMutability": "view"
-  },
-  {
-    "type": "function",
-    "name": "getPricesPaginated",
-    "inputs": [
-      { "name": "base", "type": "address", "internalType": "address" },
-      { "name": "quote", "type": "address", "internalType": "address" },
-      { "name": "isBid", "type": "bool", "internalType": "bool" },
-      { "name": "start", "type": "uint32", "internalType": "uint32" },
-      { "name": "end", "type": "uint32", "internalType": "uint32" }
     ],
     "outputs": [
       { "name": "", "type": "uint256[]", "internalType": "uint256[]" }
@@ -617,7 +482,9 @@
       { "name": "buy", "type": "uint32", "internalType": "uint32" },
       { "name": "sell", "type": "uint32", "internalType": "uint32" }
     ],
-    "outputs": [{ "name": "success", "type": "bool", "internalType": "bool" }],
+    "outputs": [
+      { "name": "success", "type": "bool", "internalType": "bool" }
+    ],
     "stateMutability": "nonpayable"
   },
   {
@@ -626,7 +493,19 @@
     "inputs": [
       { "name": "feeTo_", "type": "address", "internalType": "address" }
     ],
-    "outputs": [{ "name": "success", "type": "bool", "internalType": "bool" }],
+    "outputs": [
+      { "name": "success", "type": "bool", "internalType": "bool" }
+    ],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "setListingCost",
+    "inputs": [
+      { "name": "payment", "type": "address", "internalType": "address" },
+      { "name": "amount", "type": "uint256", "internalType": "uint256" }
+    ],
+    "outputs": [{ "name": "", "type": "uint256", "internalType": "uint256" }],
     "stateMutability": "nonpayable"
   },
   {
@@ -638,7 +517,9 @@
       { "name": "buy", "type": "uint32", "internalType": "uint32" },
       { "name": "sell", "type": "uint32", "internalType": "uint32" }
     ],
-    "outputs": [{ "name": "success", "type": "bool", "internalType": "bool" }],
+    "outputs": [
+      { "name": "success", "type": "bool", "internalType": "bool" }
+    ],
     "stateMutability": "nonpayable"
   },
   {
@@ -680,13 +561,19 @@
   },
   {
     "type": "event",
-    "name": "Initialized",
+    "name": "ListingCostSet",
     "inputs": [
       {
-        "name": "version",
-        "type": "uint64",
+        "name": "payment",
+        "type": "address",
         "indexed": false,
-        "internalType": "uint64"
+        "internalType": "address"
+      },
+      {
+        "name": "amount",
+        "type": "uint256",
+        "indexed": false,
+        "internalType": "uint256"
       }
     ],
     "anonymous": false
@@ -977,12 +864,6 @@
         "internalType": "address"
       },
       {
-        "name": "listingPrice",
-        "type": "uint256",
-        "indexed": false,
-        "internalType": "uint256"
-      },
-      {
         "name": "listingDate",
         "type": "uint256",
         "indexed": false,
@@ -1075,6 +956,11 @@
       { "name": "neededRole", "type": "bytes32", "internalType": "bytes32" }
     ]
   },
+  {
+    "type": "error",
+    "name": "AlreadyInitialized",
+    "inputs": [{ "name": "init", "type": "bool", "internalType": "bool" }]
+  },
   { "type": "error", "name": "AmountIsZero", "inputs": [] },
   {
     "type": "error",
@@ -1101,15 +987,6 @@
       { "name": "factory", "type": "address", "internalType": "address" }
     ]
   },
-  {
-    "type": "error",
-    "name": "InvalidFeeRate",
-    "inputs": [
-      { "name": "feeNum", "type": "uint256", "internalType": "uint256" },
-      { "name": "feeDenom", "type": "uint256", "internalType": "uint256" }
-    ]
-  },
-  { "type": "error", "name": "InvalidInitialization", "inputs": [] },
   {
     "type": "error",
     "name": "InvalidPair",
@@ -1143,7 +1020,6 @@
       { "name": "quote", "type": "address", "internalType": "address" }
     ]
   },
-  { "type": "error", "name": "NotInitializing", "inputs": [] },
   {
     "type": "error",
     "name": "OrderSizeTooSmall",

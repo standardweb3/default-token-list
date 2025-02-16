@@ -1,0 +1,171 @@
+[
+  {
+    "base": {
+      "chainId": 11155931,
+      "address": "0x008fCD6315c68EbAa31244aea174993f63Ef14D5",
+      "name": "Ether",
+      "symbol": "ETH",
+      "tag": [
+        "stnd_eth",
+        "stnd_native"
+      ],
+      "decimals": 18,
+      "logoURI": "https://app.piperx.xyz/assets/icon_Story-6a29cdf3.png"
+    },
+    "quote": {
+      "chainId": 11155931,
+      "address": "0x1f18a1724D8960f10165788dba3123F3f5623BB9",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "tag": [
+        "stnd_usdc",
+        "stnd_stablecoin"
+      ],
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+    },
+    "listing_price": 2693.3,
+    "buy_tick": 0.1,
+    "sell_tick": 0.1,
+    "tag": [
+      "stnd_eth",
+      "stnd_native",
+      "stnd_usdc",
+      "stnd_stablecoin"
+    ]
+  },
+  {
+    "base": {
+      "chainId": 11155931,
+      "address": "0x008fCD6315c68EbAa31244aea174993f63Ef14D5",
+      "name": "Ether",
+      "symbol": "ETH",
+      "tag": [
+        "stnd_eth",
+        "stnd_native"
+      ],
+      "decimals": 18,
+      "logoURI": "https://app.piperx.xyz/assets/icon_Story-6a29cdf3.png"
+    },
+    "quote": {
+      "address": "0xB780aa7C36Abd888f81Be044569F4Bf7F2422e07",
+      "chainId": 11155931,
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "tag": [
+        "stnd_usdt",
+        "stnd_stablecoin"
+      ],
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+    },
+    "listing_price": 2693.3,
+    "buy_tick": 0.1,
+    "sell_tick": 0.1,
+    "tag": [
+      "stnd_eth",
+      "stnd_native",
+      "stnd_usdt",
+      "stnd_stablecoin"
+    ]
+  },
+  {
+    "base": {
+      "address": "0xBC3B254f05b38c0327fC6E4442B0EA1eB826f006",
+      "chainId": 11155931,
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "tag": [
+        "stnd_btc"
+      ],
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/7598/standard/wrapped_bitcoin_wbtc.png?1696507857"
+    },
+    "quote": {
+      "chainId": 11155931,
+      "address": "0x1f18a1724D8960f10165788dba3123F3f5623BB9",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "tag": [
+        "stnd_usdc",
+        "stnd_stablecoin"
+      ],
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+    },
+    "listing_price": 97312.73,
+    "buy_tick": 0.1,
+    "sell_tick": 0.1,
+    "tag": [
+      "stnd_btc",
+      "stnd_usdc",
+      "stnd_stablecoin"
+    ]
+  },
+  {
+    "base": {
+      "address": "0xBC3B254f05b38c0327fC6E4442B0EA1eB826f006",
+      "chainId": 11155931,
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "tag": [
+        "stnd_btc"
+      ],
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/7598/standard/wrapped_bitcoin_wbtc.png?1696507857"
+    },
+    "quote": {
+      "address": "0xB780aa7C36Abd888f81Be044569F4Bf7F2422e07",
+      "chainId": 11155931,
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "tag": [
+        "stnd_usdt",
+        "stnd_stablecoin"
+      ],
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+    },
+    "listing_price": 97312.73,
+    "buy_tick": 0.1,
+    "sell_tick": 0.1,
+    "tag": [
+      "stnd_btc",
+      "stnd_usdt",
+      "stnd_stablecoin"
+    ]
+  },
+  {
+    "base": {
+      "address": "0xBC3B254f05b38c0327fC6E4442B0EA1eB826f006",
+      "chainId": 11155931,
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "tag": [
+        "stnd_btc"
+      ],
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/7598/standard/wrapped_bitcoin_wbtc.png?1696507857"
+    },
+    "quote": {
+      "chainId": 11155931,
+      "address": "0x008fCD6315c68EbAa31244aea174993f63Ef14D5",
+      "name": "Ether",
+      "symbol": "ETH",
+      "tag": [
+        "stnd_eth",
+        "stnd_native"
+      ],
+      "decimals": 18,
+      "logoURI": "https://app.piperx.xyz/assets/icon_Story-6a29cdf3.png"
+    },
+    "listing_price": 35.98,
+    "buy_tick": 0.1,
+    "sell_tick": 0.1,
+    "tag": [
+      "stnd_btc",
+      "stnd_eth",
+      "stnd_native"
+    ]
+  }
+]

@@ -1,0 +1,141 @@
+[
+  {
+    "base": {
+      "chainId": 1514,
+      "address": "0x1514000000000000000000000000000000000000",
+      "name": "IP",
+      "symbol": "IP",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/story_iliad/IP.png"
+    },
+    "quote": {
+      "chainId": 1514,
+      "address": "0xF1815bd50389c46847f0Bda824eC8da914045D14",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+    },
+    "tag": [
+      "stnd_stablecoin", "stnd_ip", "stnd_usdc", "stnd_default"
+    ],
+    "listing_price": 2.0,
+    "buy_tick": 1000000,
+    "sell_tick": 100000
+  },
+  {
+    "base": {
+      "chainId": 1514,
+      "address": "0x1514000000000000000000000000000000000000",
+      "name": "IP",
+      "symbol": "IP",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/story_iliad/IP.png"
+    },
+    "quote": {
+      "address": "0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8",
+      "chainId": 1514,
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+    },
+    "tag": [
+      "stnd_stablecoin", "stnd_ip", "stnd_usdt", "stnd_default"
+    ],
+    "listing_price": 2.0,
+    "buy_tick": 1000000,
+    "sell_tick": 100000
+  },
+  {
+    "base": {
+      "chainId": 1514,
+      "address": "0xBAb93B7ad7fE8692A878B95a8e689423437cc500",
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/2518/standard/weth.png?1696503332"
+    },
+    "quote": {
+      "chainId": 1514,
+      "address": "0x1514000000000000000000000000000000000000",
+      "name": "IP",
+      "symbol": "IP",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/story_iliad/IP.png"
+    },
+    "tag": [
+      "stnd_ip"
+    ],
+    "listing_price":  1300
+  },
+  {
+    "base": {
+      "chainId": 1514,
+      "address": "0xBAb93B7ad7fE8692A878B95a8e689423437cc500",
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/2518/standard/weth.png?1696503332"
+    },
+    "quote": {
+      "chainId": 1514,
+      "address": "0xF1815bd50389c46847f0Bda824eC8da914045D14",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+    },
+    "tag": [
+      "stnd_stablecoin", "stnd_usdc"
+    ],
+    "listing_price": 2600.92
+  },
+  {
+    "base": {
+      "chainId": 1514,
+      "address": "0xBAb93B7ad7fE8692A878B95a8e689423437cc500",
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "decimals": 18,
+      "logoURI": "https://assets.coingecko.com/coins/images/2518/standard/weth.png?1696503332"
+    },
+    "quote": {
+      "address": "0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8",
+      "chainId": 1514,
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+    },
+    "tag": [
+      "stnd_stablecoin", "stnd_usdt"
+    ],
+    "listing_price": 2600.92
+  },
+  {
+    "base": {
+      "chainId": 1514,
+      "address": "0xF1815bd50389c46847f0Bda824eC8da914045D14",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+    },
+    "quote": {
+      "address": "0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8",
+      "chainId": 1514,
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+    },
+    "tag": [
+      "stnd_stablecoin", "stnd_usdt"
+    ],
+    "listing_price": 1.0,
+    "buy_tick": 10000,
+    "sell_tick": 10000
+  }
+]
+

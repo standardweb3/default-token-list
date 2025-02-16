@@ -6,7 +6,7 @@
       "name": "IP",
       "symbol": "IP",
       "decimals": 18,
-      "logoURI": "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png"
+      "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/story_iliad/IP.png"
     },
     "quote": {
       "chainId": 1513,
@@ -33,7 +33,7 @@
       "name": "IP",
       "symbol": "IP",
       "decimals": 18,
-      "logoURI": "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png"
+      "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/story_iliad/IP.png"
     },
     "listing_price": 0.00017125
   },
@@ -90,7 +90,7 @@
       "name": "IP",
       "symbol": "IP",
       "decimals": 18,
-      "logoURI": "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png"
+      "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/story_iliad/IP.png"
     },
     "listing_price": 252.416
   },

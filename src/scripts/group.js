@@ -47,6 +47,9 @@ function group(groups, assets) {
 
 function main(argument) {
   const [groups, pairs, tokens] = openFiles(argument);
+  console.log('Groups:', groups);
+  console.log('Pairs:', pairs);
+  console.log('Tokens:', tokens);
   // now group tokens by group
   const groupedTokens = group(groups.content, tokens.content);
   // now group pairs by group

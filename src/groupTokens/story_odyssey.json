@@ -10,7 +10,7 @@
         "stnd_native"
       ],
       "decimals": 18,
-      "logoURI": "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png"
+      "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/story_iliad/IP.png"
     }
   ],
   "stnd_default": [],
@@ -93,7 +93,7 @@
         "stnd_native"
       ],
       "decimals": 18,
-      "logoURI": "https://app.piperx.xyz/assets/icon_Story-0eb3cd42.png"
+      "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/story_iliad/IP.png"
     }
   ],
   "stnd_alts": [],

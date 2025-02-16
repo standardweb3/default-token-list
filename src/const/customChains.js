@@ -1,5 +1,63 @@
 const { defineChain } = require("viem");
 
+const RiseSepolia = defineChain({
+  id: 11155931,
+  name: "Rise Sepolia",
+  nativeCurrency: { name: "ETH", symbol: "ETH", decimals: 18 },
+  rpcUrls: {
+    public: { http: ["https://testnet.riselabs.xyz/"] },
+    default: {
+      http: ["https://testnet.riselabs.xyz/"],
+    },
+  },
+  blockExplorers: {
+    etherscan: {
+      name: "RiseSepolia Scan",
+      url: "https://testnet-explorer.riselabs.xyz",
+    },
+    default: {
+      name: "RiseSepolia Scan",
+      url: "https://testnet-explorer.riselabs.xyz",
+    },
+  },
+  testnet: true,
+  contracts: {
+    multicall3: {
+      address: "0x33f6552F37772e42A31d03233812d2dC6afd2f97",
+      blockCreated: 457931,
+    },
+  },
+});
+
+const Story = defineChain({
+  id: 1514,
+  name: "Story",
+  nativeCurrency: { name: "IP", symbol: "IP", decimals: 18 },
+  rpcUrls: {
+    public: { http: ["https://rpc.mainnet.storyrpc.io/"] },
+    default: {
+      http: ["https://rpc.mainnet.storyrpc.io/"],
+    },
+  },
+  blockExplorers: {
+    etherscan: {
+      name: "OKlink Scan Story",
+      url: "https://www.oklink.com/story",
+    },
+    default: {
+      name: "OKlink Scan Story",
+      url: "https://www.oklink.com/story",
+    },
+  },
+  testnet: true,
+  contracts: {
+    multicall3: {
+      address: "0x959245ea66ac26caf38b8eb9d48418c6b7aa621d",
+      blockCreated: 877456,
+    },
+  },
+});
+
 const StoryIliad = defineChain({
   id: 1513,
   name: "Story Public Testnet",
@@ -88,4 +146,6 @@ const Morph = defineChain({
   },
 })
 
-module.exports = { StoryOdyssey, StoryIliad, Morph };
+
+
+module.exports = { StoryOdyssey, StoryIliad, Morph, Story, RiseSepolia };

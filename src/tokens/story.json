@@ -1,0 +1,38 @@
+[
+    {
+        "chainId": 1514,
+        "address": "0x1514000000000000000000000000000000000000",
+        "name": "IP",
+        "symbol": "IP",
+        "tag": ["stnd_ip", "stnd_native"],
+        "decimals": 18,
+        "logoURI": "https://app.piperx.xyz/assets/icon_Story-6a29cdf3.png"
+    },
+    {
+        "chainId": 1514,
+        "address": "0xF1815bd50389c46847f0Bda824eC8da914045D14",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": ["stnd_usdc", "stnd_stablecoin"],
+        "decimals": 6,
+        "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+    },
+    {
+        "address": "0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8",
+        "chainId": 1514,
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "tag": ["stnd_usdt", "stnd_stablecoin"],
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+    },
+    {
+        "address": "0xBAb93B7ad7fE8692A878B95a8e689423437cc500",
+        "chainId": 1514,
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "tag": ["stnd_eth"],
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/2518/standard/weth.png?1696503332"
+    }
+]

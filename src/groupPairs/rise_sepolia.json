@@ -11,7 +11,7 @@
           "stnd_native"
         ],
         "decimals": 18,
-        "logoURI": "https://app.piperx.xyz/assets/icon_Story-6a29cdf3.png"
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
       },
       "quote": {
         "chainId": 11155931,
@@ -32,7 +32,8 @@
         "stnd_eth",
         "stnd_native",
         "stnd_usdc",
-        "stnd_stablecoin"
+        "stnd_stablecoin",
+        "stnd_default"
       ]
     },
     {
@@ -46,7 +47,7 @@
           "stnd_native"
         ],
         "decimals": 18,
-        "logoURI": "https://app.piperx.xyz/assets/icon_Story-6a29cdf3.png"
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
       },
       "quote": {
         "address": "0xB780aa7C36Abd888f81Be044569F4Bf7F2422e07",
@@ -92,7 +93,7 @@
           "stnd_native"
         ],
         "decimals": 18,
-        "logoURI": "https://app.piperx.xyz/assets/icon_Story-6a29cdf3.png"
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
       },
       "listing_price": 35.98,
       "buy_tick": 0.1,
@@ -104,8 +105,7 @@
       ]
     }
   ],
-  "stnd_default": [],
-  "stnd_stablecoin": [
+  "stnd_default": [
     {
       "base": {
         "chainId": 11155931,
@@ -117,7 +117,7 @@
           "stnd_native"
         ],
         "decimals": 18,
-        "logoURI": "https://app.piperx.xyz/assets/icon_Story-6a29cdf3.png"
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
       },
       "quote": {
         "chainId": 11155931,
@@ -138,7 +138,46 @@
         "stnd_eth",
         "stnd_native",
         "stnd_usdc",
-        "stnd_stablecoin"
+        "stnd_stablecoin",
+        "stnd_default"
+      ]
+    }
+  ],
+  "stnd_stablecoin": [
+    {
+      "base": {
+        "chainId": 11155931,
+        "address": "0x008fCD6315c68EbAa31244aea174993f63Ef14D5",
+        "name": "Ether",
+        "symbol": "ETH",
+        "tag": [
+          "stnd_eth",
+          "stnd_native"
+        ],
+        "decimals": 18,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+      },
+      "quote": {
+        "chainId": 11155931,
+        "address": "0x1f18a1724D8960f10165788dba3123F3f5623BB9",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": [
+          "stnd_usdc",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+      },
+      "listing_price": 2693.3,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_eth",
+        "stnd_native",
+        "stnd_usdc",
+        "stnd_stablecoin",
+        "stnd_default"
       ]
     },
     {
@@ -152,7 +191,7 @@
           "stnd_native"
         ],
         "decimals": 18,
-        "logoURI": "https://app.piperx.xyz/assets/icon_Story-6a29cdf3.png"
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
       },
       "quote": {
         "address": "0xB780aa7C36Abd888f81Be044569F4Bf7F2422e07",
@@ -255,7 +294,7 @@
           "stnd_native"
         ],
         "decimals": 18,
-        "logoURI": "https://app.piperx.xyz/assets/icon_Story-6a29cdf3.png"
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
       },
       "quote": {
         "chainId": 11155931,
@@ -276,7 +315,8 @@
         "stnd_eth",
         "stnd_native",
         "stnd_usdc",
-        "stnd_stablecoin"
+        "stnd_stablecoin",
+        "stnd_default"
       ]
     },
     {
@@ -325,7 +365,7 @@
           "stnd_native"
         ],
         "decimals": 18,
-        "logoURI": "https://app.piperx.xyz/assets/icon_Story-6a29cdf3.png"
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
       },
       "quote": {
         "address": "0xB780aa7C36Abd888f81Be044569F4Bf7F2422e07",
@@ -396,7 +436,7 @@
           "stnd_native"
         ],
         "decimals": 18,
-        "logoURI": "https://app.piperx.xyz/assets/icon_Story-6a29cdf3.png"
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
       },
       "quote": {
         "chainId": 11155931,
@@ -417,7 +457,8 @@
         "stnd_eth",
         "stnd_native",
         "stnd_usdc",
-        "stnd_stablecoin"
+        "stnd_stablecoin",
+        "stnd_default"
       ]
     },
     {
@@ -431,7 +472,7 @@
           "stnd_native"
         ],
         "decimals": 18,
-        "logoURI": "https://app.piperx.xyz/assets/icon_Story-6a29cdf3.png"
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
       },
       "quote": {
         "address": "0xB780aa7C36Abd888f81Be044569F4Bf7F2422e07",
@@ -477,7 +518,7 @@
           "stnd_native"
         ],
         "decimals": 18,
-        "logoURI": "https://app.piperx.xyz/assets/icon_Story-6a29cdf3.png"
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
       },
       "listing_price": 35.98,
       "buy_tick": 0.1,
@@ -581,7 +622,7 @@
           "stnd_native"
         ],
         "decimals": 18,
-        "logoURI": "https://app.piperx.xyz/assets/icon_Story-6a29cdf3.png"
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
       },
       "listing_price": 35.98,
       "buy_tick": 0.1,

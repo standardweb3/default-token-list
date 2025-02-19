@@ -73,10 +73,10 @@ module.exports = function buildList() {
         startBlock: 4613007,
       }
     },
-    haifuLaunchpad: {
-      "Story Odyssey Testnet": {
-        address: "0x3623A3cF0098B603ba89133ECD7D7f2E26D74Ba7",
-        startBlock: 2386633,
+    haifuManager: {
+      "Rise Sepolia": {
+        address: "0x2C1d127d610DFBdb45D9f05eEec4faAFc9Db5029",
+        startBlock: 4849129,
       }
     },
     tags: {},

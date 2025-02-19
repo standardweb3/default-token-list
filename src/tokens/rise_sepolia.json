@@ -33,7 +33,7 @@
         "symbol": "HAIFU",
         "tag": ["stnd_haifu", "stnd_ai"],
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+        "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/haifu.fun/haifu.png"
     },
     {
         "address": "0xBC3B254f05b38c0327fC6E4442B0EA1eB826f006",

@@ -1,6 +1,6 @@
 {
   "name": "@standardweb3/default-token-list",
-  "version": "0.0.71",
+  "version": "0.0.72",
   "description": "Standard default token list",
   "main": "build/standard-default.tokenlist.json",
   "scripts": {

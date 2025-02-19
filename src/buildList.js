@@ -73,7 +73,7 @@ module.exports = function buildList() {
         startBlock: 4613007,
       }
     },
-    haifuManager: {
+    wAIfuManager: {
       "Rise Sepolia": {
         address: "0x2C1d127d610DFBdb45D9f05eEec4faAFc9Db5029",
         startBlock: 4849129,

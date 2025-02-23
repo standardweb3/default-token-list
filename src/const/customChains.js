@@ -1,5 +1,34 @@
 const { defineChain } = require("viem");
 
+const MonadTestnet = defineChain({
+  id: 10143,
+  name: "Monad Testnet",
+  nativeCurrency: { name: "Monad", symbol: "MON", decimals: 18 },
+  rpcUrls: {
+    public: { http: ["https://testnet-rpc.monad.xyz"] },
+    default: {
+      http: ["https://testnet-rpc.monad.xyz"],
+    },
+  },
+  blockExplorers: {
+    etherscan: {
+      name: "Monad Testnet Explorer",
+      url: "https://testnet-explorer.riselabs.xyz",
+    },
+    default: {
+      name: "Monad Testnet Explorer",
+      url: "https://testnet.monadexplorer.com/",
+    },
+  },
+  testnet: true,
+  contracts: {
+    multicall3: {
+      address: "0xcA11bde05977b3631167028862bE2a173976CA11",
+      blockCreated: 251449,
+    },
+  },
+});
+
 const RiseSepolia = defineChain({
   id: 11155931,
   name: "Rise Sepolia",
@@ -148,4 +177,4 @@ const Morph = defineChain({
 
 
 
-module.exports = { StoryOdyssey, StoryIliad, Morph, Story, RiseSepolia };
+module.exports = { StoryOdyssey, StoryIliad, Morph, Story, RiseSepolia, MonadTestnet };

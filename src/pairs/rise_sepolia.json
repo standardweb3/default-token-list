@@ -79,7 +79,7 @@
       "tag": [
         "stnd_btc"
       ],
-      "decimals": 18,
+      "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/7598/standard/wrapped_bitcoin_wbtc.png?1696507857"
     },
     "quote": {
@@ -112,7 +112,7 @@
       "tag": [
         "stnd_btc"
       ],
-      "decimals": 18,
+      "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/7598/standard/wrapped_bitcoin_wbtc.png?1696507857"
     },
     "quote": {
@@ -145,7 +145,7 @@
       "tag": [
         "stnd_btc"
       ],
-      "decimals": 18,
+      "decimals": 8,
       "logoURI": "https://assets.coingecko.com/coins/images/7598/standard/wrapped_bitcoin_wbtc.png?1696507857"
     },
     "quote": {

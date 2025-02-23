@@ -6,6 +6,7 @@ const {
   Morph,
   Story,
   RiseSepolia,
+  MonadTestnet,
 } = require("../const/customChains");
 const {
   base,
@@ -17,7 +18,6 @@ const {
 } = require("viem/chains");
 const MatchingEngineABI = require("../abis/MatchingEngineABI.json");
 const defaultTokenList = require("../../build/standard-default.tokenlist.json");
-const { parse } = require("path");
 require("dotenv").config();
 
 /**
@@ -105,7 +105,6 @@ async function addPair(pair, matchingEngine, walletClient, abi) {
         0,
         pair.base.address,
       ],
-      gas: 30000000, // Set the gas limit (adjust as needed)
     });
 
     console.log("Transaction hash for adding pair:", result);
@@ -128,8 +127,9 @@ async function setSpread(pair, matchingEngine, walletClient, abi) {
       args: [
         pair.base.address,
         pair.quote.address,
-        parseUnits(pair.buy_tick.toString() ?? 1000000, 8), // 1000000(0.1%) spread limit
-        parseUnits(pair.sell_tick.toString() ?? 1000000, 8), // 1000000(0.1%) spread limit
+        // set decimals from 8 to 6 for applying percentage
+        parseUnits(pair.buy_tick.toString() ?? 10000000, 6), // 100000(0.1%) spread limit
+        parseUnits(pair.sell_tick.toString() ?? 10000000, 6), // 100000(0.1%) spread limit
       ],
     });
 
@@ -146,6 +146,7 @@ function sleep(ms) {
 async function processPairs(pairs, matchingEngine, walletClient, abi) {
   for (const pair of pairs) {
     await addPair(pair, matchingEngine, walletClient, abi);
+    await sleep(2000); // Wait for 2 seconds
     await setSpread(pair, matchingEngine, walletClient, abi);
     await sleep(2000); // Wait for 2 seconds
   }
@@ -156,19 +157,19 @@ async function main() {
   const walletClient = createWalletClient({
     account,
     // Change network to configure pair list to add in a network
-    chain: RiseSepolia,
-    transport: http(process.env.RISE_SEPOLIA_RPC),
+    chain: MonadTestnet,
+    transport: http(process.env.MONAD_TESTNET_RPC),
   });
 
   const abi = MatchingEngineABI;
 
   // Change network to configure pair list to add in a network
-  const pairs = await getPairs(RiseSepolia);
+  const pairs = await getPairs(MonadTestnet);
 
   console.log("Pairs to add:", pairs.length);
   // make contract call on each pair in the list
   const matchingEngine =
-    defaultTokenList.matchingEngine["Rise Sepolia"].address;
+    defaultTokenList.matchingEngine["Monad Testnet"].address;
 
   await processPairs(pairs, matchingEngine, walletClient, abi);
 }

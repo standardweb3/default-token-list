@@ -7,7 +7,28 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-const pairs = ["ETH/USDC", "ETH/USDT", "WBTC/USDC", "WBTC/USDT", "WBTC/ETH"];
+const pairs = [
+  "MON/USDC",
+  "MON/USDT",
+  "MON/WETH",
+  "USDC/USDT",
+  "WBTC/USDT",
+  "WBTC/MON",
+  "WBTC/WETH",
+  "WETH/USDT",
+  "WETH/USDC",
+  "SOL/USDC",
+  "SOL/USDT",
+  "CHOG/USDC",
+  "CHOG/SOL",
+  "CHOG/MON",
+  "YAKI/USDC",
+  "YAKI/MON",
+  "YAKI/SOL",
+  "DAK/USDC",
+  "DAK/MON",
+  "DAK/SOL",
+];
 
 function readJSONFile(filePath) {
   const content = fs.readFileSync(filePath, "utf-8");
@@ -79,18 +100,18 @@ function savePairObjects(pairObjects, inputFileName) {
 }
 
 async function main() {
-    const rootDir = path.join(__dirname, '../../');
-    const tokenFilePath = process.argv[2];
-    if (!tokenFilePath) {
-      console.error('Please provide the name of the JSON file as an argument.');
-      process.exit(1);
-    }
-  
-    const absoluteTokenFilePath = path.join(rootDir, 'src/tokens', tokenFilePath);
-    if (!fs.existsSync(absoluteTokenFilePath)) {
-      console.error(`File not found: ${absoluteTokenFilePath}`);
-      process.exit(1);
-    }
+  const rootDir = path.join(__dirname, "../../");
+  const tokenFilePath = process.argv[2];
+  if (!tokenFilePath) {
+    console.error("Please provide the name of the JSON file as an argument.");
+    process.exit(1);
+  }
+
+  const absoluteTokenFilePath = path.join(rootDir, "src/tokens", tokenFilePath);
+  if (!fs.existsSync(absoluteTokenFilePath)) {
+    console.error(`File not found: ${absoluteTokenFilePath}`);
+    process.exit(1);
+  }
 
   const tokens = readJSONFile(absoluteTokenFilePath);
   const pairObjects = await createPairObjects(tokens, pairs);

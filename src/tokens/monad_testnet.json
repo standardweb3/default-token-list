@@ -86,6 +86,7 @@
         "name": "Magma Staked Monad",
         "symbol": "gMON",
         "decimals": 18,
+        "tag": ["stnd_lst"],
         "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/monad_testnet/gMon.png"
     }
 ]

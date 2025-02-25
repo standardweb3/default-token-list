@@ -24,6 +24,11 @@
     "name": "USDC",
     "description": "USDC related tokens or pair with quote token in a chain"
   },
+  "stnd_lst": {
+   "id": "stnd_lst",
+   "name": "LST",
+   "description": "Liquid Staking related tokens or pair with quote token in a chain"
+  },
   "stnd_usdt": {
     "id": "stnd_usdt",
     "name": "USDT",

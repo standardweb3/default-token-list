@@ -1,0 +1,1163 @@
+{
+  "stnd_native": [
+    {
+      "base": {
+        "chainId": 763373,
+        "address": "0x4200000000000000000000000000000000000006",
+        "name": "Ether",
+        "symbol": "ETH",
+        "tag": [
+          "stnd_eth",
+          "stnd_native"
+        ],
+        "decimals": 18,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+      },
+      "quote": {
+        "chainId": 763373,
+        "address": "0xa111a06BDEbb8b1dAA79000F4B386A36E0AccE56",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": [
+          "stnd_usdc",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+      },
+      "listing_price": 2639.05,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_eth",
+        "stnd_native",
+        "stnd_usdc",
+        "stnd_stablecoin",
+        "stnd_default"
+      ]
+    },
+    {
+      "base": {
+        "chainId": 763373,
+        "address": "0x4200000000000000000000000000000000000006",
+        "name": "Ether",
+        "symbol": "ETH",
+        "tag": [
+          "stnd_eth",
+          "stnd_native"
+        ],
+        "decimals": 18,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+      },
+      "quote": {
+        "address": "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        "chainId": 763373,
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "tag": [
+          "stnd_usdt",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+      },
+      "listing_price": 2639.05,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_eth",
+        "stnd_native",
+        "stnd_usdt",
+        "stnd_stablecoin"
+      ]
+    },
+    {
+      "base": {
+        "address": "0x3990952cC9aaB32542e334fF2E43FdE8d3537b14",
+        "chainId": 763373,
+        "name": "Haifu",
+        "symbol": "HAIFU",
+        "tag": [
+          "stnd_haifu",
+          "stnd_ai"
+        ],
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/haifu.fun/haifu.png"
+      },
+      "quote": {
+        "chainId": 763373,
+        "address": "0x4200000000000000000000000000000000000006",
+        "name": "Ether",
+        "symbol": "ETH",
+        "tag": [
+          "stnd_eth",
+          "stnd_native"
+        ],
+        "decimals": 18,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+      },
+      "listing_price": 0.00001136,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_haifu",
+        "stnd_ai",
+        "stnd_eth",
+        "stnd_native"
+      ]
+    },
+    {
+      "base": {
+        "address": "0x6B5A13Ca93871187330aE6d9E34cdAD610aA54cd",
+        "chainId": 763373,
+        "name": "Wrapped Bitcoin",
+        "symbol": "WBTC",
+        "tag": [
+          "stnd_btc"
+        ],
+        "decimals": 8,
+        "logoURI": "https://assets.coingecko.com/coins/images/7598/standard/wrapped_bitcoin_wbtc.png?1696507857"
+      },
+      "quote": {
+        "chainId": 763373,
+        "address": "0x4200000000000000000000000000000000000006",
+        "name": "Ether",
+        "symbol": "ETH",
+        "tag": [
+          "stnd_eth",
+          "stnd_native"
+        ],
+        "decimals": 18,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+      },
+      "listing_price": 36.30397,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_btc",
+        "stnd_eth",
+        "stnd_native"
+      ]
+    }
+  ],
+  "stnd_default": [
+    {
+      "base": {
+        "chainId": 763373,
+        "address": "0x4200000000000000000000000000000000000006",
+        "name": "Ether",
+        "symbol": "ETH",
+        "tag": [
+          "stnd_eth",
+          "stnd_native"
+        ],
+        "decimals": 18,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+      },
+      "quote": {
+        "chainId": 763373,
+        "address": "0xa111a06BDEbb8b1dAA79000F4B386A36E0AccE56",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": [
+          "stnd_usdc",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+      },
+      "listing_price": 2639.05,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_eth",
+        "stnd_native",
+        "stnd_usdc",
+        "stnd_stablecoin",
+        "stnd_default"
+      ]
+    }
+  ],
+  "stnd_stablecoin": [
+    {
+      "base": {
+        "chainId": 763373,
+        "address": "0x4200000000000000000000000000000000000006",
+        "name": "Ether",
+        "symbol": "ETH",
+        "tag": [
+          "stnd_eth",
+          "stnd_native"
+        ],
+        "decimals": 18,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+      },
+      "quote": {
+        "chainId": 763373,
+        "address": "0xa111a06BDEbb8b1dAA79000F4B386A36E0AccE56",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": [
+          "stnd_usdc",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+      },
+      "listing_price": 2639.05,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_eth",
+        "stnd_native",
+        "stnd_usdc",
+        "stnd_stablecoin",
+        "stnd_default"
+      ]
+    },
+    {
+      "base": {
+        "chainId": 763373,
+        "address": "0x4200000000000000000000000000000000000006",
+        "name": "Ether",
+        "symbol": "ETH",
+        "tag": [
+          "stnd_eth",
+          "stnd_native"
+        ],
+        "decimals": 18,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+      },
+      "quote": {
+        "address": "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        "chainId": 763373,
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "tag": [
+          "stnd_usdt",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+      },
+      "listing_price": 2639.05,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_eth",
+        "stnd_native",
+        "stnd_usdt",
+        "stnd_stablecoin"
+      ]
+    },
+    {
+      "base": {
+        "address": "0x3990952cC9aaB32542e334fF2E43FdE8d3537b14",
+        "chainId": 763373,
+        "name": "Haifu",
+        "symbol": "HAIFU",
+        "tag": [
+          "stnd_haifu",
+          "stnd_ai"
+        ],
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/haifu.fun/haifu.png"
+      },
+      "quote": {
+        "chainId": 763373,
+        "address": "0xa111a06BDEbb8b1dAA79000F4B386A36E0AccE56",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": [
+          "stnd_usdc",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+      },
+      "listing_price": 0.03,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_haifu",
+        "stnd_ai",
+        "stnd_usdc",
+        "stnd_stablecoin"
+      ]
+    },
+    {
+      "base": {
+        "address": "0x3990952cC9aaB32542e334fF2E43FdE8d3537b14",
+        "chainId": 763373,
+        "name": "Haifu",
+        "symbol": "HAIFU",
+        "tag": [
+          "stnd_haifu",
+          "stnd_ai"
+        ],
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/haifu.fun/haifu.png"
+      },
+      "quote": {
+        "address": "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        "chainId": 763373,
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "tag": [
+          "stnd_usdt",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+      },
+      "listing_price": 0.03,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_haifu",
+        "stnd_ai",
+        "stnd_usdt",
+        "stnd_stablecoin"
+      ]
+    },
+    {
+      "base": {
+        "chainId": 763373,
+        "address": "0xa111a06BDEbb8b1dAA79000F4B386A36E0AccE56",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": [
+          "stnd_usdc",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+      },
+      "quote": {
+        "address": "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        "chainId": 763373,
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "tag": [
+          "stnd_usdt",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+      },
+      "listing_price": 1,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_usdc",
+        "stnd_stablecoin",
+        "stnd_usdt"
+      ]
+    },
+    {
+      "base": {
+        "address": "0x6B5A13Ca93871187330aE6d9E34cdAD610aA54cd",
+        "chainId": 763373,
+        "name": "Wrapped Bitcoin",
+        "symbol": "WBTC",
+        "tag": [
+          "stnd_btc"
+        ],
+        "decimals": 8,
+        "logoURI": "https://assets.coingecko.com/coins/images/7598/standard/wrapped_bitcoin_wbtc.png?1696507857"
+      },
+      "quote": {
+        "chainId": 763373,
+        "address": "0xa111a06BDEbb8b1dAA79000F4B386A36E0AccE56",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": [
+          "stnd_usdc",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+      },
+      "listing_price": 95808,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_btc",
+        "stnd_usdc",
+        "stnd_stablecoin"
+      ]
+    },
+    {
+      "base": {
+        "address": "0x6B5A13Ca93871187330aE6d9E34cdAD610aA54cd",
+        "chainId": 763373,
+        "name": "Wrapped Bitcoin",
+        "symbol": "WBTC",
+        "tag": [
+          "stnd_btc"
+        ],
+        "decimals": 8,
+        "logoURI": "https://assets.coingecko.com/coins/images/7598/standard/wrapped_bitcoin_wbtc.png?1696507857"
+      },
+      "quote": {
+        "address": "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        "chainId": 763373,
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "tag": [
+          "stnd_usdt",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+      },
+      "listing_price": 95808,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_btc",
+        "stnd_usdt",
+        "stnd_stablecoin"
+      ]
+    }
+  ],
+  "stnd_haifu": [
+    {
+      "base": {
+        "address": "0x3990952cC9aaB32542e334fF2E43FdE8d3537b14",
+        "chainId": 763373,
+        "name": "Haifu",
+        "symbol": "HAIFU",
+        "tag": [
+          "stnd_haifu",
+          "stnd_ai"
+        ],
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/haifu.fun/haifu.png"
+      },
+      "quote": {
+        "chainId": 763373,
+        "address": "0xa111a06BDEbb8b1dAA79000F4B386A36E0AccE56",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": [
+          "stnd_usdc",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+      },
+      "listing_price": 0.03,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_haifu",
+        "stnd_ai",
+        "stnd_usdc",
+        "stnd_stablecoin"
+      ]
+    },
+    {
+      "base": {
+        "address": "0x3990952cC9aaB32542e334fF2E43FdE8d3537b14",
+        "chainId": 763373,
+        "name": "Haifu",
+        "symbol": "HAIFU",
+        "tag": [
+          "stnd_haifu",
+          "stnd_ai"
+        ],
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/haifu.fun/haifu.png"
+      },
+      "quote": {
+        "address": "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        "chainId": 763373,
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "tag": [
+          "stnd_usdt",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+      },
+      "listing_price": 0.03,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_haifu",
+        "stnd_ai",
+        "stnd_usdt",
+        "stnd_stablecoin"
+      ]
+    },
+    {
+      "base": {
+        "address": "0x3990952cC9aaB32542e334fF2E43FdE8d3537b14",
+        "chainId": 763373,
+        "name": "Haifu",
+        "symbol": "HAIFU",
+        "tag": [
+          "stnd_haifu",
+          "stnd_ai"
+        ],
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/haifu.fun/haifu.png"
+      },
+      "quote": {
+        "chainId": 763373,
+        "address": "0x4200000000000000000000000000000000000006",
+        "name": "Ether",
+        "symbol": "ETH",
+        "tag": [
+          "stnd_eth",
+          "stnd_native"
+        ],
+        "decimals": 18,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+      },
+      "listing_price": 0.00001136,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_haifu",
+        "stnd_ai",
+        "stnd_eth",
+        "stnd_native"
+      ]
+    }
+  ],
+  "stnd_ai": [
+    {
+      "base": {
+        "address": "0x3990952cC9aaB32542e334fF2E43FdE8d3537b14",
+        "chainId": 763373,
+        "name": "Haifu",
+        "symbol": "HAIFU",
+        "tag": [
+          "stnd_haifu",
+          "stnd_ai"
+        ],
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/haifu.fun/haifu.png"
+      },
+      "quote": {
+        "chainId": 763373,
+        "address": "0xa111a06BDEbb8b1dAA79000F4B386A36E0AccE56",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": [
+          "stnd_usdc",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+      },
+      "listing_price": 0.03,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_haifu",
+        "stnd_ai",
+        "stnd_usdc",
+        "stnd_stablecoin"
+      ]
+    },
+    {
+      "base": {
+        "address": "0x3990952cC9aaB32542e334fF2E43FdE8d3537b14",
+        "chainId": 763373,
+        "name": "Haifu",
+        "symbol": "HAIFU",
+        "tag": [
+          "stnd_haifu",
+          "stnd_ai"
+        ],
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/haifu.fun/haifu.png"
+      },
+      "quote": {
+        "address": "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        "chainId": 763373,
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "tag": [
+          "stnd_usdt",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+      },
+      "listing_price": 0.03,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_haifu",
+        "stnd_ai",
+        "stnd_usdt",
+        "stnd_stablecoin"
+      ]
+    },
+    {
+      "base": {
+        "address": "0x3990952cC9aaB32542e334fF2E43FdE8d3537b14",
+        "chainId": 763373,
+        "name": "Haifu",
+        "symbol": "HAIFU",
+        "tag": [
+          "stnd_haifu",
+          "stnd_ai"
+        ],
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/haifu.fun/haifu.png"
+      },
+      "quote": {
+        "chainId": 763373,
+        "address": "0x4200000000000000000000000000000000000006",
+        "name": "Ether",
+        "symbol": "ETH",
+        "tag": [
+          "stnd_eth",
+          "stnd_native"
+        ],
+        "decimals": 18,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+      },
+      "listing_price": 0.00001136,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_haifu",
+        "stnd_ai",
+        "stnd_eth",
+        "stnd_native"
+      ]
+    }
+  ],
+  "stnd_usdc": [
+    {
+      "base": {
+        "chainId": 763373,
+        "address": "0x4200000000000000000000000000000000000006",
+        "name": "Ether",
+        "symbol": "ETH",
+        "tag": [
+          "stnd_eth",
+          "stnd_native"
+        ],
+        "decimals": 18,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+      },
+      "quote": {
+        "chainId": 763373,
+        "address": "0xa111a06BDEbb8b1dAA79000F4B386A36E0AccE56",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": [
+          "stnd_usdc",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+      },
+      "listing_price": 2639.05,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_eth",
+        "stnd_native",
+        "stnd_usdc",
+        "stnd_stablecoin",
+        "stnd_default"
+      ]
+    },
+    {
+      "base": {
+        "address": "0x3990952cC9aaB32542e334fF2E43FdE8d3537b14",
+        "chainId": 763373,
+        "name": "Haifu",
+        "symbol": "HAIFU",
+        "tag": [
+          "stnd_haifu",
+          "stnd_ai"
+        ],
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/haifu.fun/haifu.png"
+      },
+      "quote": {
+        "chainId": 763373,
+        "address": "0xa111a06BDEbb8b1dAA79000F4B386A36E0AccE56",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": [
+          "stnd_usdc",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+      },
+      "listing_price": 0.03,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_haifu",
+        "stnd_ai",
+        "stnd_usdc",
+        "stnd_stablecoin"
+      ]
+    },
+    {
+      "base": {
+        "chainId": 763373,
+        "address": "0xa111a06BDEbb8b1dAA79000F4B386A36E0AccE56",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": [
+          "stnd_usdc",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+      },
+      "quote": {
+        "address": "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        "chainId": 763373,
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "tag": [
+          "stnd_usdt",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+      },
+      "listing_price": 1,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_usdc",
+        "stnd_stablecoin",
+        "stnd_usdt"
+      ]
+    },
+    {
+      "base": {
+        "address": "0x6B5A13Ca93871187330aE6d9E34cdAD610aA54cd",
+        "chainId": 763373,
+        "name": "Wrapped Bitcoin",
+        "symbol": "WBTC",
+        "tag": [
+          "stnd_btc"
+        ],
+        "decimals": 8,
+        "logoURI": "https://assets.coingecko.com/coins/images/7598/standard/wrapped_bitcoin_wbtc.png?1696507857"
+      },
+      "quote": {
+        "chainId": 763373,
+        "address": "0xa111a06BDEbb8b1dAA79000F4B386A36E0AccE56",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": [
+          "stnd_usdc",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+      },
+      "listing_price": 95808,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_btc",
+        "stnd_usdc",
+        "stnd_stablecoin"
+      ]
+    }
+  ],
+  "stnd_usdt": [
+    {
+      "base": {
+        "chainId": 763373,
+        "address": "0x4200000000000000000000000000000000000006",
+        "name": "Ether",
+        "symbol": "ETH",
+        "tag": [
+          "stnd_eth",
+          "stnd_native"
+        ],
+        "decimals": 18,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+      },
+      "quote": {
+        "address": "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        "chainId": 763373,
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "tag": [
+          "stnd_usdt",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+      },
+      "listing_price": 2639.05,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_eth",
+        "stnd_native",
+        "stnd_usdt",
+        "stnd_stablecoin"
+      ]
+    },
+    {
+      "base": {
+        "address": "0x3990952cC9aaB32542e334fF2E43FdE8d3537b14",
+        "chainId": 763373,
+        "name": "Haifu",
+        "symbol": "HAIFU",
+        "tag": [
+          "stnd_haifu",
+          "stnd_ai"
+        ],
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/haifu.fun/haifu.png"
+      },
+      "quote": {
+        "address": "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        "chainId": 763373,
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "tag": [
+          "stnd_usdt",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+      },
+      "listing_price": 0.03,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_haifu",
+        "stnd_ai",
+        "stnd_usdt",
+        "stnd_stablecoin"
+      ]
+    },
+    {
+      "base": {
+        "chainId": 763373,
+        "address": "0xa111a06BDEbb8b1dAA79000F4B386A36E0AccE56",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": [
+          "stnd_usdc",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+      },
+      "quote": {
+        "address": "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        "chainId": 763373,
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "tag": [
+          "stnd_usdt",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+      },
+      "listing_price": 1,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_usdc",
+        "stnd_stablecoin",
+        "stnd_usdt"
+      ]
+    },
+    {
+      "base": {
+        "address": "0x6B5A13Ca93871187330aE6d9E34cdAD610aA54cd",
+        "chainId": 763373,
+        "name": "Wrapped Bitcoin",
+        "symbol": "WBTC",
+        "tag": [
+          "stnd_btc"
+        ],
+        "decimals": 8,
+        "logoURI": "https://assets.coingecko.com/coins/images/7598/standard/wrapped_bitcoin_wbtc.png?1696507857"
+      },
+      "quote": {
+        "address": "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        "chainId": 763373,
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "tag": [
+          "stnd_usdt",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+      },
+      "listing_price": 95808,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_btc",
+        "stnd_usdt",
+        "stnd_stablecoin"
+      ]
+    }
+  ],
+  "stnd_dai": [],
+  "stnd_eth": [
+    {
+      "base": {
+        "chainId": 763373,
+        "address": "0x4200000000000000000000000000000000000006",
+        "name": "Ether",
+        "symbol": "ETH",
+        "tag": [
+          "stnd_eth",
+          "stnd_native"
+        ],
+        "decimals": 18,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+      },
+      "quote": {
+        "chainId": 763373,
+        "address": "0xa111a06BDEbb8b1dAA79000F4B386A36E0AccE56",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": [
+          "stnd_usdc",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+      },
+      "listing_price": 2639.05,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_eth",
+        "stnd_native",
+        "stnd_usdc",
+        "stnd_stablecoin",
+        "stnd_default"
+      ]
+    },
+    {
+      "base": {
+        "chainId": 763373,
+        "address": "0x4200000000000000000000000000000000000006",
+        "name": "Ether",
+        "symbol": "ETH",
+        "tag": [
+          "stnd_eth",
+          "stnd_native"
+        ],
+        "decimals": 18,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+      },
+      "quote": {
+        "address": "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        "chainId": 763373,
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "tag": [
+          "stnd_usdt",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+      },
+      "listing_price": 2639.05,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_eth",
+        "stnd_native",
+        "stnd_usdt",
+        "stnd_stablecoin"
+      ]
+    },
+    {
+      "base": {
+        "address": "0x3990952cC9aaB32542e334fF2E43FdE8d3537b14",
+        "chainId": 763373,
+        "name": "Haifu",
+        "symbol": "HAIFU",
+        "tag": [
+          "stnd_haifu",
+          "stnd_ai"
+        ],
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/haifu.fun/haifu.png"
+      },
+      "quote": {
+        "chainId": 763373,
+        "address": "0x4200000000000000000000000000000000000006",
+        "name": "Ether",
+        "symbol": "ETH",
+        "tag": [
+          "stnd_eth",
+          "stnd_native"
+        ],
+        "decimals": 18,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+      },
+      "listing_price": 0.00001136,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_haifu",
+        "stnd_ai",
+        "stnd_eth",
+        "stnd_native"
+      ]
+    },
+    {
+      "base": {
+        "address": "0x6B5A13Ca93871187330aE6d9E34cdAD610aA54cd",
+        "chainId": 763373,
+        "name": "Wrapped Bitcoin",
+        "symbol": "WBTC",
+        "tag": [
+          "stnd_btc"
+        ],
+        "decimals": 8,
+        "logoURI": "https://assets.coingecko.com/coins/images/7598/standard/wrapped_bitcoin_wbtc.png?1696507857"
+      },
+      "quote": {
+        "chainId": 763373,
+        "address": "0x4200000000000000000000000000000000000006",
+        "name": "Ether",
+        "symbol": "ETH",
+        "tag": [
+          "stnd_eth",
+          "stnd_native"
+        ],
+        "decimals": 18,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+      },
+      "listing_price": 36.30397,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_btc",
+        "stnd_eth",
+        "stnd_native"
+      ]
+    }
+  ],
+  "stnd_alts": [],
+  "stnd_perps": [],
+  "stnd_spot": [],
+  "stnd_btc": [
+    {
+      "base": {
+        "address": "0x6B5A13Ca93871187330aE6d9E34cdAD610aA54cd",
+        "chainId": 763373,
+        "name": "Wrapped Bitcoin",
+        "symbol": "WBTC",
+        "tag": [
+          "stnd_btc"
+        ],
+        "decimals": 8,
+        "logoURI": "https://assets.coingecko.com/coins/images/7598/standard/wrapped_bitcoin_wbtc.png?1696507857"
+      },
+      "quote": {
+        "chainId": 763373,
+        "address": "0xa111a06BDEbb8b1dAA79000F4B386A36E0AccE56",
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": [
+          "stnd_usdc",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+      },
+      "listing_price": 95808,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_btc",
+        "stnd_usdc",
+        "stnd_stablecoin"
+      ]
+    },
+    {
+      "base": {
+        "address": "0x6B5A13Ca93871187330aE6d9E34cdAD610aA54cd",
+        "chainId": 763373,
+        "name": "Wrapped Bitcoin",
+        "symbol": "WBTC",
+        "tag": [
+          "stnd_btc"
+        ],
+        "decimals": 8,
+        "logoURI": "https://assets.coingecko.com/coins/images/7598/standard/wrapped_bitcoin_wbtc.png?1696507857"
+      },
+      "quote": {
+        "address": "0xd7ABA1cbAd246249be6a0de9a449FB5EDEFf1E47",
+        "chainId": 763373,
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "tag": [
+          "stnd_usdt",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
+      },
+      "listing_price": 95808,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_btc",
+        "stnd_usdt",
+        "stnd_stablecoin"
+      ]
+    },
+    {
+      "base": {
+        "address": "0x6B5A13Ca93871187330aE6d9E34cdAD610aA54cd",
+        "chainId": 763373,
+        "name": "Wrapped Bitcoin",
+        "symbol": "WBTC",
+        "tag": [
+          "stnd_btc"
+        ],
+        "decimals": 8,
+        "logoURI": "https://assets.coingecko.com/coins/images/7598/standard/wrapped_bitcoin_wbtc.png?1696507857"
+      },
+      "quote": {
+        "chainId": 763373,
+        "address": "0x4200000000000000000000000000000000000006",
+        "name": "Ether",
+        "symbol": "ETH",
+        "tag": [
+          "stnd_eth",
+          "stnd_native"
+        ],
+        "decimals": 18,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+      },
+      "listing_price": 36.30397,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_btc",
+        "stnd_eth",
+        "stnd_native"
+      ]
+    }
+  ]
+}

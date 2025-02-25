@@ -8,8 +8,7 @@
         "symbol": "MON",
         "tag": [
           "stnd_mon",
-          "stnd_native",
-          "stnd_default"
+          "stnd_native"
         ],
         "decimals": 18,
         "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/I_t8rg_V_400x400.jpg/public"
@@ -33,7 +32,8 @@
         "stnd_mon",
         "stnd_native",
         "stnd_usdc",
-        "stnd_stablecoin"
+        "stnd_stablecoin",
+        "stnd_default"
       ]
     },
     {
@@ -237,7 +237,44 @@
       ]
     }
   ],
-  "stnd_default": [],
+  "stnd_default": [
+    {
+      "base": {
+        "chainId": 10143,
+        "address": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701",
+        "name": "Monad",
+        "symbol": "MON",
+        "tag": [
+          "stnd_mon",
+          "stnd_native"
+        ],
+        "decimals": 18,
+        "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/I_t8rg_V_400x400.jpg/public"
+      },
+      "quote": {
+        "address": "0xf817257fed379853cDe0fa4F97AB987181B1E5Ea",
+        "chainId": 10143,
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": [
+          "stnd_usdc",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
+      },
+      "listing_price": 2000.25,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_mon",
+        "stnd_native",
+        "stnd_usdc",
+        "stnd_stablecoin",
+        "stnd_default"
+      ]
+    }
+  ],
   "stnd_meme": [
     {
       "base": {
@@ -540,8 +577,7 @@
         "symbol": "MON",
         "tag": [
           "stnd_mon",
-          "stnd_native",
-          "stnd_default"
+          "stnd_native"
         ],
         "decimals": 18,
         "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/I_t8rg_V_400x400.jpg/public"
@@ -565,7 +601,8 @@
         "stnd_mon",
         "stnd_native",
         "stnd_usdc",
-        "stnd_stablecoin"
+        "stnd_stablecoin",
+        "stnd_default"
       ]
     },
     {
@@ -911,8 +948,7 @@
         "symbol": "MON",
         "tag": [
           "stnd_mon",
-          "stnd_native",
-          "stnd_default"
+          "stnd_native"
         ],
         "decimals": 18,
         "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/I_t8rg_V_400x400.jpg/public"
@@ -936,7 +972,8 @@
         "stnd_mon",
         "stnd_native",
         "stnd_usdc",
-        "stnd_stablecoin"
+        "stnd_stablecoin",
+        "stnd_default"
       ]
     },
     {
@@ -1451,8 +1488,7 @@
         "symbol": "MON",
         "tag": [
           "stnd_mon",
-          "stnd_native",
-          "stnd_default"
+          "stnd_native"
         ],
         "decimals": 18,
         "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/I_t8rg_V_400x400.jpg/public"
@@ -1476,7 +1512,8 @@
         "stnd_mon",
         "stnd_native",
         "stnd_usdc",
-        "stnd_stablecoin"
+        "stnd_stablecoin",
+        "stnd_default"
       ]
     },
     {

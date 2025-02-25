@@ -8,26 +8,15 @@ const rl = readline.createInterface({
 });
 
 const pairs = [
-  "MON/USDC",
-  "MON/USDT",
-  "MON/WETH",
+  "ETH/USDC",
+  "ETH/USDT",
+  "HAIFU/USDC",
+  "HAIFU/USDT",
   "USDC/USDT",
+  "HAIFU/ETH",
+  "WBTC/USDC",
   "WBTC/USDT",
-  "WBTC/MON",
-  "WBTC/WETH",
-  "WETH/USDT",
-  "WETH/USDC",
-  "SOL/USDC",
-  "SOL/USDT",
-  "CHOG/USDC",
-  "CHOG/SOL",
-  "CHOG/MON",
-  "YAKI/USDC",
-  "YAKI/MON",
-  "YAKI/SOL",
-  "DAK/USDC",
-  "DAK/MON",
-  "DAK/SOL",
+  "WBTC/ETH",
 ];
 
 function readJSONFile(filePath) {

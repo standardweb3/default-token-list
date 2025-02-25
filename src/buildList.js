@@ -4,27 +4,32 @@ const story = require("./tokens/story.json");
 const morph = require("./tokens/morph.json");
 const riseSepolia = require("./tokens/rise_sepolia.json");
 const monadTestnet = require("./tokens/monad_testnet.json");
+const inkSepolia = require("./tokens/ink_sepolia.json");
 
 // pairs
 const storyPairs = require("./pairs/story.json");
 const morphPairs = require("./pairs/morph.json");
 const riseSepoliaPairs = require("./pairs/rise_sepolia.json");
 const monadTestnetPairs = require("./pairs/monad_testnet.json");
+const inkSepoliaPairs = require("./pairs/ink_sepolia.json");
 
 // groups
 const storyGroups = require("./groups/story.json");
 const riseSepoliaGroups = require("./groups/rise_sepolia.json");
 const monadTestnetGroups = require("./groups/monad_testnet.json");
+const inkSepoliaGroups = require("./groups/ink_sepolia.json");
 
 // group pairs
 const storyGroupPairs = require("./groupPairs/story.json");
 const riseSepoliaGroupPairs = require("./groupPairs/rise_sepolia.json");
 const monadTestnetGroupPairs = require("./groupPairs/monad_testnet.json");
+const inkSepoliaGroupPairs = require("./groupPairs/ink_sepolia.json");
 
 // group tokens
 const storyGroupTokens = require("./groupTokens/story.json");
 const riseSepoliaGrouptokens = require("./groupTokens/rise_sepolia.json");
 const monadTestnetGroupTokens = require("./groupTokens/monad_testnet.json");
+const inkSepoliaGroupTokens = require("./groupTokens/ink_sepolia.json");
 
 const bridgeUtils = require("@uniswap/token-list-bridge-utils");
 
@@ -43,21 +48,25 @@ module.exports = function buildList() {
       "Story": storyGroups,
       "Rise Sepolia": riseSepoliaGroups,
       "Monad Testnet": monadTestnetGroups,
+      "Ink Sepolia": inkSepoliaGroups,
     },
     groupTokens: {
       "Story": storyGroupTokens,
       "Rise Sepolia": riseSepoliaGrouptokens,
       "Monad Testnet": monadTestnetGroupTokens,
+      "Ink Sepolia": inkSepoliaGroupTokens,
     },
     groupPairs: {
       "Story": storyGroupPairs,
       "Rise Sepolia": riseSepoliaGroupPairs,
       "Monad Testnet": monadTestnetGroupPairs,
+      "Ink Sepolia": inkSepoliaGroupPairs,
     },
     scannerLink: {
       Story: "https://oklink.com/story/",
       "Rise Sepolia": "https://testnet-explorer.riselabs.xyz/",
       "Monad Testnet": "https://testnet.monadexplorer.com/",
+      "Ink Sepolia": "https://explorer-sepolia.inkonchain.com/",
     },
     matchingEngine: {
       "Story": {
@@ -69,8 +78,8 @@ module.exports = function buildList() {
         startBlock: 4613007,
       },
       "Monad Testnet": {
-        address: "0x6B5A13Ca93871187330aE6d9E34cdAD610aA54cd",
-        startBlock: 4671869,
+        address: "0xBBa4a83498F68f915f3E2f9b1dF1e28220968e96",
+        startBlock: 4869550,
       },
     },
     wAIfuManager: {
@@ -85,7 +94,8 @@ module.exports = function buildList() {
     tokens: [
       ...story,
       ...riseSepolia,
-      ...monadTestnet
+      ...monadTestnet,
+      ...inkSepolia,
     ]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {
@@ -97,7 +107,8 @@ module.exports = function buildList() {
     pairs: [
       ...storyPairs,
       ...riseSepoliaPairs,
-      ...monadTestnetPairs
+      ...monadTestnetPairs,
+      ...inkSepoliaPairs,
     ],
   };
   return bridgeUtils.chainify(l1List);

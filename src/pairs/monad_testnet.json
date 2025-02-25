@@ -5,11 +5,7 @@
       "address": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701",
       "name": "Monad",
       "symbol": "MON",
-      "tag": [
-        "stnd_mon",
-        "stnd_native",
-        "stnd_default"
-      ],
+      "tag": ["stnd_mon", "stnd_native"],
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/I_t8rg_V_400x400.jpg/public"
     },
@@ -18,10 +14,7 @@
       "chainId": 10143,
       "name": "USD Coin",
       "symbol": "USDC",
-      "tag": [
-        "stnd_usdc",
-        "stnd_stablecoin"
-      ],
+      "tag": ["stnd_usdc", "stnd_stablecoin"],
       "decimals": 6,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
     },
@@ -32,7 +25,8 @@
       "stnd_mon",
       "stnd_native",
       "stnd_usdc",
-      "stnd_stablecoin"
+      "stnd_stablecoin",
+      "stnd_default"
     ]
   },
   {
@@ -41,10 +35,7 @@
       "address": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701",
       "name": "Monad",
       "symbol": "MON",
-      "tag": [
-        "stnd_mon",
-        "stnd_native"
-      ],
+      "tag": ["stnd_mon", "stnd_native"],
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/I_t8rg_V_400x400.jpg/public"
     },
@@ -53,22 +44,14 @@
       "chainId": 10143,
       "name": "Tether USD",
       "symbol": "USDT",
-      "tag": [
-        "stnd_usdt",
-        "stnd_stablecoin"
-      ],
+      "tag": ["stnd_usdt", "stnd_stablecoin"],
       "decimals": 6,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/images.png/public"
     },
     "listing_price": 2000.25,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
-    "tag": [
-      "stnd_mon",
-      "stnd_native",
-      "stnd_usdt",
-      "stnd_stablecoin"
-    ]
+    "tag": ["stnd_mon", "stnd_native", "stnd_usdt", "stnd_stablecoin"]
   },
   {
     "base": {
@@ -76,10 +59,7 @@
       "address": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701",
       "name": "Monad",
       "symbol": "MON",
-      "tag": [
-        "stnd_mon",
-        "stnd_native"
-      ],
+      "tag": ["stnd_mon", "stnd_native"],
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/I_t8rg_V_400x400.jpg/public"
     },
@@ -88,20 +68,14 @@
       "address": "0xB5a30b0FDc5EA94A52fDc42e3E9760Cb8449Fb37",
       "name": "Wrapped Ether",
       "symbol": "WETH",
-      "tag": [
-        "stnd_eth"
-      ],
+      "tag": ["stnd_eth"],
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/weth.jpg/public"
     },
     "listing_price": 0.714,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
-    "tag": [
-      "stnd_mon",
-      "stnd_native",
-      "stnd_eth"
-    ]
+    "tag": ["stnd_mon", "stnd_native", "stnd_eth"]
   },
   {
     "base": {
@@ -109,10 +83,7 @@
       "chainId": 10143,
       "name": "USD Coin",
       "symbol": "USDC",
-      "tag": [
-        "stnd_usdc",
-        "stnd_stablecoin"
-      ],
+      "tag": ["stnd_usdc", "stnd_stablecoin"],
       "decimals": 6,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
     },
@@ -121,21 +92,14 @@
       "chainId": 10143,
       "name": "Tether USD",
       "symbol": "USDT",
-      "tag": [
-        "stnd_usdt",
-        "stnd_stablecoin"
-      ],
+      "tag": ["stnd_usdt", "stnd_stablecoin"],
       "decimals": 6,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/images.png/public"
     },
     "listing_price": 1,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
-    "tag": [
-      "stnd_usdc",
-      "stnd_stablecoin",
-      "stnd_usdt"
-    ]
+    "tag": ["stnd_usdc", "stnd_stablecoin", "stnd_usdt"]
   },
   {
     "base": {
@@ -143,9 +107,7 @@
       "chainId": 10143,
       "name": "Wrapped Bitcoin",
       "symbol": "WBTC",
-      "tag": [
-        "stnd_btc"
-      ],
+      "tag": ["stnd_btc"],
       "decimals": 8,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/wbtc.png/public"
     },
@@ -154,21 +116,14 @@
       "chainId": 10143,
       "name": "Tether USD",
       "symbol": "USDT",
-      "tag": [
-        "stnd_usdt",
-        "stnd_stablecoin"
-      ],
+      "tag": ["stnd_usdt", "stnd_stablecoin"],
       "decimals": 6,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/images.png/public"
     },
     "listing_price": 96277.39,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
-    "tag": [
-      "stnd_btc",
-      "stnd_usdt",
-      "stnd_stablecoin"
-    ]
+    "tag": ["stnd_btc", "stnd_usdt", "stnd_stablecoin"]
   },
   {
     "base": {
@@ -176,9 +131,7 @@
       "chainId": 10143,
       "name": "Wrapped Bitcoin",
       "symbol": "WBTC",
-      "tag": [
-        "stnd_btc"
-      ],
+      "tag": ["stnd_btc"],
       "decimals": 8,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/wbtc.png/public"
     },
@@ -187,21 +140,14 @@
       "address": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701",
       "name": "Monad",
       "symbol": "MON",
-      "tag": [
-        "stnd_mon",
-        "stnd_native"
-      ],
+      "tag": ["stnd_mon", "stnd_native"],
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/I_t8rg_V_400x400.jpg/public"
     },
     "listing_price": 48.132,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
-    "tag": [
-      "stnd_btc",
-      "stnd_mon",
-      "stnd_native"
-    ]
+    "tag": ["stnd_btc", "stnd_mon", "stnd_native"]
   },
   {
     "base": {
@@ -209,9 +155,7 @@
       "chainId": 10143,
       "name": "Wrapped Bitcoin",
       "symbol": "WBTC",
-      "tag": [
-        "stnd_btc"
-      ],
+      "tag": ["stnd_btc"],
       "decimals": 8,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/wbtc.png/public"
     },
@@ -220,19 +164,14 @@
       "address": "0xB5a30b0FDc5EA94A52fDc42e3E9760Cb8449Fb37",
       "name": "Wrapped Ether",
       "symbol": "WETH",
-      "tag": [
-        "stnd_eth"
-      ],
+      "tag": ["stnd_eth"],
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/weth.jpg/public"
     },
     "listing_price": 34.37,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
-    "tag": [
-      "stnd_btc",
-      "stnd_eth"
-    ]
+    "tag": ["stnd_btc", "stnd_eth"]
   },
   {
     "base": {
@@ -240,9 +179,7 @@
       "address": "0xB5a30b0FDc5EA94A52fDc42e3E9760Cb8449Fb37",
       "name": "Wrapped Ether",
       "symbol": "WETH",
-      "tag": [
-        "stnd_eth"
-      ],
+      "tag": ["stnd_eth"],
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/weth.jpg/public"
     },
@@ -251,21 +188,14 @@
       "chainId": 10143,
       "name": "Tether USD",
       "symbol": "USDT",
-      "tag": [
-        "stnd_usdt",
-        "stnd_stablecoin"
-      ],
+      "tag": ["stnd_usdt", "stnd_stablecoin"],
       "decimals": 6,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/images.png/public"
     },
     "listing_price": 2801.18,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
-    "tag": [
-      "stnd_eth",
-      "stnd_usdt",
-      "stnd_stablecoin"
-    ]
+    "tag": ["stnd_eth", "stnd_usdt", "stnd_stablecoin"]
   },
   {
     "base": {
@@ -273,9 +203,7 @@
       "address": "0xB5a30b0FDc5EA94A52fDc42e3E9760Cb8449Fb37",
       "name": "Wrapped Ether",
       "symbol": "WETH",
-      "tag": [
-        "stnd_eth"
-      ],
+      "tag": ["stnd_eth"],
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/weth.jpg/public"
     },
@@ -284,21 +212,14 @@
       "chainId": 10143,
       "name": "USD Coin",
       "symbol": "USDC",
-      "tag": [
-        "stnd_usdc",
-        "stnd_stablecoin"
-      ],
+      "tag": ["stnd_usdc", "stnd_stablecoin"],
       "decimals": 6,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
     },
     "listing_price": 2801.18,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
-    "tag": [
-      "stnd_eth",
-      "stnd_usdc",
-      "stnd_stablecoin"
-    ]
+    "tag": ["stnd_eth", "stnd_usdc", "stnd_stablecoin"]
   },
   {
     "base": {
@@ -306,9 +227,7 @@
       "chainId": 10143,
       "name": "Wrapped SOL",
       "symbol": "SOL",
-      "tag": [
-        "stnd_sol"
-      ],
+      "tag": ["stnd_sol"],
       "decimals": 9,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/sol.png/public"
     },
@@ -317,21 +236,14 @@
       "chainId": 10143,
       "name": "USD Coin",
       "symbol": "USDC",
-      "tag": [
-        "stnd_usdc",
-        "stnd_stablecoin"
-      ],
+      "tag": ["stnd_usdc", "stnd_stablecoin"],
       "decimals": 6,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
     },
     "listing_price": 169,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
-    "tag": [
-      "stnd_sol",
-      "stnd_usdc",
-      "stnd_stablecoin"
-    ]
+    "tag": ["stnd_sol", "stnd_usdc", "stnd_stablecoin"]
   },
   {
     "base": {
@@ -339,9 +251,7 @@
       "chainId": 10143,
       "name": "Wrapped SOL",
       "symbol": "SOL",
-      "tag": [
-        "stnd_sol"
-      ],
+      "tag": ["stnd_sol"],
       "decimals": 9,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/sol.png/public"
     },
@@ -350,21 +260,14 @@
       "chainId": 10143,
       "name": "Tether USD",
       "symbol": "USDT",
-      "tag": [
-        "stnd_usdt",
-        "stnd_stablecoin"
-      ],
+      "tag": ["stnd_usdt", "stnd_stablecoin"],
       "decimals": 6,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/images.png/public"
     },
     "listing_price": 169,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
-    "tag": [
-      "stnd_sol",
-      "stnd_usdt",
-      "stnd_stablecoin"
-    ]
+    "tag": ["stnd_sol", "stnd_usdt", "stnd_stablecoin"]
   },
   {
     "base": {
@@ -372,9 +275,7 @@
       "chainId": 10143,
       "name": "Chog",
       "symbol": "CHOG",
-      "tag": [
-        "stnd_meme"
-      ],
+      "tag": ["stnd_meme"],
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/tWwhAahBw7afBzFUrX5mYQ/5d1206c2-042c-4edc-9f8b-dcef2e9e8f00/public"
     },
@@ -383,21 +284,14 @@
       "chainId": 10143,
       "name": "USD Coin",
       "symbol": "USDC",
-      "tag": [
-        "stnd_usdc",
-        "stnd_stablecoin"
-      ],
+      "tag": ["stnd_usdc", "stnd_stablecoin"],
       "decimals": 6,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
     },
     "listing_price": 0.6942,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
-    "tag": [
-      "stnd_meme",
-      "stnd_usdc",
-      "stnd_stablecoin"
-    ]
+    "tag": ["stnd_meme", "stnd_usdc", "stnd_stablecoin"]
   },
   {
     "base": {
@@ -405,9 +299,7 @@
       "chainId": 10143,
       "name": "Chog",
       "symbol": "CHOG",
-      "tag": [
-        "stnd_meme"
-      ],
+      "tag": ["stnd_meme"],
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/tWwhAahBw7afBzFUrX5mYQ/5d1206c2-042c-4edc-9f8b-dcef2e9e8f00/public"
     },
@@ -416,19 +308,14 @@
       "chainId": 10143,
       "name": "Wrapped SOL",
       "symbol": "SOL",
-      "tag": [
-        "stnd_sol"
-      ],
+      "tag": ["stnd_sol"],
       "decimals": 9,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/sol.png/public"
     },
     "listing_price": 0.004107,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
-    "tag": [
-      "stnd_meme",
-      "stnd_sol"
-    ]
+    "tag": ["stnd_meme", "stnd_sol"]
   },
   {
     "base": {
@@ -436,9 +323,7 @@
       "chainId": 10143,
       "name": "Chog",
       "symbol": "CHOG",
-      "tag": [
-        "stnd_meme"
-      ],
+      "tag": ["stnd_meme"],
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/tWwhAahBw7afBzFUrX5mYQ/5d1206c2-042c-4edc-9f8b-dcef2e9e8f00/public"
     },
@@ -447,21 +332,14 @@
       "address": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701",
       "name": "Monad",
       "symbol": "MON",
-      "tag": [
-        "stnd_mon",
-        "stnd_native"
-      ],
+      "tag": ["stnd_mon", "stnd_native"],
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/I_t8rg_V_400x400.jpg/public"
     },
     "listing_price": 0.000347,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
-    "tag": [
-      "stnd_meme",
-      "stnd_mon",
-      "stnd_native"
-    ]
+    "tag": ["stnd_meme", "stnd_mon", "stnd_native"]
   },
   {
     "base": {
@@ -469,9 +347,7 @@
       "chainId": 10143,
       "name": "Moyaki",
       "symbol": "YAKI",
-      "tag": [
-        "stnd_meme"
-      ],
+      "tag": ["stnd_meme"],
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/tWwhAahBw7afBzFUrX5mYQ/6679b698-a845-412b-504b-23463a3e1900/public"
     },
@@ -480,21 +356,14 @@
       "chainId": 10143,
       "name": "USD Coin",
       "symbol": "USDC",
-      "tag": [
-        "stnd_usdc",
-        "stnd_stablecoin"
-      ],
+      "tag": ["stnd_usdc", "stnd_stablecoin"],
       "decimals": 6,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
     },
     "listing_price": 0.6942,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
-    "tag": [
-      "stnd_meme",
-      "stnd_usdc",
-      "stnd_stablecoin"
-    ]
+    "tag": ["stnd_meme", "stnd_usdc", "stnd_stablecoin"]
   },
   {
     "base": {
@@ -502,9 +371,7 @@
       "chainId": 10143,
       "name": "Moyaki",
       "symbol": "YAKI",
-      "tag": [
-        "stnd_meme"
-      ],
+      "tag": ["stnd_meme"],
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/tWwhAahBw7afBzFUrX5mYQ/6679b698-a845-412b-504b-23463a3e1900/public"
     },
@@ -513,21 +380,14 @@
       "address": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701",
       "name": "Monad",
       "symbol": "MON",
-      "tag": [
-        "stnd_mon",
-        "stnd_native"
-      ],
+      "tag": ["stnd_mon", "stnd_native"],
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/I_t8rg_V_400x400.jpg/public"
     },
     "listing_price": 0.000347,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
-    "tag": [
-      "stnd_meme",
-      "stnd_mon",
-      "stnd_native"
-    ]
+    "tag": ["stnd_meme", "stnd_mon", "stnd_native"]
   },
   {
     "base": {
@@ -535,9 +395,7 @@
       "chainId": 10143,
       "name": "Moyaki",
       "symbol": "YAKI",
-      "tag": [
-        "stnd_meme"
-      ],
+      "tag": ["stnd_meme"],
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/tWwhAahBw7afBzFUrX5mYQ/6679b698-a845-412b-504b-23463a3e1900/public"
     },
@@ -546,19 +404,14 @@
       "chainId": 10143,
       "name": "Wrapped SOL",
       "symbol": "SOL",
-      "tag": [
-        "stnd_sol"
-      ],
+      "tag": ["stnd_sol"],
       "decimals": 9,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/sol.png/public"
     },
     "listing_price": 0.004107,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
-    "tag": [
-      "stnd_meme",
-      "stnd_sol"
-    ]
+    "tag": ["stnd_meme", "stnd_sol"]
   },
   {
     "base": {
@@ -566,9 +419,7 @@
       "chainId": 10143,
       "name": "Molandak",
       "symbol": "DAK",
-      "tag": [
-        "stnd_meme"
-      ],
+      "tag": ["stnd_meme"],
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/tWwhAahBw7afBzFUrX5mYQ/27759359-9374-4995-341c-b2636a432800/public"
     },
@@ -577,21 +428,14 @@
       "chainId": 10143,
       "name": "USD Coin",
       "symbol": "USDC",
-      "tag": [
-        "stnd_usdc",
-        "stnd_stablecoin"
-      ],
+      "tag": ["stnd_usdc", "stnd_stablecoin"],
       "decimals": 6,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
     },
     "listing_price": 0.6942,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
-    "tag": [
-      "stnd_meme",
-      "stnd_usdc",
-      "stnd_stablecoin"
-    ]
+    "tag": ["stnd_meme", "stnd_usdc", "stnd_stablecoin"]
   },
   {
     "base": {
@@ -599,9 +443,7 @@
       "chainId": 10143,
       "name": "Molandak",
       "symbol": "DAK",
-      "tag": [
-        "stnd_meme"
-      ],
+      "tag": ["stnd_meme"],
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/tWwhAahBw7afBzFUrX5mYQ/27759359-9374-4995-341c-b2636a432800/public"
     },
@@ -610,21 +452,14 @@
       "address": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701",
       "name": "Monad",
       "symbol": "MON",
-      "tag": [
-        "stnd_mon",
-        "stnd_native"
-      ],
+      "tag": ["stnd_mon", "stnd_native"],
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/I_t8rg_V_400x400.jpg/public"
     },
     "listing_price": 0.000347,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
-    "tag": [
-      "stnd_meme",
-      "stnd_mon",
-      "stnd_native"
-    ]
+    "tag": ["stnd_meme", "stnd_mon", "stnd_native"]
   },
   {
     "base": {
@@ -632,9 +467,7 @@
       "chainId": 10143,
       "name": "Molandak",
       "symbol": "DAK",
-      "tag": [
-        "stnd_meme"
-      ],
+      "tag": ["stnd_meme"],
       "decimals": 18,
       "logoURI": "https://imagedelivery.net/tWwhAahBw7afBzFUrX5mYQ/27759359-9374-4995-341c-b2636a432800/public"
     },
@@ -643,18 +476,13 @@
       "chainId": 10143,
       "name": "Wrapped SOL",
       "symbol": "SOL",
-      "tag": [
-        "stnd_sol"
-      ],
+      "tag": ["stnd_sol"],
       "decimals": 9,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/sol.png/public"
     },
     "listing_price": 0.004107,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
-    "tag": [
-      "stnd_meme",
-      "stnd_sol"
-    ]
+    "tag": ["stnd_meme", "stnd_sol"]
   }
 ]

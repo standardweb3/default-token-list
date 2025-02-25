@@ -79,5 +79,13 @@
         "tag": ["stnd_meme"],
         "decimals": 18,
         "logoURI": "https://imagedelivery.net/tWwhAahBw7afBzFUrX5mYQ/6679b698-a845-412b-504b-23463a3e1900/public"
+    },
+    {
+        "address": "0xaEef2f6B429Cb59C9B2D7bB2141ADa993E8571c3",
+        "chainId": 10143,
+        "name": "Magma Staked Monad",
+        "symbol": "gMON",
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/monad_testnet/gMon.png"
     }
 ]

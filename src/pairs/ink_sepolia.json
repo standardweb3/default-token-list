@@ -24,7 +24,7 @@
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
     },
-    "listing_price": 2639.05,
+    "listing_price": 2491.92,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
     "tag": [
@@ -60,7 +60,7 @@
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
     },
-    "listing_price": 2639.05,
+    "listing_price": 2491.92,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
     "tag": [
@@ -138,6 +138,41 @@
       "stnd_ai",
       "stnd_usdt",
       "stnd_stablecoin"
+    ]
+  },
+  {
+    "base": {
+      "address": "0x3990952cC9aaB32542e334fF2E43FdE8d3537b14",
+      "chainId": 763373,
+      "name": "Haifu",
+      "symbol": "HAIFU",
+      "tag": [
+        "stnd_haifu",
+        "stnd_ai"
+      ],
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/haifu.fun/haifu.png"
+    },
+    "quote": {
+      "chainId": 763373,
+      "address": "0x4200000000000000000000000000000000000006",
+      "name": "Ether",
+      "symbol": "ETH",
+      "tag": [
+        "stnd_eth",
+        "stnd_native"
+      ],
+      "decimals": 18,
+      "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
+    },
+    "listing_price": 0.00001203,
+    "buy_tick": 0.1,
+    "sell_tick": 0.1,
+    "tag": [
+      "stnd_haifu",
+      "stnd_ai",
+      "stnd_eth",
+      "stnd_native"
     ]
   },
   {
@@ -176,41 +211,6 @@
   },
   {
     "base": {
-      "address": "0x3990952cC9aaB32542e334fF2E43FdE8d3537b14",
-      "chainId": 763373,
-      "name": "Haifu",
-      "symbol": "HAIFU",
-      "tag": [
-        "stnd_haifu",
-        "stnd_ai"
-      ],
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/standardweb3/default-token-list/refs/heads/main/assets/haifu.fun/haifu.png"
-    },
-    "quote": {
-      "chainId": 763373,
-      "address": "0x4200000000000000000000000000000000000006",
-      "name": "Ether",
-      "symbol": "ETH",
-      "tag": [
-        "stnd_eth",
-        "stnd_native"
-      ],
-      "decimals": 18,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
-    },
-    "listing_price": 0.00001136,
-    "buy_tick": 0.1,
-    "sell_tick": 0.1,
-    "tag": [
-      "stnd_haifu",
-      "stnd_ai",
-      "stnd_eth",
-      "stnd_native"
-    ]
-  },
-  {
-    "base": {
       "address": "0x6B5A13Ca93871187330aE6d9E34cdAD610aA54cd",
       "chainId": 763373,
       "name": "Wrapped Bitcoin",
@@ -233,7 +233,7 @@
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
     },
-    "listing_price": 95808,
+    "listing_price": 88701.74,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
     "tag": [
@@ -266,7 +266,7 @@
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
     },
-    "listing_price": 95808,
+    "listing_price": 88701.74,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
     "tag": [
@@ -299,7 +299,7 @@
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
     },
-    "listing_price": 36.30397,
+    "listing_price": 35.595,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
     "tag": [

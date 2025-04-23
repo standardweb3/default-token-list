@@ -8,15 +8,10 @@ const rl = readline.createInterface({
 });
 
 const pairs = [
+  "STT/USDC",
   "ETH/USDC",
-  "ETH/USDT",
-  "HAIFU/USDC",
-  "HAIFU/USDT",
-  "USDC/USDT",
-  "HAIFU/ETH",
   "WBTC/USDC",
-  "WBTC/USDT",
-  "WBTC/ETH",
+  "SOL/USDC",
 ];
 
 function readJSONFile(filePath) {

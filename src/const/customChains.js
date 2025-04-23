@@ -1,5 +1,69 @@
 const { defineChain } = require("viem");
 
+const SomniaTestnet = defineChain({
+  id: 50312,
+  name: "Somnia Testnet",
+  nativeCurrency: { name: "STT", symbol: "STT", decimals: 18 },
+  rpcUrls: {
+    public: {
+      http: [
+        "https://rpc.ankr.com/somnia_testnet/6e3fd81558cf77b928b06b38e9409b4677b637118114e83364486294d5ff4811",
+      ],
+    },
+    default: {
+      http: [
+        "https://rpc.ankr.com/somnia_testnet/6e3fd81558cf77b928b06b38e9409b4677b637118114e83364486294d5ff4811",
+      ],
+    },
+  },
+  blockExplorers: {
+    etherscan: {
+      name: "Somnia Testnet Explorer",
+      url: "https://shannon-explorer.somnia.network/",
+    },
+    default: {
+      name: "Somnia Testnet Explorer",
+      url: "https://shannon-explorer.somnia.network/",
+    },
+  },
+  testnet: true,
+  contracts: {
+    multicall3: {
+      address: "0xC55dc745240DD91aD9BD927a346aF73428568A85",
+      blockCreated: 53583742,
+    },
+  },
+});
+
+const InkSepolia = defineChain({
+  id: 763373,
+  name: "Ink Sepolia",
+  nativeCurrency: { name: "ETH", symbol: "ETH", decimals: 18 },
+  rpcUrls: {
+    public: { http: ["https://rpc-gel-sepolia.inkonchain.com/"] },
+    default: {
+      http: ["https://rpc-gel-sepolia.inkonchain.com/"],
+    },
+  },
+  blockExplorers: {
+    etherscan: {
+      name: "Ink Sepolia Scan",
+      url: "https://explorer-sepolia.inkonchain.com/",
+    },
+    default: {
+      name: "Ink Sepolia Scan",
+      url: "https://explorer-sepolia.inkonchain.com/",
+    },
+  },
+  testnet: true,
+  contracts: {
+    multicall3: {
+      address: "0x33f6552F37772e42A31d03233812d2dC6afd2f97",
+      blockCreated: 457931,
+    },
+  },
+});
+
 const MonadTestnet = defineChain({
   id: 10143,
   name: "Monad Testnet",
@@ -169,12 +233,18 @@ const Morph = defineChain({
   contracts: {
     multicall3: {
       address: "0x35f965903A85e7528437C3Ce0b4bdfbc4E5Fc27c",
-      blockCreated: 
-      52602,
+      blockCreated: 52602,
     },
   },
-})
+});
 
-
-
-module.exports = { StoryOdyssey, StoryIliad, Morph, Story, RiseSepolia, MonadTestnet };
+module.exports = {
+  StoryOdyssey,
+  StoryIliad,
+  Morph,
+  Story,
+  RiseSepolia,
+  MonadTestnet,
+  InkSepolia,
+  SomniaTestnet,
+};

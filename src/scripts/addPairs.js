@@ -7,6 +7,8 @@ const {
   Story,
   RiseSepolia,
   MonadTestnet,
+  InkSepolia,
+  SomniaTestnet,
 } = require("../const/customChains");
 const {
   base,
@@ -16,7 +18,7 @@ const {
   neonMainnet,
   taiko,
 } = require("viem/chains");
-const MatchingEngineABI = require("../abis/MatchingEngineABI.json");
+const MatchingEngineABI = require("../abis/MatchingEngineABIV3.json");
 const defaultTokenList = require("../../build/standard-default.tokenlist.json");
 require("dotenv").config();
 
@@ -91,6 +93,28 @@ async function getPairs(network) {
   }
 }
 
+async function addPairV3(pair, matchingEngine, walletClient, abi) {
+  try {
+    // Add pair
+    const result = await walletClient.writeContract({
+      address: matchingEngine,
+      abi: abi,
+      functionName: "addPair",
+      args: [
+        pair.base.address,
+        pair.quote.address,
+        parseUnits(pair.listing_price.toString(), 8),
+        0,
+        pair.base.address,
+      ],
+    });
+
+    console.log("Transaction hash for adding pair:", result);
+  } catch (error) {
+    console.error("Error calling contract:", error);
+  }
+}
+
 async function addPair(pair, matchingEngine, walletClient, abi) {
   try {
     // Add pair
@@ -104,6 +128,7 @@ async function addPair(pair, matchingEngine, walletClient, abi) {
         parseUnits(pair.listing_price.toString(), 8),
         0,
         pair.base.address,
+        []
       ],
     });
 
@@ -145,7 +170,7 @@ function sleep(ms) {
 
 async function processPairs(pairs, matchingEngine, walletClient, abi) {
   for (const pair of pairs) {
-    await addPair(pair, matchingEngine, walletClient, abi);
+    await addPairV3(pair, matchingEngine, walletClient, abi);
     await sleep(2000); // Wait for 2 seconds
     await setSpread(pair, matchingEngine, walletClient, abi);
     await sleep(2000); // Wait for 2 seconds
@@ -154,22 +179,31 @@ async function processPairs(pairs, matchingEngine, walletClient, abi) {
 
 async function main() {
   const account = privateKeyToAccount(process.env.ADMIN_PRIVATE_KEY);
+
+  // Change network to configure pair list to add in a network
+  const chain = SomniaTestnet;
+
+  // Change networkName to configure pair list to add in a network
+  const networkName = "Somnia Testnet";
+
+  console.log(
+    "Chain to add pairs:",
+    chain.rpcUrls.default.http[0].replace(/\/$/, "")
+  );
   const walletClient = createWalletClient({
     account,
-    // Change network to configure pair list to add in a network
-    chain: MonadTestnet,
-    transport: http(process.env.MONAD_TESTNET_RPC),
+    chain,
+    transport: http(chain.rpcUrls.default.http[0].replace(/\/$/, "")),
   });
 
   const abi = MatchingEngineABI;
 
   // Change network to configure pair list to add in a network
-  const pairs = await getPairs(MonadTestnet);
+  const pairs = await getPairs(SomniaTestnet);
 
   console.log("Pairs to add:", pairs.length);
   // make contract call on each pair in the list
-  const matchingEngine =
-    defaultTokenList.matchingEngine["Monad Testnet"].address;
+  const matchingEngine = defaultTokenList.matchingEngine[networkName].address;
 
   await processPairs(pairs, matchingEngine, walletClient, abi);
 }

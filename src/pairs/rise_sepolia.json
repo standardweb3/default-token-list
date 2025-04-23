@@ -24,7 +24,7 @@
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
     },
-    "listing_price": 2693.3,
+    "listing_price": 1635.11,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
     "tag": [
@@ -60,7 +60,7 @@
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
     },
-    "listing_price": 2693.3,
+    "listing_price": 1635.11,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
     "tag": [
@@ -94,7 +94,7 @@
       "decimals": 6,
       "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
     },
-    "listing_price": 97312.73,
+    "listing_price": 82306.86,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
     "tag": [
@@ -127,7 +127,7 @@
       "decimals": 6,
       "logoURI": "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
     },
-    "listing_price": 97312.73,
+    "listing_price": 82306.86,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
     "tag": [
@@ -160,7 +160,7 @@
       "decimals": 18,
       "logoURI": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"
     },
-    "listing_price": 35.98,
+    "listing_price": 50.38,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
     "tag": [

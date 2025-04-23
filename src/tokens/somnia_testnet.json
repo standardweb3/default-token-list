@@ -1,0 +1,56 @@
+[
+    {
+        "chainId": 50312,
+        "address": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701",
+        "name": "STT",
+        "symbol": "STT",
+        "tag": ["stnd_stt", "stnd_native"],
+        "decimals": 18,
+        "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/I_t8rg_V_400x400.jpg/public"
+    },
+    {
+        "chainId": 50312,
+        "address": "0x76190B0EfA07F183c8B06576E9E9ab7aFb5b94e9",
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "tag": ["stnd_eth"],
+        "decimals": 18,
+        "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/weth.jpg/public"
+    },
+    {
+        "address": "0x00cB733CBF6fb7079eeeC9EA9b50863756dDbfBE",
+        "chainId": 50312,
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "tag": ["stnd_usdt", "stnd_stablecoin"],
+        "decimals": 6,
+        "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/images.png/public"
+    },
+    {
+        "address": "0x0ED782B8079529f7385c3eDA9fAf1EaA0DbC6a17",
+        "chainId": 50312,
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": ["stnd_usdc", "stnd_stablecoin"],
+        "decimals": 6,
+        "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
+    },
+    {
+        "address": "0x54597df4E4A6385B77F39d458Eb75443A8f9Aa9e",
+        "chainId": 50312,
+        "name": "Wrapped Bitcoin",
+        "symbol": "WBTC",
+        "tag": ["stnd_btc"],
+        "decimals": 8,
+        "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/wbtc.png/public"
+    },
+    {
+        "address": "0xb35a7935F8fbc52fB525F16Af09329b3794E8C42",
+        "chainId": 50312,
+        "name": "Wrapped SOL",
+        "symbol": "SOL",
+        "tag": ["stnd_sol"],
+        "decimals": 9,
+        "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/sol.png/public"
+    }
+]

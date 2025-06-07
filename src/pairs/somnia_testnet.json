@@ -2,7 +2,7 @@
   {
     "base": {
       "chainId": 50312,
-      "address": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701",
+      "address": "0x4A3BC48C156384f9564Fd65A53a2f3D534D8f2b7",
       "name": "STT",
       "symbol": "STT",
       "tag": [
@@ -10,7 +10,7 @@
         "stnd_native"
       ],
       "decimals": 18,
-      "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/I_t8rg_V_400x400.jpg/public"
+      "logoURI": "https://media.licdn.com/dms/image/v2/D4E0BAQH1gvCU6XuXVQ/company-logo_200_200/B4EZXxQ25FGgAM-/0/1743509483773/somnianetwork_logo?e=2147483647&v=beta&t=kXcttPdVwNpoH0TmKpN1KKRaorHqaQSXSkxdkbpzP3c"
     },
     "quote": {
       "address": "0x0ED782B8079529f7385c3eDA9fAf1EaA0DbC6a17",

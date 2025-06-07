@@ -1,6 +1,6 @@
 {
   "name": "@standardweb3/default-token-list",
-  "version": "0.0.85",
+  "version": "0.0.86",
   "description": "Standard default token list",
   "main": "build/standard-default.tokenlist.json",
   "scripts": {
@@ -47,6 +47,6 @@
   },
   "dependencies": {
     "dotenv": "^16.4.5",
-    "viem": "^2.18.2"
+    "viem": "^2.30.6"
   }
 }

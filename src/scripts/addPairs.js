@@ -17,6 +17,11 @@ const {
   scroll,
   neonMainnet,
   taiko,
+  megaethTestnet,
+  riseTestnet,
+  monadTestnet,
+  inkSepolia,
+  somniaTestnet,
 } = require("viem/chains");
 const MatchingEngineABI = require("../abis/MatchingEngineABIV3.json");
 const defaultTokenList = require("../../build/standard-default.tokenlist.json");
@@ -115,29 +120,6 @@ async function addPairV3(pair, matchingEngine, walletClient, abi) {
   }
 }
 
-async function addPair(pair, matchingEngine, walletClient, abi) {
-  try {
-    // Add pair
-    const result = await walletClient.writeContract({
-      address: matchingEngine,
-      abi: abi,
-      functionName: "addPair",
-      args: [
-        pair.base.address,
-        pair.quote.address,
-        parseUnits(pair.listing_price.toString(), 8),
-        0,
-        pair.base.address,
-        []
-      ],
-    });
-
-    console.log("Transaction hash for adding pair:", result);
-  } catch (error) {
-    console.error("Error calling contract:", error);
-  }
-}
-
 async function setSpread(pair, matchingEngine, walletClient, abi) {
   if (pair.buy_tick === undefined && pair.sell_tick === undefined) {
     console.log("Spread already set");
@@ -181,10 +163,10 @@ async function main() {
   const account = privateKeyToAccount(process.env.ADMIN_PRIVATE_KEY);
 
   // Change network to configure pair list to add in a network
-  const chain = SomniaTestnet;
+  const chain = somniaTestnet;
 
   // Change networkName to configure pair list to add in a network
-  const networkName = "Somnia Testnet";
+  const networkName = chain.name;
 
   console.log(
     "Chain to add pairs:",
@@ -199,7 +181,7 @@ async function main() {
   const abi = MatchingEngineABI;
 
   // Change network to configure pair list to add in a network
-  const pairs = await getPairs(SomniaTestnet);
+  const pairs = await getPairs(chain);
 
   console.log("Pairs to add:", pairs.length);
   // make contract call on each pair in the list

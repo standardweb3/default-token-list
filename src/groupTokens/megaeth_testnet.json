@@ -1,0 +1,117 @@
+{
+  "stnd_stt": [],
+  "stnd_native": [
+    {
+      "chainId": 6342,
+      "address": "0x33f6552F37772e42A31d03233812d2dC6afd2f97",
+      "name": "Ether",
+      "symbol": "ETH",
+      "tag": [
+        "stnd_eth",
+        "stnd_native"
+      ],
+      "decimals": 18,
+      "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/weth.jpg/public"
+    }
+  ],
+  "stnd_default": [],
+  "stnd_stablecoin": [
+    {
+      "address": "0xdb8d2DeeC9c0C11DAc7711d262e7a19abAb8b5Ce",
+      "chainId": 6342,
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "tag": [
+        "stnd_usdt",
+        "stnd_stablecoin"
+      ],
+      "decimals": 6,
+      "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/images.png/public"
+    },
+    {
+      "address": "0x0ED782B8079529f7385c3eDA9fAf1EaA0DbC6a17",
+      "chainId": 6342,
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "tag": [
+        "stnd_usdc",
+        "stnd_stablecoin"
+      ],
+      "decimals": 6,
+      "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
+    }
+  ],
+  "stnd_usdc": [
+    {
+      "address": "0x0ED782B8079529f7385c3eDA9fAf1EaA0DbC6a17",
+      "chainId": 6342,
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "tag": [
+        "stnd_usdc",
+        "stnd_stablecoin"
+      ],
+      "decimals": 6,
+      "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
+    }
+  ],
+  "stnd_lst": [],
+  "stnd_usdt": [
+    {
+      "address": "0xdb8d2DeeC9c0C11DAc7711d262e7a19abAb8b5Ce",
+      "chainId": 6342,
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "tag": [
+        "stnd_usdt",
+        "stnd_stablecoin"
+      ],
+      "decimals": 6,
+      "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/images.png/public"
+    }
+  ],
+  "stnd_dai": [],
+  "stnd_eth": [
+    {
+      "chainId": 6342,
+      "address": "0x33f6552F37772e42A31d03233812d2dC6afd2f97",
+      "name": "Ether",
+      "symbol": "ETH",
+      "tag": [
+        "stnd_eth",
+        "stnd_native"
+      ],
+      "decimals": 18,
+      "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/weth.jpg/public"
+    }
+  ],
+  "stnd_sol": [
+    {
+      "address": "0xC55dc745240DD91aD9BD927a346aF73428568A85",
+      "chainId": 6342,
+      "name": "Wrapped SOL",
+      "symbol": "SOL",
+      "tag": [
+        "stnd_sol"
+      ],
+      "decimals": 9,
+      "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/sol.png/public"
+    }
+  ],
+  "stnd_alts": [],
+  "stnd_perps": [],
+  "stnd_spot": [],
+  "stnd_btc": [
+    {
+      "address": "0x0AdBf7ec00A03BE9d5556Adb2600e2552029C63c",
+      "chainId": 6342,
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "tag": [
+        "stnd_btc"
+      ],
+      "decimals": 8,
+      "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/wbtc.png/public"
+    }
+  ]
+}

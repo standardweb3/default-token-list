@@ -95,7 +95,7 @@ const MonadTestnet = defineChain({
 
 const RiseSepolia = defineChain({
   id: 11155931,
-  name: "Rise Sepolia",
+  name: "RISE Testnet",
   nativeCurrency: { name: "ETH", symbol: "ETH", decimals: 18 },
   rpcUrls: {
     public: { http: ["https://testnet.riselabs.xyz/"] },

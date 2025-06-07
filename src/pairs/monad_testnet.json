@@ -304,30 +304,6 @@
       "logoURI": "https://imagedelivery.net/tWwhAahBw7afBzFUrX5mYQ/5d1206c2-042c-4edc-9f8b-dcef2e9e8f00/public"
     },
     "quote": {
-      "address": "0x369CD1E20Fa7ea1F8e6dc0759709bA0bD978abE7",
-      "chainId": 10143,
-      "name": "Wrapped SOL",
-      "symbol": "SOL",
-      "tag": ["stnd_sol"],
-      "decimals": 9,
-      "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/sol.png/public"
-    },
-    "listing_price": 0.004107,
-    "buy_tick": 0.1,
-    "sell_tick": 0.1,
-    "tag": ["stnd_meme", "stnd_sol"]
-  },
-  {
-    "base": {
-      "address": "0xE0590015A873bF326bd645c3E1266d4db41C4E6B",
-      "chainId": 10143,
-      "name": "Chog",
-      "symbol": "CHOG",
-      "tag": ["stnd_meme"],
-      "decimals": 18,
-      "logoURI": "https://imagedelivery.net/tWwhAahBw7afBzFUrX5mYQ/5d1206c2-042c-4edc-9f8b-dcef2e9e8f00/public"
-    },
-    "quote": {
       "chainId": 10143,
       "address": "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701",
       "name": "Monad",
@@ -391,30 +367,6 @@
   },
   {
     "base": {
-      "address": "0xfe140e1dCe99Be9F4F15d657CD9b7BF622270C50",
-      "chainId": 10143,
-      "name": "Moyaki",
-      "symbol": "YAKI",
-      "tag": ["stnd_meme"],
-      "decimals": 18,
-      "logoURI": "https://imagedelivery.net/tWwhAahBw7afBzFUrX5mYQ/6679b698-a845-412b-504b-23463a3e1900/public"
-    },
-    "quote": {
-      "address": "0x369CD1E20Fa7ea1F8e6dc0759709bA0bD978abE7",
-      "chainId": 10143,
-      "name": "Wrapped SOL",
-      "symbol": "SOL",
-      "tag": ["stnd_sol"],
-      "decimals": 9,
-      "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/sol.png/public"
-    },
-    "listing_price": 0.004107,
-    "buy_tick": 0.1,
-    "sell_tick": 0.1,
-    "tag": ["stnd_meme", "stnd_sol"]
-  },
-  {
-    "base": {
       "address": "0x0F0BDEbF0F83cD1EE3974779Bcb7315f9808c714",
       "chainId": 10143,
       "name": "Molandak",
@@ -460,29 +412,5 @@
     "buy_tick": 0.1,
     "sell_tick": 0.1,
     "tag": ["stnd_meme", "stnd_mon", "stnd_native"]
-  },
-  {
-    "base": {
-      "address": "0x0F0BDEbF0F83cD1EE3974779Bcb7315f9808c714",
-      "chainId": 10143,
-      "name": "Molandak",
-      "symbol": "DAK",
-      "tag": ["stnd_meme"],
-      "decimals": 18,
-      "logoURI": "https://imagedelivery.net/tWwhAahBw7afBzFUrX5mYQ/27759359-9374-4995-341c-b2636a432800/public"
-    },
-    "quote": {
-      "address": "0x369CD1E20Fa7ea1F8e6dc0759709bA0bD978abE7",
-      "chainId": 10143,
-      "name": "Wrapped SOL",
-      "symbol": "SOL",
-      "tag": ["stnd_sol"],
-      "decimals": 9,
-      "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/sol.png/public"
-    },
-    "listing_price": 0.004107,
-    "buy_tick": 0.1,
-    "sell_tick": 0.1,
-    "tag": ["stnd_meme", "stnd_sol"]
   }
 ]

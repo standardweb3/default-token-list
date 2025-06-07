@@ -8,8 +8,10 @@ const rl = readline.createInterface({
 });
 
 const pairs = [
-  "STT/USDC",
+  "MEGA/ETH",
+  "MEGA/USDC",
   "ETH/USDC",
+  "USDC/USDT",
   "WBTC/USDC",
   "SOL/USDC",
 ];

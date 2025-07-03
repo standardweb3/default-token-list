@@ -1,5 +1,72 @@
 {
-  "stnd_stt": [],
+  "stnd_mega": [
+    {
+      "base": {
+        "chainId": 6342,
+        "address": "0x10a6be7d23989D00d528E68cF8051d095f741145",
+        "name": "Mega",
+        "symbol": "MEGA",
+        "tag": [
+          "stnd_mega"
+        ],
+        "decimals": 18,
+        "logoURI": "https://static.okx.com/cdn/assets/imgs/253/2FEAA5597CBEE020.png?x-oss-process=image/format,webp/resize,w_72,h_72,type_6/ignore-error,1"
+      },
+      "quote": {
+        "chainId": 6342,
+        "address": "0x33f6552F37772e42A31d03233812d2dC6afd2f97",
+        "name": "Ether",
+        "symbol": "ETH",
+        "tag": [
+          "stnd_eth",
+          "stnd_native"
+        ],
+        "decimals": 18,
+        "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/weth.jpg/public"
+      },
+      "listing_price": 1,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_mega",
+        "stnd_eth",
+        "stnd_native"
+      ]
+    },
+    {
+      "base": {
+        "chainId": 6342,
+        "address": "0x10a6be7d23989D00d528E68cF8051d095f741145",
+        "name": "Mega",
+        "symbol": "MEGA",
+        "tag": [
+          "stnd_mega"
+        ],
+        "decimals": 18,
+        "logoURI": "https://static.okx.com/cdn/assets/imgs/253/2FEAA5597CBEE020.png?x-oss-process=image/format,webp/resize,w_72,h_72,type_6/ignore-error,1"
+      },
+      "quote": {
+        "address": "0x0ED782B8079529f7385c3eDA9fAf1EaA0DbC6a17",
+        "chainId": 6342,
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": [
+          "stnd_usdc",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
+      },
+      "listing_price": 2488.71,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_mega",
+        "stnd_usdc",
+        "stnd_stablecoin"
+      ]
+    }
+  ],
   "stnd_native": [
     {
       "base": {
@@ -66,11 +133,49 @@
         "stnd_eth",
         "stnd_native",
         "stnd_usdc",
-        "stnd_stablecoin"
+        "stnd_stablecoin",
+        "stnd_default"
       ]
     }
   ],
-  "stnd_default": [],
+  "stnd_default": [
+    {
+      "base": {
+        "chainId": 6342,
+        "address": "0x33f6552F37772e42A31d03233812d2dC6afd2f97",
+        "name": "Ether",
+        "symbol": "ETH",
+        "tag": [
+          "stnd_eth",
+          "stnd_native"
+        ],
+        "decimals": 18,
+        "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/weth.jpg/public"
+      },
+      "quote": {
+        "address": "0x0ED782B8079529f7385c3eDA9fAf1EaA0DbC6a17",
+        "chainId": 6342,
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "tag": [
+          "stnd_usdc",
+          "stnd_stablecoin"
+        ],
+        "decimals": 6,
+        "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
+      },
+      "listing_price": 2488.71,
+      "buy_tick": 0.1,
+      "sell_tick": 0.1,
+      "tag": [
+        "stnd_eth",
+        "stnd_native",
+        "stnd_usdc",
+        "stnd_stablecoin",
+        "stnd_default"
+      ]
+    }
+  ],
   "stnd_stablecoin": [
     {
       "base": {
@@ -137,7 +242,8 @@
         "stnd_eth",
         "stnd_native",
         "stnd_usdc",
-        "stnd_stablecoin"
+        "stnd_stablecoin",
+        "stnd_default"
       ]
     },
     {
@@ -307,7 +413,8 @@
         "stnd_eth",
         "stnd_native",
         "stnd_usdc",
-        "stnd_stablecoin"
+        "stnd_stablecoin",
+        "stnd_default"
       ]
     },
     {
@@ -515,7 +622,8 @@
         "stnd_eth",
         "stnd_native",
         "stnd_usdc",
-        "stnd_stablecoin"
+        "stnd_stablecoin",
+        "stnd_default"
       ]
     }
   ],

@@ -97,7 +97,8 @@
       "stnd_eth",
       "stnd_native",
       "stnd_usdc",
-      "stnd_stablecoin"
+      "stnd_stablecoin",
+      "stnd_default"
     ]
   },
   {

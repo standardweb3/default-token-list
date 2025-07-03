@@ -18,15 +18,6 @@
         "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/weth.jpg/public"
     },
     {
-        "address": "0xdb8d2DeeC9c0C11DAc7711d262e7a19abAb8b5Ce",
-        "chainId": 6342,
-        "name": "Tether USD",
-        "symbol": "USDT",
-        "tag": ["stnd_usdt", "stnd_stablecoin"],
-        "decimals": 6,
-        "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/images.png/public"
-    },
-    {
         "address": "0x0ED782B8079529f7385c3eDA9fAf1EaA0DbC6a17",
         "chainId": 6342,
         "name": "USD Coin",
@@ -34,6 +25,15 @@
         "tag": ["stnd_usdc", "stnd_stablecoin"],
         "decimals": 6,
         "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
+    },
+    {
+        "address": "0xdb8d2DeeC9c0C11DAc7711d262e7a19abAb8b5Ce",
+        "chainId": 6342,
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "tag": ["stnd_usdt", "stnd_stablecoin"],
+        "decimals": 6,
+        "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/images.png/public"
     },
     {
         "address": "0x0AdBf7ec00A03BE9d5556Adb2600e2552029C63c",

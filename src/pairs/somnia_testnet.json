@@ -24,7 +24,7 @@
       "decimals": 6,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
     },
-    "listing_price": 0.11,
+    "listing_price": 906,
     "buy_tick": 0.2,
     "sell_tick": 0.01,
     "tag": [
@@ -59,7 +59,7 @@
       "decimals": 6,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
     },
-    "listing_price": 92424.69,
+    "listing_price": 96000,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
     "tag": [
@@ -92,7 +92,7 @@
       "decimals": 6,
       "logoURI": "https://imagedelivery.net/cBNDGgkrsEA-b_ixIp9SkQ/usdc.png/public"
     },
-    "listing_price": 149.91,
+    "listing_price": 152.2,
     "buy_tick": 0.1,
     "sell_tick": 0.1,
     "tag": [

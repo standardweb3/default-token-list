@@ -84,34 +84,26 @@ module.exports = function buildList() {
     },
     matchingEngine: {
       "MegaETH Testnet": {
-        address: "0x8E9e786f757B881C7B456682Ae7D2a06820220b1",
-        startBlock: 8105541,
+        address: "0xc5eE93Ec440c0825DF8332bA5fDe430E8B54b982",
+        startBlock: 10385149,
       },
       "RISE Testnet": {
-        address: "0x1D66DF6CB430806402cd561da04CEd724B630219",
-        startBlock: 14041677,
+        address: "0x5799a9EA0264E6d7F0dBc5936E018A6e6c9991E0",
+        startBlock: 16477652,
       },
       "Monad Testnet": {
-        address: "0x6A79A3176e61f43ef84baB46209Cc97803c4a143",
-        startBlock: 20186566,
-      },
-      "Ink Sepolia": {
-        address: "0x8Fe1B1c07dE0B584611ef8AA1529D4c5E125eD48",
-        startBlock: 20290230,
+        address: "0xc5c503d017a64478b91592dba4fde2ce42c753bb",
+        startBlock: 24523816,
       },
       "Somnia Testnet": {
-        address: "0x44E7525Cf9d56733D08fc98BcD750d504fCE91eC",
-        startBlock: 90885033,
+        address: "0xE01009e6F2F58C8Bb53b3Bc97061D2ce694bfEd0",
+        startBlock: 113782440,
       },
     },
     wAIfuManager: {
       "RISE Testnet": {
         address: "0xcCF25DD59e7F556fd73DF21973d2dE6174186484",
         startBlock: 13223107,
-      },
-      "Ink Sepolia": {
-        address: "0xc63E21C4285Ffe3F258A3486A679C7ac5EDD696C",
-        startBlock: 11599968,
       },
     },
     tags: {},

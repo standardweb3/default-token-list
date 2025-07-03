@@ -1,5 +1,17 @@
 {
-  "stnd_stt": [],
+  "stnd_mega": [
+    {
+      "chainId": 6342,
+      "address": "0x10a6be7d23989D00d528E68cF8051d095f741145",
+      "name": "Mega",
+      "symbol": "MEGA",
+      "tag": [
+        "stnd_mega"
+      ],
+      "decimals": 18,
+      "logoURI": "https://static.okx.com/cdn/assets/imgs/253/2FEAA5597CBEE020.png?x-oss-process=image/format,webp/resize,w_72,h_72,type_6/ignore-error,1"
+    }
+  ],
   "stnd_native": [
     {
       "chainId": 6342,

@@ -23,7 +23,7 @@ const {
   inkSepolia,
   somniaTestnet,
 } = require("viem/chains");
-const MatchingEngineABI = require("../abis/MatchingEngineABIV3.json");
+const MatchingEngineABI = require("../abis/MatchingEngineABIV4.json");
 const defaultTokenList = require("../../build/standard-default.tokenlist.json");
 require("dotenv").config();
 
@@ -127,7 +127,7 @@ async function setSpread(pair, matchingEngine, walletClient, abi) {
   }
   try {
     // Set up ticks for listed pair
-    const result2 = await walletClient.writeContract({
+    const setMarketSpread = await walletClient.writeContract({
       address: matchingEngine,
       abi: abi,
       functionName: "setSpread",
@@ -137,10 +137,25 @@ async function setSpread(pair, matchingEngine, walletClient, abi) {
         // set decimals from 8 to 6 for applying percentage
         parseUnits(pair.buy_tick.toString() ?? 10000000, 6), // 100000(0.1%) spread limit
         parseUnits(pair.sell_tick.toString() ?? 10000000, 6), // 100000(0.1%) spread limit
+        true,
       ],
     });
 
-    console.log("Transaction hash for setting ticks:", result2);
+    const setLimitSpread = await walletClient.writeContract({
+      address: matchingEngine,
+      abi: abi,
+      functionName: "setSpread",
+      args: [
+        pair.base.address,
+        pair.quote.address,
+        parseUnits(pair.buy_tick.toString() ?? 1000000000, 6), // 100000(0.1%) spread limit
+        parseUnits(pair.sell_tick.toString() ?? 1000000000, 6), // 100000(0.1%) spread limit
+        false,
+      ],
+    });
+
+    console.log("Transaction hash for setting ticks:", setMarketSpread);
+    console.log("Transaction hash for setting limit ticks:", setLimitSpread);
   } catch (error) {
     console.error("Error setting up ticks:", error);
   }

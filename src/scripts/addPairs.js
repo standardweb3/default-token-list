@@ -169,7 +169,7 @@ async function processPairs(pairs, matchingEngine, walletClient, abi) {
   for (const pair of pairs) {
     await addPairV3(pair, matchingEngine, walletClient, abi);
     await sleep(2000); // Wait for 2 seconds
-    await setSpread(pair, matchingEngine, walletClient, abi);
+    // await setSpread(pair, matchingEngine, walletClient, abi);
     await sleep(2000); // Wait for 2 seconds
   }
 }
